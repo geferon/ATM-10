@@ -21,189 +21,9 @@ file = ".github/ISSUE_TEMPLATE/recipe_issue.yaml"
 hash = "374cc1e583638f922dd6e0dc23f774c74ad26c438ae0481501f7cc8598fee4d3"
 
 [[files]]
-file = "CHANGELOG.md"
-hash = "11c6de6074b41e2bb1ade8df1232937a29ca61b19c8ed039bcf46bb17bfb5c6f"
-
-[[files]]
-file = "MOD_ISSUES.md"
-hash = "40a9b7b552d103b064080bd0bde65b2ddf17ee1bfacb4eccc8f93465ba20b63f"
-
-[[files]]
-file = "README.md"
-hash = "daf3bae8f67046823a0dccf1810942997278c78436c786416f6859aa4aeaa285"
-
-[[files]]
 file = "bsl-shaders.pw.toml"
 hash = "6d9bbd7b23c083646f95290fdb247e84aa8c2ec96a23e625e73d504587a87547"
 metafile = true
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.25-2.26.md"
-hash = "5c6045298f52723d0ed909a0832af4baf8adf1e870fe50c03cb0f3a8251ee602"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.26-2.28.md"
-hash = "3876300183af89768d815a5280453e53a9ae7cf5015ad84d0da4648230097b73"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.28-2.29.md"
-hash = "4a3cab6066e55d2930de8b23dbd29711ad8014fbd1311fe7d9d05d1c9b947685"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.29-2.30.md"
-hash = "417eb0eb951c989bdff1b19b06bc6111bb3a8d32f4c35bf14bba0517ad3d63f4"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.30-2.31.md"
-hash = "6dd81ab327617087e710c13001b0c4b5427f90a6fa718af41f6a097f46fd625c"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.31-2.32.md"
-hash = "49e65d6ae23c5df5a32a6f03f6ec055031f5c34eb64277c61b3cdcc8c4d32cbe"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.32-2.33.md"
-hash = "1388f6b6f5dc6aaf2d4439a369a7c40debeeeafe18181561df3e85c3592983f6"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.33-2.34.md"
-hash = "b7288dde824c2fe271017a750144c449f55409c0e7078c98146f487abcfb2259"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.34-2.35.md"
-hash = "8983df65fdc4815c160b9b5673716748d2ac3339055dec0267bf9b37eb8ecee3"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.34-2.36.md"
-hash = "0d251835618c76f38cd193c8b1c66d19a13a5ca62a30149fdd76cceea9a5d5a7"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.36-2.37-rc1.md"
-hash = "eb58bdad154a7e9cdf49846a9e5daa3057f48745586bfd6805b609aaba14af2f"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.36-2.37.md"
-hash = "6ee61bf2f9b536fb744c6fb9eb73da03fe1b9899d9cf308e9a9da6fb1e8baf52"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.37-2.38.md"
-hash = "363aadf9e7b02d5cd89fad7cb2fd2299b1a6087b07bbfc692bd02650fa73078f"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.38-2.39.md"
-hash = "7b57ced26137bf973d05164f07d31a9e9131aaeea6e542012adf5e53ef738068"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.39-2.40.md"
-hash = "98226d3330ea8b0e2fa414bf3bf830d19824fe589e26057a710bc3ccf477425b"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.40-2.41.md"
-hash = "a697afb6ace151b0e1ea214a241a59285578cdd1eb5be9522ad69d6c77e6bfbd"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.41-2.42.md"
-hash = "01201f5ca18e9799cdeb8b54ed8618e80ff356cec13df70767d0af2ab8e83bf8"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.42-2.43.md"
-hash = "0292427bbc6815a14020ba71f7a05687f71af9092b6823adbf3b6284f543a29f"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.43-2.44.md"
-hash = "9bb2a4c9a538fabc3cf746a6c2c783839b1cf6517fbe9f40b6b72dcaa6f61042"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.44-2.45.md"
-hash = "247ae6ddd747080b74593a3d5e7d5fed63f35b58fc1c2d1c8040b0d671256e99"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.44-2.47.md"
-hash = "3ea8b9650201b5ec45deb3d8214d6f6946209bd462ea587aed2abc6b1ccc287c"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.45-2.46.md"
-hash = "db9d04a15216067613b22c85a10407d6dd72c7d927f7358169937ecc0db65ab3"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.45-au-bug.md"
-hash = "444746933148154e84be1abd96f6e9d959008ebec6b4bd59fdda9cca3286d3f6"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-2.47-3.0.md"
-hash = "fe1b2032923269331652a8383153aa28bc77f52a5a061fd83611379de7a117c0"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-3.0-3.1.md"
-hash = "f40a412f209c3e0e37796c06eebf837f7a31e4a12a0eac88b3872d68cb094027"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-3.0-3.2.md"
-hash = "b15174dea42e29fda46013326ad5a9fa0abab5bd3e54997011cba9d600c3e93b"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-3.2-4.0.md"
-hash = "48ab569db31713dff8848fb5a0b97343c4a8a7d3ef7c39b75ed3c8b161cb4b99"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.0-4.1.md"
-hash = "860409a5a7ce24c9eb20883010e40bf8f26cac8573005d380d80bc9e783a62e2"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.1-4.2.md"
-hash = "16dee14fa38e137030319b55f076052300995d3340659879f35e2ae90b06079d"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.11-4.12.md"
-hash = "a41b23e07ac8bb24415a76ff36eb0338e233e75d917c06f785370b78fa179bc2"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.12-4.13.md"
-hash = "6ea248e8fe4c155dc654112290f7b693845958c64726d423c806144e7862ee75"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.13-4.15.md"
-hash = "80fd4a1964aa443e3f0f89348eefe3f61d54a8e81e662af09e2a24b9340a819f"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.15-5.0.md"
-hash = "670ed92d2d7a786c073f1b3808bdfa3c4fde2c526ea92833f34737e3b2a62692"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.2-4.3.md"
-hash = "5c7d17a0166df939570341feb3165e7162bb862ffdc29130da2d6a7d57336e20"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.3-4.4.md"
-hash = "549096e66f87e4e64a45747d00747625fcfce0a1a218b55bd076b7232859f36c"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.4-4.5.md"
-hash = "1141c3a7ccdf481a7b54cef6059bd375676049d106fa2f997654ad0d93a18869"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.5-4.6.md"
-hash = "cc778a0351d244620224dd39f72b940bbb562fcb302959bf6508437b3893a7a7"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.6-4.7.md"
-hash = "28fb6956a2d43f67ee35f99a8e54502c053f2240c6f526f03e78728ae08c3187"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-4.7-4.11.md"
-hash = "2181c28d83574d054c37e4945738d80208e1eac995c0107bd43871fcd5585581"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-5.0-5.1.md"
-hash = "7a19e92a5bfc4b35d760299522ee7481417510f9142ab5c0e7462a46a77e2ba8"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-5.1-5.2.md"
-hash = "b03807360ead1e9f0f2a9d8897d011434fa8a3d960ed9fbeeeb79426beb5f53f"
-
-[[files]]
-file = "changelogs/CHANGELOG-ATM10-5.2-5.3.md"
-hash = "4aa0039b2c5f54d040cf13551176cfa9cc09ee48bebbe3d1d3618b404503eb16"
 
 [[files]]
 file = "complementary-reimagined.pw.toml"
@@ -594,10 +414,6 @@ hash = "cc5cff78b1f796c00031a8635ac0604012714588b1340f5a1c5ce613150131de"
 [[files]]
 file = "config/framedblocks-client.toml"
 hash = "1b0e96a995d9ede7a9ff4b6d2cd3f99817c50313a0de44cb97565b55a8a61e84"
-
-[[files]]
-file = "config/ftbquests/quests/README.md"
-hash = "d0e63efe1171561178387eea0c21960708ea4dd63e20d90c77b1c9697191b63f"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -3962,10 +3778,6 @@ hash = "b97e46a2d4bf6f2a01c16a9669727ccb0d90b7537dad230b778d1693a3a66e08"
 [[files]]
 file = "defaultconfigs/justdirethings-common.toml"
 hash = "09e84180732751b177b084b893cb0ffbd237111ebe2a092ad49a13c854771877"
-
-[[files]]
-file = "kubejs/README.md"
-hash = "23b45d6c3c70309c53e50044884f9de0b6538a8e442f4be97c6654db7b6f67a9"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -12074,10 +11886,6 @@ hash = "4b66447bfb351feb42f5b6632c49f523c7f3c50eee5a38c007390cba69ea04ae"
 [[files]]
 file = "kubejs/server_scripts/mods/Mekanism/Rebalance/Units.js"
 hash = "e3532fd2e510f116e048d3e43ce72f90d80f31bdcad91df7cbf72d096debefef"
-
-[[files]]
-file = "kubejs/server_scripts/mods/Mekanism/Rebalance/rebalance.md"
-hash = "e8f2524c66ed9b8bfd0a447de9dc54f34e2d9e39b1bc1b9b61c1043f18ad8615"
 
 [[files]]
 file = "kubejs/server_scripts/mods/Mekanism/Recipes.js"
