@@ -1,26 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/DISCUSSION_TEMPLATE/new-mods.yaml"
-hash = "e23976e299875426edbd913840c0eeab2bd436eb1895c33d91273513af3ab2cf"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/config.yml"
-hash = "d000fbef40cc422955d5956dc3f8f73c7aba186b8d69cfb257eeb0cd79fef012"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/crash.yaml"
-hash = "eddeed0af1c13fa54795cb8782f5a1e675d50ad12afe7c825c1628d0ff8ef181"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/quest_issue.yaml"
-hash = "93acbb2a472849cb39cb04b4cfcd8b4290a3697f8e85c87c4ca24378267ccbe7"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/recipe_issue.yaml"
-hash = "374cc1e583638f922dd6e0dc23f774c74ad26c438ae0481501f7cc8598fee4d3"
-
-[[files]]
 file = "bsl-shaders.pw.toml"
 hash = "6d9bbd7b23c083646f95290fdb247e84aa8c2ec96a23e625e73d504587a87547"
 metafile = true
