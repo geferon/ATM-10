@@ -1,0 +1,13 @@
+name = "ChoiceTheorem's Overhauled Village"
+filename = "[neoforge]ctov-3.6.0b.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc29f1c213fa0e20e08f8470e24d83956deed285"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7232537
+project-id = 623908

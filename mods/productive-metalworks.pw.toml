@@ -1,0 +1,13 @@
+name = "Productive Metalworks"
+filename = "productivemetalworks-1.21.1-1.13.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db978d9c0ab9b1560e2be9b87ae69b0e6cc640c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7268529
+project-id = 1184570
