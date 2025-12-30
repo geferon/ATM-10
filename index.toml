@@ -1,21 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "bsl-shaders.pw.toml"
-hash = "6d9bbd7b23c083646f95290fdb247e84aa8c2ec96a23e625e73d504587a87547"
-metafile = true
-
-[[files]]
-file = "complementary-reimagined.pw.toml"
-hash = "9f8e443df6075210eef82f35c5f95db92c19d7b1a1267a4593fa97c079993ed6"
-metafile = true
-
-[[files]]
-file = "complementary-unbound.pw.toml"
-hash = "006170836f3180d229a6b95e1b33c060d7afcd0755273669faf78e86f50579ed"
-metafile = true
-
-[[files]]
 file = "config/Advancedperipherals/world.toml"
 hash = "34ff18c33cba8ca1fc0eb28c46caccc44aab846450d92540f5c692fbcbb3514b"
 
@@ -12288,11 +12273,6 @@ file = "local/kubejs/dev.json"
 hash = "997254d712d3f842582dcb646da871df778d49bd48949ea733724f92b1633a08"
 
 [[files]]
-file = "makeup-ultra-fast-shader.pw.toml"
-hash = "e95855af3624c35880d8d7a0c63285899cbbdd7adc5356cce6f72b2666bd35ef"
-metafile = true
-
-[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "0c31f109b6c4dca94a153fbdd827bbd5f96149fd5c7863ba0ba41fcab801afe0"
 metafile = true
@@ -14880,4 +14860,24 @@ metafile = true
 [[files]]
 file = "resourcepacks/mekanism-ctm-w-fusion.pw.toml"
 hash = "3242d9e4d9258b8760933ea421852e2706aaa4da493d4b97008fa7fe34d05c01"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "6d9bbd7b23c083646f95290fdb247e84aa8c2ec96a23e625e73d504587a87547"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "9f8e443df6075210eef82f35c5f95db92c19d7b1a1267a4593fa97c079993ed6"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "006170836f3180d229a6b95e1b33c060d7afcd0755273669faf78e86f50579ed"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shader.pw.toml"
+hash = "e95855af3624c35880d8d7a0c63285899cbbdd7adc5356cce6f72b2666bd35ef"
 metafile = true
