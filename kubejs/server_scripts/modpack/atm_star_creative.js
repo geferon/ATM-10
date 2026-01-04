@@ -24,65 +24,6 @@ ServerEvents.recipes(allthemods => {
             }
         ).id('allthemods:energizing/ae2_creative_energy_cell')
 
-    //Ars Noveau
-
-        allthemods.recipes.kubejs.shaped('allthearcanistgear:creative_spell_book', 
-            [
-                'BSG', 
-                'GGE', 
-                'EER'
-            ],
-            {
-                B: 'ars_nouveau:archmage_spell_book',
-                S: 'allthetweaks:atm_star',
-                G: 'ars_nouveau:source_gem_block',
-                E: 'minecraft:ender_eye',
-                R: 'occultism:soul_gem'
-            }
-        )
-
-        allthemods.custom(
-            {
-                type: 'ars_nouveau:enchanting_apparatus',
-                keepNbtOfReagent: false,
-                pedestalItems: [
-                    Ingredient.of('ars_nouveau:source_gem_block').toJson(),
-                    Ingredient.of('allthemodium:allthemodium_source_jar[ars_nouveau:block_fill_contents=100000]').toJson(),
-                    Ingredient.of('ars_nouveau:source_gem_block').toJson(),
-                    Ingredient.of('allthemodium:allthemodium_source_jar[ars_nouveau:block_fill_contents=100000]').toJson(),
-                    Ingredient.of('ars_nouveau:source_gem_block').toJson(),
-                    Ingredient.of('allthemodium:allthemodium_source_jar[ars_nouveau:block_fill_contents=100000]').toJson(),
-                    Ingredient.of('ars_nouveau:source_gem_block').toJson(),
-                    Ingredient.of('allthemodium:allthemodium_source_jar[ars_nouveau:block_fill_contents=100000]').toJson()
-                ],
-                reagent: [
-                    Ingredient.of('allthetweaks:atm_star').toJson()
-                ],
-                result: {
-                    count: 1,
-                    id: 'ars_nouveau:creative_source_jar'
-                },
-                sourceCost: 0
-            }
-        ).id('allthemods:enchanting_apparatus/creative_source_jar')
-
-    //EvilCraft
-
-        allthemods.recipes.kubejs.shaped('evilcraft:creative_blood_drop', 
-            [
-                'BCB', 
-                'DAE', 
-                'BFB'
-            ],
-            {
-                A: 'allthetweaks:atm_star',
-                B: 'evilcraft:promise_tier_3',
-                C: 'evilcraft:flesh_rejuvenated[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
-                D: 'evilcraft:mace_of_distortion[cyclopscore:fluid_content={amount:4000,id:"evilcraft:blood"}]',
-                E: 'evilcraft:necromancer_staff[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
-                F: 'evilcraft:broom[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
-    }
-)
     //Integrated Dynamics
         
         allthemods.custom(
@@ -102,66 +43,6 @@ ServerEvents.recipes(allthemods => {
                 }
             }
         ).id('allthemods:energizing/integrateddynamics_energy_battery_creative')
-
-    //Iron Jetpacks
-
-        allthemods.recipes.kubejs.shaped('ironjetpacks:cell[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
-            [
-                ' A ',
-                'BCB',
-                ' A ' 
-            ],
-            {
-                A: '#c:storage_blocks/redstone',
-                B: 'allthemodium:unobtainium_block',
-                C: 'powah:battery_nitro' 
-            }
-        ).id('allthemods:ironjetpacks_creative_cell')
-
-        allthemods.recipes.kubejs.shaped('ironjetpacks:thruster[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
-            [
-                'ABA',
-                'BCB',
-                'ADA' 
-            ],
-            {
-                A: 'allthemodium:unobtainium_block',
-                B: 'powah:nitro_crystal_block',
-                C: 'ironjetpacks:cell[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
-                D: 'ironfurnaces:unobtainium_furnace' 
-            }
-        ).id('allthemods:ironjetpacks_creative_thruster')
-
-        allthemods.recipes.kubejs.shaped('ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
-            [
-                'ACA',
-                'BDB',
-                'AEA'
-            ],
-            {
-                A: 'allthemodium:unobtainium_block',
-                B: 'mekanism:sps_casing',
-                C: 'powah:reactor_nitro',
-                D: 'mekanism:ultimate_induction_cell',
-                E: 'powah:reactor_nitro'
-            }
-        ).id('allthemods:ironjetpacks_creative_capacator')            
-            
-        allthemods.recipes.kubejs.shaped('ironjetpacks:jetpack[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
-            [
-                'ACA',
-                'BFB',
-                'DED'
-            ],
-            {
-                A: 'mysticalagradditions:creative_essence',
-                B: 'allthemodium:vibranium_allthemodium_alloy_block',
-                C: 'ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
-                D: 'ironjetpacks:thruster[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
-                E: 'allthetweaks:atm_star',
-                F: 'ironjetpacks:jetpack[ironjetpacks:jetpack_id="ironjetpacks:unobtainium"]'
-            }
-        ).id('allthemods:ironjetpacks_creative_jetpack')
 
     //Mekanism
 

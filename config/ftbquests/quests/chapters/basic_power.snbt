@@ -125,7 +125,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "0F7D7AE91E20F778"
-				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:coal_generator)item(justdirethings:generatort1)item(rftoolspower:coalgenerator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(rftoolspower:coalgenerator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -742,38 +742,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["35CC898E0E49FE58"]
-			hide_until_deps_complete: true
-			id: "7A979BEB20C9591E"
-			optional: true
-			rewards: [
-				{
-					count: 5
-					id: "5FCB7B058A9451A4"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_dust"
-					}
-					random_bonus: 5
-					type: "item"
-				}
-				{
-					id: "473D2EAFC5978C2A"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "236EBC924A3AF02B"
-				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:flux" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
-				match_components: "fuzzy"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["3BDB94F17765EE77"]
 			id: "0BB42C5861B22D32"
 			rewards: [
@@ -846,34 +814,6 @@
 			]
 			x: 0.0d
 			y: 6.0d
-		}
-		{
-			dependencies: ["76EA017B12E8F01B"]
-			icon: {
-				id: "draconicevolution:energy_core"
-			}
-			id: "677D0C23D53A77CA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0846E066332FBFCE"
-					table_id: 5036812014823277174L
-					type: "random"
-				}
-				{
-					id: "788EAA17663077E5"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "7EFDC209D199681D"
-				item: { count: 1, id: "draconicevolution:energy_core" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 1.5d
 		}
 		{
 			dependencies: ["35CC898E0E49FE58"]

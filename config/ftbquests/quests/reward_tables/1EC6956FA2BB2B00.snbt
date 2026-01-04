@@ -53,15 +53,6 @@
 			random_bonus: 1
 			weight: 1.5f
 		}
-		{
-			count: 2
-			id: "035791A1CC2639D4"
-			item: {
-				count: 1
-				id: "functionalstorage:oak_1"
-			}
-			random_bonus: 1
-		}
 		{ id: "09AEBD67369F6FF7", item: { count: 1, id: "minecraft:chest_minecart" } }
 		{
 			id: "7C2FF93221715446"

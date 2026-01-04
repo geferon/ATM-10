@@ -133,13 +133,6 @@ ServerEvents.recipes(allthemods => {
     cloche(crop, mod)
   })
 
-  //Occultism seeds
-  const occultSeeds = [{seed: 'datura_seeds', render: 'datura', result: 'datura'}]
-  occultSeeds.forEach(crop => {
-    let mod = 'occultism:'
-    cloche(crop, mod)
-  })
-
   //Supplementaries seeds
   const suppSeeds = [{seed: 'flax_seeds', render: 'flax', result: 'flax'}]
   suppSeeds.forEach(crop => {

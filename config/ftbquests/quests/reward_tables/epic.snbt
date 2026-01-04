@@ -6,15 +6,6 @@
 		{ id: "0F5A15086F6FFC0E", item: { count: 1, id: "powah:thermo_generator_spirited" } }
 		{ id: "3FC1382B53839422", item: { count: 1, id: "mekanism:elite_energy_cube" } }
 		{
-			id: "3E3A4D543DFBB15A"
-			item: {
-				count: 1
-				id: "functionalstorage:netherite_upgrade"
-			}
-			random_bonus: 1
-			weight: 2.0f
-		}
-		{
 			id: "4482A6DFE4494018"
 			item: {
 				count: 1

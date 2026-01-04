@@ -34,8 +34,6 @@ METHOD_SHADER_BLACKLIST = [
 	"tfar.overloadedarmorbar.overlay.OverlayRenderer:renderArmorBar",
 	# Jade Fluid preview
 	"snownee.jade.overlay.DisplayHelper:drawTiledSprite",
-	# Nature Aura overlay
-	"de.ellpeck.naturesaura.events.ClientEvents:onOverlayRender",
 	# Iron spells Overlay - dark mode removes saturation from icons
 	"io.redspace.ironsspellbooks.gui.overlays.SpellBarOverlay:render",
 	# Inventory

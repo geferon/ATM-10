@@ -9,7 +9,5 @@ allthemods.add('c:berries/blueberry', 'biomeswevegone:blueberries')
 allthemods.add('c:crops/blueberry', 'biomeswevegone:blueberries')
 allthemods.add('c:fruits/blueberries', 'biomeswevegone:blueberries')
 allthemods.add('c:fruits/blueberry', 'biomeswevegone:blueberries')
-allthemods.add('minecolonies:compostables', 'biomeswevegone:blueberries')
-allthemods.add('minecolonies:blacksmith_ingredient_excluded', 'biomeswevegone:blueberries')
 
 })

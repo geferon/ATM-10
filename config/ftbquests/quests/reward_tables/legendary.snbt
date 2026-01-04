@@ -14,14 +14,11 @@
 				id: "powah:reactor_niotic"
 			}
 		}
-		{ id: "6159B6ADD18D59AC", item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
 		{
 			id: "07C32E8D96241C35"
 			type: "xp_levels"
 			xp_levels: 100
 		}
-		{ id: "5C7BAC8CAE97C4E4", item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
-		{ id: "743364960645C697", item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
 	]
 	use_title: true
 }

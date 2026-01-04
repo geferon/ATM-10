@@ -312,36 +312,6 @@
 		{
 			dependencies: ["14B3542ECB59869C"]
 			hide_until_deps_visible: false
-			id: "1FD43610960E3450"
-			optional: true
-			rewards: [
-				{
-					count: 5
-					id: "718AC03C771E8324"
-					item: {
-						count: 1
-						id: "hostilenetworks:prediction_matrix"
-					}
-					type: "item"
-				}
-				{
-					id: "7874AC08F62F16FF"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "08204D18E3EEA011"
-				item: { components: { "hostilenetworks:data_model": "hostilenetworks:ars_nouveau/wilden_mobs" }, count: 1, id: "hostilenetworks:prediction" }
-				match_components: "strict"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			hide_until_deps_visible: false
 			id: "12172C1449296E06"
 			optional: true
 			rewards: [

@@ -245,40 +245,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["3EA883C0BB7BD38F"]
-			id: "1F114EB0AAB86DB4"
-			rewards: [
-				{
-					id: "2A90BE5DD251767D"
-					item: {
-						count: 1
-						id: "minecraft:emerald"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4F333F2FC9C0A269"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-				{
-					id: "547FC038410FD238"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "1AFEBED0226CEBC1"
-				item: { count: 1, id: "farmingforblockheads:market" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
 			id: "2E9C035EEE7E5C34"
 			rewards: [{
 				id: "04DF879E17A497AD"

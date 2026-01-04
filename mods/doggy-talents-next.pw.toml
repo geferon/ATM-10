@@ -1,0 +1,13 @@
+name = "Doggy Talents Next"
+filename = "DoggyTalentsNext-1.21.1-1.18.64.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a8644de407cf35522d6b80c6da06c7aa8240ebaf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7288691
+project-id = 694492

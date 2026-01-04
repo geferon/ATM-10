@@ -3015,15 +3015,6 @@
 			id: "39A7619B4C5592BE"
 			rewards: [
 				{
-					count: 3
-					id: "727528AFAC25F78B"
-					item: {
-						count: 1
-						id: "the_bumblezone:honey_bucket"
-					}
-					type: "item"
-				}
-				{
 					id: "6C3E1E23C4D1A9E1"
 					item: {
 						count: 1

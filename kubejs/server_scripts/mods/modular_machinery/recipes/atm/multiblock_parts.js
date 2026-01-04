@@ -171,15 +171,6 @@ ServerEvents.recipes(allthemods => {
                 upgradeMMRHatchInput('modular_machinery_reborn_mekanism:chemicalinputhatch_huge', 'modular_machinery_reborn_mekanism:chemicalinputhatch_big', 'mekanism:elite_chemical_tank')
                 upgradeMMRHatchInput('modular_machinery_reborn_mekanism:chemicalinputhatch_ludicrous', 'modular_machinery_reborn_mekanism:chemicalinputhatch_huge', 'mekanism:ultimate_chemical_tank')
                 upgradeMMRHatchInput('modular_machinery_reborn_mekanism:chemicalinputhatch_vacuum', 'modular_machinery_reborn_mekanism:chemicalinputhatch_ludicrous', 'mekanism:ultimate_chemical_tank')
-            //Source
-                addMMRHatch('modular_machinery_reborn_ars:sourceinputhatch_tiny', 'modular_machinery_reborn:casing_plain', 'ars_nouveau:source_jar', 'ars_nouveau:relay_deposit')
-                upgradeMMRHatchInput('modular_machinery_reborn_ars:sourceinputhatch_small', 'modular_machinery_reborn_ars:sourceinputhatch_tiny', 'ars_nouveau:source_jar')
-                upgradeMMRHatchInput('modular_machinery_reborn_ars:sourceinputhatch_normal', 'modular_machinery_reborn_ars:sourceinputhatch_small', 'ars_nouveau:source_jar')
-                addMMRHatch('modular_machinery_reborn_ars:sourceinputhatch_reinforced', 'modular_machinery_reborn:casing_reinforced', 'ars_nouveau:source_jar', 'ars_nouveau:relay_deposit')
-                upgradeMMRHatchInput('modular_machinery_reborn_ars:sourceinputhatch_big', 'modular_machinery_reborn_ars:sourceinputhatch_reinforced', 'ars_nouveau:source_jar')
-                upgradeMMRHatchInput('modular_machinery_reborn_ars:sourceinputhatch_huge', 'modular_machinery_reborn_ars:sourceinputhatch_big', 'ars_nouveau:source_jar')
-                upgradeMMRHatchInput('modular_machinery_reborn_ars:sourceinputhatch_ludicrous', 'modular_machinery_reborn_ars:sourceinputhatch_huge', 'ars_nouveau:source_jar')
-                upgradeMMRHatchInput('modular_machinery_reborn_ars:sourceinputhatch_vacuum', 'modular_machinery_reborn_ars:sourceinputhatch_ludicrous', 'ars_nouveau:source_jar')
         //Ouptut
             //Item
                 addMMRHatch('modular_machinery_reborn:outputbus_tiny', 'modular_machinery_reborn:casing_plain', 'enderio:impulse_hopper', '#c:chests')
@@ -216,15 +207,6 @@ ServerEvents.recipes(allthemods => {
                 upgradeMMRHatchOutput('modular_machinery_reborn_mekanism:chemicaloutputhatch_huge', 'modular_machinery_reborn_mekanism:chemicaloutputhatch_big', 'mekanism:elite_chemical_tank')
                 upgradeMMRHatchOutput('modular_machinery_reborn_mekanism:chemicaloutputhatch_ludicrous', 'modular_machinery_reborn_mekanism:chemicaloutputhatch_huge', 'mekanism:ultimate_chemical_tank')
                 upgradeMMRHatchOutput('modular_machinery_reborn_mekanism:chemicaloutputhatch_vacuum', 'modular_machinery_reborn_mekanism:chemicaloutputhatch_ludicrous', 'mekanism:ultimate_chemical_tank')
-            //Source
-                addMMRHatch('modular_machinery_reborn_ars:sourceoutputhatch_tiny', 'modular_machinery_reborn:casing_plain', 'ars_nouveau:relay_collector', 'ars_nouveau:source_jar')
-                upgradeMMRHatchOutput('modular_machinery_reborn_ars:sourceoutputhatch_small', 'modular_machinery_reborn_ars:sourceoutputhatch_tiny', 'ars_nouveau:source_jar')
-                upgradeMMRHatchOutput('modular_machinery_reborn_ars:sourceoutputhatch_normal', 'modular_machinery_reborn_ars:sourceoutputhatch_small', 'ars_nouveau:source_jar')
-                addMMRHatch('modular_machinery_reborn_ars:sourceoutputhatch_reinforced', 'modular_machinery_reborn:casing_reinforced', 'ars_nouveau:relay_collector', 'ars_nouveau:source_jar')
-                upgradeMMRHatchOutput('modular_machinery_reborn_ars:sourceoutputhatch_big', 'modular_machinery_reborn_ars:sourceoutputhatch_reinforced', 'ars_nouveau:source_jar')
-                upgradeMMRHatchOutput('modular_machinery_reborn_ars:sourceoutputhatch_huge', 'modular_machinery_reborn_ars:sourceoutputhatch_big', 'ars_nouveau:source_jar')
-                upgradeMMRHatchOutput('modular_machinery_reborn_ars:sourceoutputhatch_ludicrous', 'modular_machinery_reborn_ars:sourceoutputhatch_huge', 'ars_nouveau:source_jar')
-                upgradeMMRHatchOutput('modular_machinery_reborn_ars:sourceoutputhatch_vacuum', 'modular_machinery_reborn_ars:sourceoutputhatch_ludicrous', 'ars_nouveau:source_jar')
 
         //Time Counter
             allthemods.shaped('modular_machinery_reborn:time_counter',
@@ -236,10 +218,10 @@ ServerEvents.recipes(allthemods => {
                 {
                     p: 'kubejs:modularium_plate',
                     s: 'productivelib:upgrade_time_2',
-                    b: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:time_crystal"}]',
+                    //b: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:time_crystal"}]',
                     c: 'modular_machinery_reborn:casing_plain',
                     t: 'productivetrees:time_traveller_sapling',
-                    h: 'naturesaura:clock_hand'
+                    //h: 'naturesaura:clock_hand'
                 }
             )
 })

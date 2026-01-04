@@ -4074,22 +4074,6 @@
 			id: "251464B43353D4C6"
 			rewards: [
 				{
-					id: "0957A42C8151D161"
-					item: {
-						count: 1
-						id: "mysticalagriculture:inferium_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "7AD0A91C0B7309DB"
-					item: {
-						count: 1
-						id: "mysticalagriculture:inferium_farmland"
-					}
-					type: "item"
-				}
-				{
 					id: "3BE64402CC84A018"
 					type: "xp"
 					xp: 200

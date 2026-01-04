@@ -7,11 +7,9 @@ preferredOres = [    "minecraft",
     "kubejs",
     "mekanism",
     "modern_industrialization",
-    "occultism",
     "industrialforegoing",
     "pneumaticcraft",
     "biggerreactors", 
     "ae2",
     "enderio",
-    "utilitarian",
-    "actuallyadditions"]
+    "utilitarian"]

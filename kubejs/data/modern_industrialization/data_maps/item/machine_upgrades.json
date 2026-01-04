@@ -14,9 +14,6 @@
         },
         "modern_industrialization:turbo_upgrade": {
             "extraMaxEu": 64
-        },
-        "forbidden_arcanus:corrupted_arcane_crystal": {
-            "extraMaxEu": 512
         }
     }
 }

@@ -50,19 +50,13 @@ ServerEvents.recipes(allthemods => {
     }
 
     //squeezer(input, output{item, count, bonus})
-    squeezer('#c:ores/black_quartz', 'actuallyadditions:black_quartz');
     squeezer('#c:ores/cinnabar', 'alltheores:cinnabar');
     squeezer('#c:ores/fluorite', 'alltheores:fluorite');
     squeezer('#c:ores/peridot', 'alltheores:peridot');
     squeezer('#c:ores/ruby', 'alltheores:ruby');
     squeezer('#c:ores/sapphire', 'alltheores:sapphire');
     squeezer('#c:ores/sulfur', 'alltheores:sulfur');
-    squeezer('#c:ores/arcane_crystal', 'forbidden_arcanus:arcane_crystal');
-    squeezer('#c:ores/runic', 'forbidden_arcanus:rune');
-    squeezer('#c:ores/inferium', 'mysticalagriculture:inferium_essence');
-    squeezer('#c:ores/prosperity', 'mysticalagriculture:prosperity_shard');
     squeezer('#c:ores/bort', 'silentgear:bort');
-    squeezer('#c:ores/sal_ammoniac', 'theurgy:sal_ammoniac_crystal');
     //squeezer('#c:ores/uraninite', 'powah:uraninite_raw');
 
     squeezer('#c:ores/uraninite_poor', {item: 'powah:uraninite_raw', count: 2, bonus: 0})

@@ -60,7 +60,7 @@ ServerEvents.tags('item', allthemods => {
   tags = ['c:vegetables', 'c:leafyvegetables/lettuce', 'rftoolsutility:living/living', 'c:crops/lettuce', 'extended_industrialization:farmer_plantable', 'c:vegetables/lettuce', 'c:leafyvegetables', 'c:salad_ingredients', 'rftoolsutility:living/highyield', 'c:salad_ingredients/lettuce', 'c:crops']
   tags.forEach(tag => { allthemods.add(tag, 'herbsandharvest:lettuce') })
 
-  tags = ['c:crops/lime', 'c:crops', 'rftoolsutility:living/living', 'c:vinegar_ingredients/lime', 'rftoolsutility:living/highyield', 'c:fruits', 'c:citrusfruits', 'c:fruits/lime', 'extended_industrialization:farmer_plantable', 'c:citrusfruits/lime', 'diet:fruits', 'c:vinegar_ingredients', 'minecolonies:compostables']
+  tags = ['c:crops/lime', 'c:crops', 'rftoolsutility:living/living', 'c:vinegar_ingredients/lime', 'rftoolsutility:living/highyield', 'c:fruits', 'c:citrusfruits', 'c:fruits/lime', 'extended_industrialization:farmer_plantable', 'c:citrusfruits/lime', 'diet:fruits', 'c:vinegar_ingredients']
   tags.forEach(tag => { allthemods.add(tag, 'herbsandharvest:lime') })
 
   tags = ['c:vinegar_ingredients/oats', 'rftoolsutility:living/highyield', 'c:crops/oat', 'extended_industrialization:farmer_plantable', 'c:crops', 'c:carbs', 'c:flour_plants/oats', 'c:vinegar_ingredients', 'c:grain/oat', 'c:flour_plants/oat', 'c:carbs/oat', 'c:grain', 'rftoolsutility:living/living', 'c:seeds/oat', 'c:grain/oats', 'c:crops/oats', 'c:flour_plants', 'c:vinegar_ingredients/oat', 'c:carbs/oats']
@@ -177,103 +177,6 @@ ServerEvents.recipes(allthemods => {
   allthemods.shapeless('merrymaking:gingerbread_dough', ['merrymaking:ground_ginger', '#c:milk', 'minecraft:wheat', 'minecraft:sugar', 'minecraft:egg']).id('allthemods:merrymaking/gingerbread_dough')
 
   allthemods.shapeless('merrymaking:harvest_tray', ['merrymaking:empty_tray', '#c:vegetables/sweet_potato', '#c:grain/corn', 'minecraft:carrot', 'minecraft:apple', 'minecraft:potato', 'minecraft:sweet_berries', 'minecraft:beetroot', 'minecraft:wheat']).id('allthemods:merrymaking/harvest_tray')
-
-  // Saplings
-  allthemods.custom(
-    {
-      "type": "farmingforblockheads:market",
-      "category": "farmingforblockheads:saplings",
-      "preset": "herbsandharvest:saplings",
-      "result": {
-        "count": 1,
-        "item": "herbsandharvest:avocado_fruit_sapling"
-      }
-    }
-  )
-
-  allthemods.custom(
-    {
-      "type": "farmingforblockheads:market",
-      "category": "farmingforblockheads:saplings",
-      "preset": "herbsandharvest:saplings",
-      "result": {
-        "count": 1,
-        "item": "herbsandharvest:cherry_fruit_sapling"
-      }
-    }
-  )
-
-  allthemods.custom(
-    {
-      "type": "farmingforblockheads:market",
-      "category": "farmingforblockheads:saplings",
-      "preset": "herbsandharvest:saplings",
-      "result": {
-        "count": 1,
-        "item": "herbsandharvest:lemon_fruit_sapling"
-      }
-    }
-  )
-
-  allthemods.custom(
-    {
-      "type": "farmingforblockheads:market",
-      "category": "farmingforblockheads:saplings",
-      "preset": "herbsandharvest:saplings",
-      "result": {
-        "count": 1,
-        "item": "herbsandharvest:lime_fruit_sapling"
-      }
-    }
-  )
-
-  allthemods.custom(
-    {
-      "type": "farmingforblockheads:market",
-      "category": "farmingforblockheads:saplings",
-      "preset": "herbsandharvest:saplings",
-      "result": {
-        "count": 1,
-        "item": "herbsandharvest:orange_fruit_sapling"
-      }
-    }
-  )
-
-  allthemods.custom(
-    {
-      "type": "farmingforblockheads:market",
-      "category": "farmingforblockheads:saplings",
-      "preset": "herbsandharvest:saplings",
-      "result": {
-        "count": 1,
-        "item": "herbsandharvest:peach_fruit_sapling"
-      }
-    }
-  )
-
-  allthemods.custom(
-    {
-      "type": "farmingforblockheads:market",
-      "category": "farmingforblockheads:saplings",
-      "preset": "herbsandharvest:saplings",
-      "result": {
-        "count": 1,
-        "item": "herbsandharvest:pear_fruit_sapling"
-      }
-    }
-  )
-
-  allthemods.custom(
-    {
-      "type": "farmingforblockheads:market",
-      "category": "farmingforblockheads:saplings",
-      "preset": "herbsandharvest:saplings",
-      "result": {
-        "count": 1,
-        "item": "herbsandharvest:plum_fruit_sapling"
-      }
-    }
-  )
 
 })
 

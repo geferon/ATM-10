@@ -425,40 +425,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "58DDD32F849940A0"
-			optional: true
-			rewards: [{
-				id: "350A4EA5AE7F5405"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "70972BAFF5896EA8"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_pickaxe)item(mysticalagriculture:prudentium_pickaxe)item(mysticalagriculture:tertium_pickaxe)item(mysticalagriculture:imperium_pickaxe)item(mysticalagriculture:supremium_pickaxe)item(mysticalagriculture:awakened_supremium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "3B88D58B11B5DC78"
-			optional: true
-			rewards: [{
-				id: "35A24AB368AF86E1"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "5D3CB6FE8F0ED9A5"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mininggadgets:mininggadget_simple)item(mininggadgets:mininggadget_fancy)item(mininggadgets:mininggadget))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.5d
-		}
-		{
 			hide_dependent_lines: true
 			id: "5151CDD8FCDE7A07"
 			rewards: [
@@ -626,23 +592,6 @@
 		}
 		{
 			dependencies: ["5151CDD8FCDE7A07"]
-			id: "7F076FC4F2187692"
-			optional: true
-			rewards: [{
-				id: "63C9CFD628010DD0"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "49620BB635D10CF5"
-				item: { count: 1, id: "mysticalagriculture:inferium_sword" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
 			id: "7CFEE836C68B3903"
 			optional: true
 			rewards: [{
@@ -657,91 +606,6 @@
 			}]
 			x: -0.5d
 			y: 5.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "7EDF2CC08FC774F9"
-			optional: true
-			rewards: [{
-				id: "6E1030C4DC839FDC"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "279E99110C6542B0"
-				item: { count: 1, id: "mysticalagriculture:prudentium_sword" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "680ECE3D8DCDC515"
-			optional: true
-			rewards: [{
-				id: "34017A39161D07EF"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "1794270850D4F05D"
-				item: { count: 1, id: "mysticalagriculture:tertium_sword" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "4DCEC4B97E24B6F1"
-			optional: true
-			rewards: [{
-				id: "437D795A2CD8DDE3"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "75022D8AF7DB6369"
-				item: { count: 1, id: "mysticalagriculture:imperium_sword" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "2007EF64F0406090"
-			optional: true
-			rewards: [{
-				id: "49C2D17DB8471C7A"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "24AFDF10D3720363"
-				item: { count: 1, id: "mysticalagriculture:supremium_sword" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "5A6670364ADE0858"
-			optional: true
-			rewards: [{
-				id: "5EB1D4D5EAAC09A7"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "212B3269B2271269"
-				item: { count: 1, id: "mysticalagriculture:awakened_supremium_sword" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 10.5d
 		}
 		{
 			dependencies: ["5151CDD8FCDE7A07"]
@@ -907,27 +771,10 @@
 			}]
 			tasks: [{
 				id: "18DA9065596F9097"
-				item: { components: { "ftbfiltersystem:filter": "or(item(everythingcopper:copper_pickaxe)item(mekanismtools:bronze_pickaxe)item(mekanismtools:osmium_pickaxe)item(justdirethings:ferricore_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(everythingcopper:copper_pickaxe)item(mekanismtools:bronze_pickaxe)item(mekanismtools:osmium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "275D97BF0CE9DCD4"
-			optional: true
-			rewards: [{
-				id: "355ACD985F95A356"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "485E17B9E80D5DFF"
-				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:infused_pickaxe)item(occultism:iesnium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -941,7 +788,7 @@
 			}]
 			tasks: [{
 				id: "30921D2007B35206"
-				item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:swamp_silver_pickaxe)item(aquaculture:neptunium_pickaxe)item(deeperdarker:resonarium_pickaxe)item(undergarden:utherium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:neptunium_pickaxe)item(deeperdarker:resonarium_pickaxe)item(undergarden:utherium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -958,7 +805,7 @@
 			}]
 			tasks: [{
 				id: "735F8BA70FBE24BF"
-				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:froststeel_pickaxe)item(undergarden:cloggrum_pickaxe)item(eternal_starlight:thermal_springstone_pickaxe)item(eternal_starlight:glacite_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:froststeel_pickaxe)item(undergarden:cloggrum_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -1000,74 +847,6 @@
 		}
 		{
 			dependencies: ["5151CDD8FCDE7A07"]
-			id: "1756F81ACFC56C58"
-			optional: true
-			rewards: [{
-				id: "67075DBA2CC9120C"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "0D29F8D0847A0E6D"
-				item: { components: { "justdirethings:forge_energy": 500000 }, count: 1, id: "justdirethings:eclipsealloy_pickaxe" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "5A2908437EC43AC6"
-			optional: true
-			rewards: [{
-				id: "4BC681C4DD5DF9FB"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "68667F586AF5D058"
-				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blazegold_pickaxe)item(justdirethings:celestigem_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "2DB53A77C3CD90F1"
-			optional: true
-			rewards: [{
-				id: "241C76938C2954B9"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "224A2A7012749DFC"
-				item: { components: { "ftbfiltersystem:filter": "or(item(rootsclassic:living_pickaxe)item(naturesaura:infused_iron_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "5CD65553EF60029B"
-			optional: true
-			rewards: [{
-				id: "62FDA68D032C051F"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "52018603FAA8E26D"
-				item: { count: 1, id: "naturesaura:sky_pickaxe" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
 			id: "3B542DC05240242C"
 			optional: true
 			rewards: [{
@@ -1082,103 +861,6 @@
 			}]
 			x: -1.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "37B055397B21D936"
-			optional: true
-			rewards: [{
-				id: "04F0EDFEC22D9707"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "344776799E44852E"
-				item: { components: { "minecraft:enchantments": { levels: { "minecraft:looting": 2 } } }, count: 1, id: "evilcraft:vein_sword" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "161878AB4236C58B"
-			optional: true
-			rewards: [{
-				id: "3C7F8BF1088A7AB7"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "70B61179B0000BB7"
-				item: { count: 1, id: "justdirethings:ferricore_sword" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "6EFA73A4D01F0052"
-			optional: true
-			rewards: [{
-				id: "405D0CB37F4ED4B7"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "120AE66E9798A391"
-				item: { count: 1, id: "justdirethings:blazegold_sword" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			icon: {
-				components: {
-					"justdirethings:forge_energy": 10000
-				}
-				id: "justdirethings:celestigem_sword"
-			}
-			id: "36B9D5A99E1AA85C"
-			optional: true
-			rewards: [{
-				id: "6F9819625B4E8AF8"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7CF1476B089922A5"
-				item: { count: 1, id: "justdirethings:celestigem_sword" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			icon: {
-				components: {
-					"justdirethings:forge_energy": 500000
-				}
-				id: "justdirethings:eclipsealloy_sword"
-			}
-			id: "252169A6EB4DD75B"
-			optional: true
-			rewards: [{
-				id: "726F490EED9F188B"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "776B3ECA3F6EFB78"
-				item: { count: 1, id: "justdirethings:eclipsealloy_sword" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.5d
 		}
 		{
 			dependencies: ["5151CDD8FCDE7A07"]
@@ -1276,45 +958,11 @@
 			}]
 			tasks: [{
 				id: "20210147BF5613E5"
-				item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:thermal_springstone_sword)item(eternal_starlight:swamp_silver_sword)item(eternal_starlight:shattered_sword)item(eternal_starlight:energy_sword)item(undergarden:froststeel_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:froststeel_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "784D6D11C4F41215"
-			optional: true
-			rewards: [{
-				id: "6055569D4A2F1227"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "398AB707BAAEF3CE"
-				item: { count: 1, id: "eternal_starlight:glacite_sword" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "106C552DDD95543C"
-			optional: true
-			rewards: [{
-				id: "5E47073920434DDD"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "687C1BED1DF2D760"
-				item: { count: 1, id: "eternal_starlight:moonring_greatsword" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.5d
 		}
 		{
 			dependencies: ["5151CDD8FCDE7A07"]
@@ -1351,40 +999,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "3CD307DDD6A5F5A3"
-			optional: true
-			rewards: [{
-				id: "562CCECF1834F7DB"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "73292BEBAD3BF345"
-				item: { count: 1, id: "minecolonies:chiefsword" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "122282C288EAD366"
-			optional: true
-			rewards: [{
-				id: "370436B390F2DE50"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "236DA60F43220525"
-				item: { components: { "ftbfiltersystem:filter": "or(item(rootsclassic:living_sword)item(naturesaura:infused_iron_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
 			id: "16AAC61729C44881"
 			invisible: true
 			optional: true
@@ -1401,142 +1015,6 @@
 			]
 			x: 0.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "7CA60DC31447E57A"
-			optional: true
-			rewards: [{
-				id: "15113DA55CF0D536"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6A098C929647B0A6"
-				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:sky_sword)item(irons_spellbooks:magehunter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "5D46EEC88D662443"
-			optional: true
-			rewards: [{
-				id: "436E69F5BDCECDBA"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "51AA75A2DC748648"
-				item: { count: 1, id: "naturesaura:depth_sword" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "7B1818D2C5C2BB18"
-			optional: true
-			rewards: [{
-				id: "39DC36E274780620"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "44F471C85DF505E9"
-				item: { count: 1, id: "naturesaura:depth_pickaxe" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "41C661E8630D0146"
-			optional: true
-			rewards: [{
-				id: "61EFFBA205DE755D"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7AF710A066D3A627"
-				item: { count: 1, id: "eternal_starlight:rage_of_stars" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "70DB76D3E7704E2C"
-			optional: true
-			rewards: [{
-				id: "29340F9AE760DEA3"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "427C079B92F20671"
-				item: { count: 1, id: "rootsclassic:engraved_blade" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "6552E301C370D203"
-			optional: true
-			rewards: [{
-				id: "776F5A95B8F87C15"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "0B78429F2D37A10B"
-				item: { count: 1, id: "mysticalagriculture:soulium_dagger" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "791A981914CE345F"
-			optional: true
-			rewards: [{
-				id: "142552A9F3C6B254"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7050DBCA9D2B7346"
-				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "4CE6EB54B12EF6C5"
-			optional: true
-			rewards: [{
-				id: "6C627E5DF83EE644"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "01EFD73293B10452"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:passive_soulium_dagger)item(mysticalagriculture:hostile_soulium_dagger))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 7.0d
 		}
 	]
 }

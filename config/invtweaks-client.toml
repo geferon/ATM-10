@@ -195,18 +195,6 @@
 	#Out-of-bound slots are ignored
 	#Omit sortRange to leave as default
 	[[sorting.containerOverrides]]
-		containerClass = "com.direwolf20.laserio.client.screens.*"
-		sortRange = ""
-	#Custom settings per GUI
-	#x = x-position of external sort button relative to GUI top left
-	#y = same as above except for the y-position
-	#Omit x and y to leave position unchanged
-	#sortRange = slots to sort
-	#E.g. sortRange = "5,0-2" sorts slots 5,0,1,2 in that order
-	#sortRange = "" disables sorting for that container
-	#Out-of-bound slots are ignored
-	#Omit sortRange to leave as default
-	[[sorting.containerOverrides]]
 		containerClass = "cofh.thermal.core.client.gui.*"
 		sortRange = ""
 	#Custom settings per GUI
@@ -231,31 +219,7 @@
 	#Out-of-bound slots are ignored
 	#Omit sortRange to leave as default
 	[[sorting.containerOverrides]]
-		containerClass = "com.direwolf20.justdirethings.client.screens.*"
-		sortRange = ""
-	#Custom settings per GUI
-	#x = x-position of external sort button relative to GUI top left
-	#y = same as above except for the y-position
-	#Omit x and y to leave position unchanged
-	#sortRange = slots to sort
-	#E.g. sortRange = "5,0-2" sorts slots 5,0,1,2 in that order
-	#sortRange = "" disables sorting for that container
-	#Out-of-bound slots are ignored
-	#Omit sortRange to leave as default
-	[[sorting.containerOverrides]]
 		containerClass = "com.glodblock.github.extendedae.client.gui.*"
-		sortRange = ""
-	#Custom settings per GUI
-	#x = x-position of external sort button relative to GUI top left
-	#y = same as above except for the y-position
-	#Omit x and y to leave position unchanged
-	#sortRange = slots to sort
-	#E.g. sortRange = "5,0-2" sorts slots 5,0,1,2 in that order
-	#sortRange = "" disables sorting for that container
-	#Out-of-bound slots are ignored
-	#Omit sortRange to leave as default
-	[[sorting.containerOverrides]]
-		containerClass = "cy.jdkdigital.productivebees.container.gui.*"
 		sortRange = ""
 	#Custom settings per GUI
 	#x = x-position of external sort button relative to GUI top left

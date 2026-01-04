@@ -53,14 +53,6 @@
 		}
 		{ id: "699A72490DE8D9A5", item: { count: 1, id: "minecraft:netherite_ingot" } }
 		{
-			id: "4D14D65B3F3F0D08"
-			item: {
-				count: 1
-				id: "functionalstorage:gold_upgrade"
-			}
-			weight: 2.0f
-		}
-		{
 			count: 3
 			id: "2B0D8F8D205E3F81"
 			item: {
@@ -192,22 +184,6 @@
 			weight: 5.0f
 		}
 		{
-			id: "5E6A9820088B9C68"
-			item: {
-				count: 1
-				id: "functionalstorage:compacting_drawer"
-			}
-			weight: 10.0f
-		}
-		{
-			id: "25E90078E7511C00"
-			item: {
-				count: 1
-				id: "functionalstorage:storage_controller"
-			}
-			weight: 3.0f
-		}
-		{
 			count: 4
 			id: "3E2C50BD2583841D"
 			item: {
@@ -245,25 +221,6 @@
 			}
 			random_bonus: 8
 			weight: 15.0f
-		}
-		{
-			count: 4
-			id: "64CB2AC31D6DE53A"
-			item: {
-				count: 1
-				id: "functionalstorage:oak_1"
-			}
-			random_bonus: 4
-			weight: 10.0f
-		}
-		{
-			id: "27AA5AFCF44F582B"
-			item: {
-				count: 1
-				id: "functionalstorage:void_upgrade"
-			}
-			random_bonus: 2
-			weight: 10.0f
 		}
 		{
 			id: "3603B3D0952F4C54"

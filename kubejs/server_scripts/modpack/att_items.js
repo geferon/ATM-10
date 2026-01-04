@@ -5,14 +5,14 @@ ServerEvents.recipes(allthemods => {
   // Dragon Soul
   allthemods.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
     C: 'apothic_enchanting:infused_breath',
-    D: 'occultism:soul_gem',
-    A: Ingredient.of('justdirethings:creaturecatcher[justdirethings:entitytype="occultism:dragon_familiar"]').or('occultism:spawn_egg/familiar_dragon'),
+    //D: 'occultism:soul_gem',
+    //A: Ingredient.of('justdirethings:creaturecatcher[justdirethings:entitytype="occultism:dragon_familiar"]').or('occultism:spawn_egg/familiar_dragon'),
     S: 'productivetrees:socotra_dragon_sapling',
     N: ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]', 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1254]'],
     I: 'allthemodium:piglich_heart_block',
-    B: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:soul_lava"}]',
+    //B: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:soul_lava"}]',
 	  G: 'cataclysm:abyssal_sacrifice',
-    E: Platform.isLoaded("eternal_starlight") ? 'eternal_starlight:chain_of_souls' : 'ftbquests:missing_item[ftbquests:missing_item="eternal_starlight:chain_of_souls"]'
+    //E: Platform.isLoaded("eternal_starlight") ? 'eternal_starlight:chain_of_souls' : 'ftbquests:missing_item[ftbquests:missing_item="eternal_starlight:chain_of_souls"]'
   }).id('allthemods:allthetweaks/dragon_soul')
 
  // Improbable Probability Device
@@ -22,7 +22,7 @@ ServerEvents.recipes(allthemods => {
   C: Ingredient.of(['megacells:portable_item_cell_256m', 'modern_industrialization:blastproof_casing']),
   D: 'pneumaticcraft:aerial_interface',
   F: 'ironfurnaces:million_furnace', 
-  G: 'irons_spellbooks:lightning_upgrade_orb'
+  //G: 'irons_spellbooks:lightning_upgrade_orb'
   }).id('allthemods:allthetweaks/improbable_probability_device')
 
   // Dimensional Seed Recipe
@@ -40,28 +40,28 @@ ServerEvents.recipes(allthemods => {
 
   // Withers Compass
   allthemods.shaped('allthetweaks:withers_compass', ['ABC', 'DEF', 'GHI'], {
-    A: 'productivebees:configurable_comb[productivebees:bee_type="productivebees:withered"]',
+    //A: 'productivebees:configurable_comb[productivebees:bee_type="productivebees:withered"]',
     B: 'industrialforegoing:wither_builder',
     C: 'deeperdarker:heart_of_the_deep',
-    D: 'generatorgalore:netherstar_generator_64x',
-    E: 'irons_spellbooks:scroll[irons_spellbooks:spell_container={data:[{id:"irons_spellbooks:wither_skull",index:0,level:10,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}]',
-    F: 'mysticalagriculture:witherproof_bricks',
+    //D: 'generatorgalore:netherstar_generator_64x',
+    //E: 'irons_spellbooks:scroll[irons_spellbooks:spell_container={data:[{id:"irons_spellbooks:wither_skull",index:0,level:10,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}]',
+    //F: 'mysticalagriculture:witherproof_bricks',
     G: 'minecraft:tipped_arrow[potion_contents={potion:"apothic_attributes:long_wither"}]',
-    H: 'ars_nouveau:glyph_wither',
-    I: 'mysticalagradditions:nether_star_crux'
+    //H: 'ars_nouveau:glyph_wither',
+    //I: 'mysticalagradditions:nether_star_crux'
   }).id('allthemods:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
   allthemods.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
-  A: 'generatorgalore:ender_generator',
+  //A: 'generatorgalore:ender_generator',
 	B: 'ironfurnaces:rainbow_coal'  ,
 	C: 'bigreactors:insanite_block' ,
 	D: Ingredient.of(['modern_industrialization:uranium_fuel_rod_quad','create:blaze_burner']),
-	E: 'mysticalagradditions:insanium_coal_block',
-  F: 'forbidden_arcanus:smelter_prism',
-	G: 'mysticalagriculture:awakened_supremium_ingot_block',
-	H: 'generatorgalore:magmatic_generator_64x',
-  I: 'evilcraft:dark_tank[cyclopscore:fluid_content={amount:16000,id:"justdirethings:refined_t4_fluid_source"}]'
+	//E: 'mysticalagradditions:insanium_coal_block',
+  //F: 'forbidden_arcanus:smelter_prism',
+	//G: 'mysticalagriculture:awakened_supremium_ingot_block',
+	//H: 'generatorgalore:magmatic_generator_64x',
+  //I: 'evilcraft:dark_tank[cyclopscore:fluid_content={amount:16000,id:"justdirethings:refined_t4_fluid_source"}]'
   }).id('allthemods:allthetweaks/philosophers_fuel')
 
  // Nexium Emitter
@@ -77,12 +77,11 @@ ServerEvents.recipes(allthemods => {
 
 // Oblivion Shard
 allthemods.shaped('allthetweaks:oblivion_shard', ['DAB', 'ECF', 'BGD'], {
-  A: 'forbidden_arcanus:eternal_stella',
-  C: 'evilcraft:mace_of_destruction[cyclopscore:fluid_content={amount:4000,id:"evilcraft:blood"}]',
-  B: 'evilcraft:piercing_vengeance_focus',
+  //A: 'forbidden_arcanus:eternal_stella',
+  //C: 'evilcraft:mace_of_destruction[cyclopscore:fluid_content={amount:4000,id:"evilcraft:blood"}]',
+  //B: 'evilcraft:piercing_vengeance_focus',
   D: 'stevescarts:module_galgadorian_drill',
   E: 'cataclysm:meat_shredder',
-  G: 'twilightforest:snow_queen_trophy',
   F: 'cataclysm:void_forge'
 }).id('allthemods:allthetweaks/oblivion_shard')
 
@@ -92,21 +91,23 @@ allthemods.shaped('allthetweaks:pulsating_black_hole', ['ABC', 'DEF', 'GHI'], {
   A: 'oritech:nuke',
   B: 'ae2:quantum_ring'  ,
   C: 'pneumaticcraft:micromissiles' ,
-  D: 'justdirethings:paradoxmachine',
+  //D: 'justdirethings:paradoxmachine',
   E: 'pocketstorage:psu_4',
   F: 'occultism:stable_wormhole',
-  G: 'rootsclassic:crystal_staff',
+  //G: 'rootsclassic:crystal_staff',
   H: 'industrialforegoing:mycelial_explosive',
-  I: 'evilcraft:lightning_bomb'
+  //I: 'evilcraft:lightning_bomb'
 }).id('allthemods:pressure/allthetweaks/pulsating_black_hole')
 
   // Creative Essence
+  /*
   allthemods.shaped('mysticalagradditions:creative_essence', ['CAC', 'ABA', 'CAC'], {
     A: 'mysticalagradditions:insanium_block',
     C: 'mysticalagradditions:insanium_gemstone_block',
-    B: 'mysticalagriculture:master_infusion_crystal'
+    //B: 'mysticalagriculture:master_infusion_crystal'
   }).id('allthemods:allthetweaks/creative_essence')
-
+  */
+  // TODO: Figure out a replacement
 })
 
 

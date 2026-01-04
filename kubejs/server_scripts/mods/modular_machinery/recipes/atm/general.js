@@ -30,8 +30,8 @@ ServerEvents.recipes(allthemods => {
                 ],
                 {
                     p: 'kubejs:modularium_plate',
-                    l: 'actuallyadditions:lens_of_color',
-                    w: 'actuallyadditions:laser_wrench'
+                    //l: 'actuallyadditions:lens_of_color',
+                    //w: 'actuallyadditions:laser_wrench'
                 }
             )
             allthemods.remove({id: /modular_machinery_reborn:.*input.*/})
@@ -106,86 +106,6 @@ ServerEvents.recipes(allthemods => {
 
     //Removal
 
-})
-
-
-ServerEvents.generateData('after_mods', allthemods => {
-    allthemods.json('atm:forbidden_arcanus/hephaestus_forge/ritual/modularium.json',
-        {
-            enhancers: [
-                'forbidden_arcanus:artisan_relic',
-                'forbidden_arcanus:elementarium'
-            ],
-            essences: {
-                aureal: 500,
-                blood: 500,
-                souls: 100,
-                experience: 100
-            },
-            forge_tier: 5,
-            inputs: [
-                {
-                    amount: 1,
-                    ingredient: {
-                        item: 'forbidden_arcanus:deorum_ingot'
-                    }
-                },
-                {
-                    amount: 1,
-                    ingredient: {
-                        item: 'enderio:end_steel_ingot'
-                    }
-                },
-                {
-                    amount: 1,
-                    ingredient: {
-                        item: 'forbidden_arcanus:deorum_ingot'
-                    }
-                },
-                {
-                    amount: 1,
-                    ingredient: {
-                        item: 'enderio:end_steel_ingot'
-                    }
-                },
-                {
-                    amount: 1,
-                    ingredient: {
-                        item: 'forbidden_arcanus:deorum_ingot'
-                    }
-                },
-                {
-                    amount: 1,
-                    ingredient: {
-                        item: 'enderio:end_steel_ingot'
-                    }
-                },
-                {
-                    amount: 1,
-                    ingredient: {
-                        item: 'forbidden_arcanus:deorum_ingot'
-                    }
-                },
-                {
-                    amount: 1,
-                    ingredient: {
-                        item: 'enderio:end_steel_ingot'
-                    }
-                }
-            ],
-            magic_circle: 'forbidden_arcanus:create_item',
-            main_ingredient: {
-                item: 'allthemodium:allthemodium_ingot'
-            },
-            result: {
-                type: 'forbidden_arcanus:create_item',
-                result_item: {
-                    count: 24,
-                    id: Platform.isLoaded('modular_machinery_reborn') ? 'modular_machinery_reborn:modularium' : 'kubejs:modularium'
-                }
-            }
-        }
-    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

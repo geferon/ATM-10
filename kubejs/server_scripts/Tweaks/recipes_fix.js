@@ -7,7 +7,6 @@ KubeJSTweaks.beforeRecipes(event => {
 
   // Upgrade from forge to neoforge conditions
   event.fixCondition([
-    "irons_spellbooks:patchouli_book",
     "apotheosis:book",
     "treetap:id_menril",
     "treetap:id_menril_tfc",
@@ -64,12 +63,6 @@ KubeJSTweaks.beforeRecipes(event => {
       ])
     })
 
-  // Scans items on result and add them back as conditions, izi fix
-  event.getEntry(/^farmingforblockheads:market\//)
-    .forEach(entry => {
-      entry.addConditionsFromKey("result")
-    })
-
   // Scans items/tags on ingredients and add them back as conditions
   event.getEntry("create:crafting/tree_fertilizer")
     .forEach(entry => {
@@ -91,13 +84,6 @@ KubeJSTweaks.beforeRecipes(event => {
   ]).forEach(entry => {
     entry.replaceValueAtKey("input", "item", "biomeswevegone:dacite_tile", "biomeswevegone:dacite_tiles")
 	entry.replaceValueAtKey("output", "id", "biomeswevegone:dacite_tile", "biomeswevegone:dacite_tiles")
-  })
-
-  // Another typo, a wild `'` at the name of the item
-  event.getEntry("mekmm:compat/ars_nouveau/planting/magebloom").forEach(entry => {
-    entry.fromPath("secondary_output.id").ifPresent(result => {
-		result.first.add("id", result.second.getAsString().replace("'",""))
-	})
   })
 
   // RIP Jonn, forgot `s`
@@ -153,10 +139,6 @@ KubeJSTweaks.beforeRecipes(event => {
     .forEach(entry => {
       entry.fromPath("template", "[]").ifPresent(result => entry.ignoreWarning())
     })
-  
-  // Adds mod condition check
-  event.getEntry("productivebees:elementalcraft/pureinfusion/pure_crystal_bee")
-    .forEach(entry => entry.addModConditionFromType())
 
   // old recipe
   event.disable("factory_blocks:mason_table_old")
@@ -168,7 +150,7 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.renameKey("main_input", "input", false)
     })
 
-  event.getEntry(/^create:.*\/compat\/(biomeswevegone|silentgems)\//)
+  event.getEntry(/^create:.*\/compat\/(biomeswevegone)\//)
     .forEach(entry => {
       entry.addConditionsFromKey("ingredients")
     })
@@ -177,13 +159,6 @@ KubeJSTweaks.beforeRecipes(event => {
     .forEach(entry => {
       entry.replaceValueAtKey("ingredients", "fluid_tag", "c:chocolates", "c:chocolate")
     })
-
-  event.getEntry("mekmm:compat/mysticalagradditions/planting/awakened_draconium")
-    .forEach(entry => {
-	    entry.fixItemAtKey("main_output")
-	    let ci = entry.json().get("chemical_input")
-      ci.add("chemical", ci.remove("gas"))
-	  })
 
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
