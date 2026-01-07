@@ -9380,7 +9380,7 @@ metafile = true
 
 [[files]]
 file = "mods/client-crafting.pw.toml"
-hash = "4013550560fb5d3a21f402ff2d4ed552ee0a8904f1d5ce93169b433c9daf2419"
+hash = "99c34fca47e424dc6138b0731d489407964c74b87f1e1858f346ca0bd50c8318"
 metafile = true
 
 [[files]]
