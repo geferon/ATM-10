@@ -1,6 +1,6 @@
 name = "Swaying Garden"
 filename = "swaying_garden-1.21.1-neoforge-1.1.2.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
