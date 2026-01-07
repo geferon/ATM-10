@@ -9254,11 +9254,6 @@ hash = "583f08c476763901037e8af057fb11f9f71c5b63225e8e317e0e57a2a474d8a8"
 metafile = true
 
 [[files]]
-file = "mods/better-chunk-loading-forge-fabric.pw.toml"
-hash = "f1ff9f0343cfc2553ffe92a261d3beb00bcee7af51d96d9de922440cbce9bb04"
-metafile = true
-
-[[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "407c2a918fcfd3219dce83d6a299edf5ee760e7b1d99d305d585b00d0e384591"
 metafile = true
