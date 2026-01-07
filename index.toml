@@ -5,6 +5,14 @@ file = "config/Advancedperipherals/world.toml"
 hash = "34ff18c33cba8ca1fc0eb28c46caccc44aab846450d92540f5c692fbcbb3514b"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "cfb9fdc16565e8301642f5fff00b6181f3609c741bc5e5df805b0936f0b003f2"
+
+[[files]]
+file = "config/DistantHorizons.toml.bak"
+hash = "79767ac6ad81746ffcf91303a6653bf57fb284b8c2468db3850fdea25390fa44"
+
+[[files]]
 file = "config/Mekanism/client.toml"
 hash = "b4e799104fdcb0a2a2d4305e0fd487e3320b2a791eb171d506eb33c790d72253"
 
@@ -67,6 +75,10 @@ hash = "8fc96106ee43a13bd304892fda1858a9c048f876e54fc62160fcdfe601e9a9f0"
 [[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "72bbd1ade563c2950e9682e4f8acc0d8b4bd65356a6cfe5ab5583904cb534527"
+
+[[files]]
+file = "config/acceleratedrendering-client.toml"
+hash = "ac0981eaab7682dee0c39434a3ea02850b32a6a540a5e0331a6953eaa96707d4"
 
 [[files]]
 file = "config/actuallyadditions-common.toml"
@@ -414,7 +426,11 @@ hash = "8df043549d55cdff26720b64f93741c411b93aac8c871e454bbf8523e0284414"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2_the_star.snbt"
-hash = "986736eeb816f0477e4a215e104bce2bf681718e408dd11f7a96a8d1cd452f7c"
+hash = "10c653db37e6483145a670c5952cbc662cd60ea8f72a2ffc8102044f73ce0463"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/chapter_2_the_star.snbt.bak"
+hash = "b778ff4c1a6098682b1adb0680d7dccef0447050a0c1d8263315553a1666a273"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -9310,6 +9326,11 @@ metafile = true
 [[files]]
 file = "mods/building-gadgets.pw.toml"
 hash = "34dacce3f15a01b8401bb9d0c11d7ae1caf1473508906e5b194fad531645ce53"
+metafile = true
+
+[[files]]
+file = "mods/c2me.pw.toml"
+hash = "03ed171e9783a6a2f7d7543951476d23829e7e9c226318dbb006a4b4c2fb7a29"
 metafile = true
 
 [[files]]
