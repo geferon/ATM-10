@@ -1,6 +1,6 @@
 name = "Mekanism CTM w/ Fusion"
 filename = "Mekanism CTM-Fusion 1.0.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

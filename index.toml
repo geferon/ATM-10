@@ -11200,17 +11200,17 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/better-cats-minecraft.pw.toml"
-hash = "b74ea72560e8727a466c6cb5cd6628537cff4a6fece6d04ee5aa9f6f7989bc4b"
+hash = "9d1a74bf777844c82c76a239587dc1e7a2a35f05b168cf0c572df934c5d0b7f8"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "3e36de30be0271e7d1a144d7f857ba01c6ce18bd868a06d3ffa34b9d9be73417"
+hash = "1371d66df3accdd6e75e70085c7ec190cc7547c16e4f4eea3cd107bf9829c355"
 metafile = true
 
 [[files]]
 file = "resourcepacks/mekanism-ctm-w-fusion.pw.toml"
-hash = "64b68625c39c5deec836a0f3a9669648f97f95bab62109ad6fae26357a05e6ed"
+hash = "7e29cc08182b255a0cf2eba818b4e967ec7c18469cfe5b30373c7e5ad9ec823d"
 metafile = true
 
 [[files]]
