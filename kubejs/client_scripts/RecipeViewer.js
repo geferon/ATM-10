@@ -2,7 +2,8 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 const runicYEET = [
-    'extended_industrialization:runic_tesla_receiver_hatch'
+    // Commented out: Item does not exist
+    //'extended_industrialization:runic_tesla_receiver_hatch'
 ]
 
 RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {

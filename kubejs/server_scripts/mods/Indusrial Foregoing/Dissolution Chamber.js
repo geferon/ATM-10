@@ -13,7 +13,8 @@ ServerEvents.recipes(allthemods => {
         "industrialforegoing:pink_slime_block"
     )
 
-    dissolution_chamber([
+    // Commented out: fluid justdirethings:unstable_portal_fluid_source does not exist
+    /*dissolution_chamber([
         '#c:plastics',
         'minecraft:sculk_shrieker',
         '#c:plastics',
@@ -26,9 +27,10 @@ ServerEvents.recipes(allthemods => {
         "1000x justdirethings:unstable_portal_fluid_source", 
         200,
         "industrialforegoingsouls:soul_laser_base"
-    )
+    )*/
 
-    dissolution_chamber([
+    // Commented out: fluid justdirethings:unstable_portal_fluid_source does not exist
+    /*dissolution_chamber([
         '#c:plastics',
         'minecraft:sculk_shrieker',
         '#c:plastics',
@@ -41,7 +43,7 @@ ServerEvents.recipes(allthemods => {
         "20x justdirethings:unstable_portal_fluid_source", 
         50,
         "4x industrialforegoingsouls:soul_surge"
-    )
+    )*/
 
     dissolution_chamber([
         '#c:plastics',

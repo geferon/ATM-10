@@ -3,7 +3,7 @@
 
 ServerEvents.recipes(allthemods => {
   // Dragon Soul
-  allthemods.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
+  allthemods.shaped('allthetweaks:dragon_soul', ['C  ', 'SNI', ' G '], {
     C: 'apothic_enchanting:infused_breath',
     //D: 'occultism:soul_gem',
     //A: Ingredient.of('justdirethings:creaturecatcher[justdirethings:entitytype="occultism:dragon_familiar"]').or('occultism:spawn_egg/familiar_dragon'),
@@ -16,7 +16,7 @@ ServerEvents.recipes(allthemods => {
   }).id('allthemods:allthetweaks/dragon_soul')
 
  // Improbable Probability Device
- allthemods.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGC', 'FDF'], {
+ allthemods.shaped('allthetweaks:improbable_probability_device', ['ABA', 'C C', 'FDF'], {
   A: 'mekanism:pellet_antimatter',
   B: 'ae2:singularity',
   C: Ingredient.of(['megacells:portable_item_cell_256m', 'modern_industrialization:blastproof_casing']),
@@ -39,7 +39,7 @@ ServerEvents.recipes(allthemods => {
   }).id('allthemods:allthetweaks/dimensional_seed')
 
   // Withers Compass
-  allthemods.shaped('allthetweaks:withers_compass', ['ABC', 'DEF', 'GHI'], {
+  allthemods.shaped('allthetweaks:withers_compass', [' BC', '   ', 'G  '], {
     //A: 'productivebees:configurable_comb[productivebees:bee_type="productivebees:withered"]',
     B: 'industrialforegoing:wither_builder',
     C: 'deeperdarker:heart_of_the_deep',
@@ -52,7 +52,7 @@ ServerEvents.recipes(allthemods => {
   }).id('allthemods:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
-  allthemods.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
+  allthemods.shaped('allthetweaks:philosophers_fuel', [' BC', 'D  ', '   '], {
   //A: 'generatorgalore:ender_generator',
 	B: 'ironfurnaces:rainbow_coal'  ,
 	C: 'bigreactors:insanite_block' ,
@@ -76,7 +76,7 @@ ServerEvents.recipes(allthemods => {
 }).id('allthemods:allthetweaks/nexium_emitter')
 
 // Oblivion Shard
-allthemods.shaped('allthetweaks:oblivion_shard', ['DAB', 'ECF', 'BGD'], {
+allthemods.shaped('allthetweaks:oblivion_shard', ['D  ', 'E F', '  D'], {
   //A: 'forbidden_arcanus:eternal_stella',
   //C: 'evilcraft:mace_of_destruction[cyclopscore:fluid_content={amount:4000,id:"evilcraft:blood"}]',
   //B: 'evilcraft:piercing_vengeance_focus',
@@ -87,13 +87,13 @@ allthemods.shaped('allthetweaks:oblivion_shard', ['DAB', 'ECF', 'BGD'], {
 
 
 // Pulsating Black Hole
-allthemods.shaped('allthetweaks:pulsating_black_hole', ['ABC', 'DEF', 'GHI'], {
+allthemods.shaped('allthetweaks:pulsating_black_hole', ['ABC', ' E ', ' H '], {
   A: 'oritech:nuke',
   B: 'ae2:quantum_ring'  ,
   C: 'pneumaticcraft:micromissiles' ,
   //D: 'justdirethings:paradoxmachine',
   E: 'pocketstorage:psu_4',
-  F: 'occultism:stable_wormhole',
+  //F: 'occultism:stable_wormhole',
   //G: 'rootsclassic:crystal_staff',
   H: 'industrialforegoing:mycelial_explosive',
   //I: 'evilcraft:lightning_bomb'

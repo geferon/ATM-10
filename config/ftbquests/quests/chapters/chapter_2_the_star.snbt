@@ -17,14 +17,6 @@
 			y: 16.0d
 		}
 		{
-			height: 5.0d
-			image: "atm:textures/questpics/mystical_agriculture/infusion_altar.png"
-			rotation: 0.0d
-			width: 7.5d
-			x: -10.0d
-			y: 5.5d
-		}
-		{
 			height: 3.0d
 			image: "atm:textures/questpics/extremereactors/titleimage2.png"
 			rotation: 0.0d
@@ -145,28 +137,12 @@
 			y: 12.0d
 		}
 		{
-			height: 2.0d
-			image: "atm:textures/questpics/iron_spells/spells_anvil.png"
-			rotation: 0.0d
-			width: 1.9232409381663114d
-			x: -6.5d
-			y: 15.5d
-		}
-		{
 			height: 5.0d
 			image: "immersiveengineering:textures/gui/workbench.png"
 			rotation: 0.0d
 			width: 5.0d
 			x: 11.5d
 			y: 17.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/iron_spells/spells_scroll.png"
-			rotation: 0.0d
-			width: 2.3376623376623376d
-			x: -2.0d
-			y: 12.0d
 		}
 		{
 			height: 2.0d
