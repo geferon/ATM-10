@@ -10885,6 +10885,11 @@ hash = "ca1d1fc94f456ec3ec65c532479f5fe301ad037dba11283fdfecb6d4cab47d21"
 metafile = true
 
 [[files]]
+file = "mods/silents-gems.pw.toml"
+hash = "dabe12a1d032d49493aded7ea90a867fa0c0c86644ca72f755b5c9b5dbe597ac"
+metafile = true
+
+[[files]]
 file = "mods/simple-weather.pw.toml"
 hash = "73abf4572be18415535e923c50125d947b56046989a0cc355ea7df734e3cff48"
 metafile = true
