@@ -114,7 +114,7 @@ hash = "99b69b2834d6a67074033312f46f1b588a4eaf4d2263f83e365fa42e481048d7"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "65bdc46a02671aa02c905a00cd16baa2b8e7257143e6a3e934067b101a70da3f"
+hash = "69f81255a0a32208ef1502aaa3916a72161f94d25bc3f2d40c222202f295754e"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
@@ -2847,6 +2847,10 @@ hash = "31af8991416c475b3a959a517bf7081410706b1bcb064385398a8a9681489641"
 [[files]]
 file = "config/spark/config.json"
 hash = "a6f3220e91bd93412c1a4f325514319b576f0a46adfe727bd24d7d00371be7f8"
+
+[[files]]
+file = "config/supplementaries-client.toml"
+hash = "e120714714e99aaa2cace6130179dd51db9ce7a71a5734ef3b566786f0496215"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -7713,6 +7717,10 @@ file = "kubejs/data/atm10/neoforge/biome_modifier/remove_lava_springs.json"
 hash = "96ab703812b13f1690b7583ab12b95e526822ed5e0bba205a82164621d83ede6"
 
 [[files]]
+file = "kubejs/data/atm10/neoforge/biome_modifier/remove_silentgems_ores.json"
+hash = "9246c64bdcc5d56c9211db0e836fe415eab27fac559ba0889d08381676480016"
+
+[[files]]
 file = "kubejs/data/atm10/tags/worldgen/biome/allthemodium_spawnable.json"
 hash = "9f752a9856f8bdc820e91b675344424a39b50f2bcb33719dab45296bd0a79171"
 
@@ -8602,7 +8610,7 @@ hash = "5a7a503191fcaeb45554d5439da1db5855840e18c706cc2ae2c6cb1a00ed71c4"
 
 [[files]]
 file = "kubejs/server_scripts/Tweaks/recipes_fix.js"
-hash = "8e7f7cc2503aa8c1583f8bbbdfa64b461e7a73d331887841f3fa8950b4f155a2"
+hash = "837350564f5ba54e937e10231b13b68be006302ef4ea91958e428b71ebdd5b3a"
 
 [[files]]
 file = "kubejs/server_scripts/Tweaks/registry_fix.js"
@@ -9986,7 +9994,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "d4ed77b26cbf2244c9b51595af90705d4f77774bf3a01fd4a03bcdcd0c4da5bb"
+hash = "6c275f621e7c3895ed34ee0e5bf847916a4285ac0f6452982ad6dccd5dd59851"
 metafile = true
 
 [[files]]
