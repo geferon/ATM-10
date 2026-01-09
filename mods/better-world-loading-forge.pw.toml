@@ -5,9 +5,9 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "83b2e9003981e0306ee57926cd192042ccb7cedd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/bmOyRapU/versions/9Nm7qDaq/betterworldloadingnf21-1.0.jar"
 
 [update]
-[update.curseforge]
-file-id = 6647966
-project-id = 1286032
+[update.modrinth]
+mod-id = "bmOyRapU"
+version = "9Nm7qDaq"

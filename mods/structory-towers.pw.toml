@@ -5,9 +5,9 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "84873f6aef39fa8bea7416d74ac5e13830859674"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/j3FONRYr/versions/4QAbnyHv/Structory_Towers_1.21.x_v1.0.14.jar"
 
 [update]
-[update.curseforge]
-file-id = 7078283
-project-id = 783522
+[update.modrinth]
+mod-id = "j3FONRYr"
+version = "4QAbnyHv"

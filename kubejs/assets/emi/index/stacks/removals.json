@@ -137,8 +137,6 @@
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"modern_industrialization:tritium\"}}",
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"modern_industrialization:uu_matter\"}}",
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"modern_industrialization:vinyl_chloride\"}}",
-    "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"securitycraft:fake_water\"}}",
-    "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"securitycraft:fake_lava\"}}",
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"productivetrees:maple_sap\"}}",
     "item:minecraft:reinforced_deepslate",
     "item:modern_industrialization:nickel_ore",
