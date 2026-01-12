@@ -1,0 +1,70 @@
+{
+    "Features": {
+        "enable_profiles": {
+            "value": false
+        }
+    },
+    "ModSettings": {
+        "always_include_hotbar": true,
+        "highlight_foused_items_animated": {
+            "value": true
+        },
+        "highlight_foused_items_foreground": false,
+        "enable_updates_check": false,
+        "add_interval_between_clicks": {
+            "value": true
+        },
+        "interval_between_clicks_ms": 70,
+        "stop_at_screen_close": true,
+        "first_run": false,
+        "enable_profiles": {
+            "value": false
+        },
+        "sort_at_cursor": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "continuous_crafting_saved_value": false
+    },
+    "SortSettings": {
+        "sort_at_cursor": false
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_disable_quick_move_throw": false,
+        "locked_slots_disable_throw_for_non_stackable": false,
+        "locked_slots_empty_hotbar_as_semi_locked": {
+            "value": true
+        },
+        "also_show_locked_slots_in_hotbar": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "auto_refill_prefer_smaller_stacks": true,
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "auto_refill_enable_indicator_icons": {
+            "value": false
+        },
+        "auto_refill_enable_horbar_indicator_icons": {
+            "value": false
+        },
+        "allow_alerts_without_tool_protection": {
+            "value": true
+        },
+        "audio_durability_notification": {
+            "value": false
+        }
+    },
+    "EditProfiles": {
+        "enable_profiles": {
+            "value": false
+        }
+    }
+}

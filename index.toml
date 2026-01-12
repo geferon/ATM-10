@@ -2553,8 +2553,16 @@ file = "config/integratedtunnels-common.toml"
 hash = "6c72dfe2f47e571e78b973b271839c502580648e2f74c75fbf400759be489332"
 
 [[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "df3147d7a8dc8d0cd36945a8ec81624fb1106c8a20961941a5ed338ddfdbec26"
+
+[[files]]
 file = "config/invtweaks-client.toml"
 hash = "37e18dd37b4e69fdc96458d11c86441eb6e5f567ef4fabb8f5e9adb32aa130cf"
+
+[[files]]
+file = "config/invtweaksemuforipn/main-config.json"
+hash = "4f97b8b76b0d3cc9ca2ddd3011d09512993c09e5311ed59ebbe431fd5f28b5ec"
 
 [[files]]
 file = "config/iris.properties"
@@ -9098,6 +9106,11 @@ hash = "d6efa6a9e6a42ec5c8cee3e726cf6690c3dc4fc3053119627fe7783c6d42dd30"
 metafile = true
 
 [[files]]
+file = "mods/ae2-things-forge.pw.toml"
+hash = "67b76e29b60a2869859d15a85ff2ba4377a0a21c9ad57f3213ec866605ca04c5"
+metafile = true
+
+[[files]]
 file = "mods/aeinfinitybooster.pw.toml"
 hash = "54bbe112bb04c79803a7fa78e600e859100de198d1102753010af6b0c7c14801"
 metafile = true
@@ -9325,11 +9338,6 @@ metafile = true
 [[files]]
 file = "mods/building-gadgets.pw.toml"
 hash = "34dacce3f15a01b8401bb9d0c11d7ae1caf1473508906e5b194fad531645ce53"
-metafile = true
-
-[[files]]
-file = "mods/c2me.pw.toml"
-hash = "a5dfa298717e29ce78aa9d9672071dcf83ac16995bbaef6546f57f06104be444"
 metafile = true
 
 [[files]]
@@ -10004,12 +10012,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-petroleum.pw.toml"
-hash = "b167318abd29c7628d16340b5fd7a0896dd08a0f3456d0027cbb9370be9b9b59"
-metafile = true
-
-[[files]]
-file = "mods/immersive-portals-for-forge.pw.toml"
-hash = "108c7e2d358cc4f05c3325fdd06aede140404697328edc6528edcbe2429cb225"
+hash = "6fdf2e6dd760e45aef31bbfbb190f03748bb76f86190e9adf12cf18ddbb54a9d"
 metafile = true
 
 [[files]]
@@ -10488,11 +10491,6 @@ hash = "0956615c98f104a87f1b986e22b7a6d11c8f1afcf5c2fc4fb52872892739f188"
 metafile = true
 
 [[files]]
-file = "mods/mpalladium.pw.toml"
-hash = "30cd1eefdff16a19d2fddb7d9430f6d5584dd9cd5d40618f657ae8fd9cc74f9a"
-metafile = true
-
-[[files]]
 file = "mods/mss-moogs-soaring-structures.pw.toml"
 hash = "4d6db92613c02931b7ce2a760b146527c6c05eee412ca7c66b7e4316b966459f"
 metafile = true
@@ -10855,6 +10853,11 @@ metafile = true
 [[files]]
 file = "mods/scalable-cats-force.pw.toml"
 hash = "c75cc578ef6676597ebb181091eae40964dfdd2f0dde1b20fddaac1a05717867"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "2c1661e65d47c2942d2c3e926698d0762672224f1925c7f25105b964ce25b093"
 metafile = true
 
 [[files]]
