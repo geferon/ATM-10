@@ -2889,6 +2889,10 @@ file = "config/waystones-common.toml"
 hash = "9143649c23ff2f0d1641e2ee0fda94c6a0726a138e2483fe2449624e52c740be"
 
 [[files]]
+file = "config/world-gen.json"
+hash = "dde5e77d213429249fd6be1f29e7179ad77f490bdf383deffc4cf4f6de281540"
+
+[[files]]
 file = "defaultconfigs/ftbultimine/ftbultimine-server.snbt"
 hash = "fdf30f6174021100e2c34e5599f8ae6a9914a4b0e7413c162d75cdfaafb22bab"
 
@@ -10147,7 +10151,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
-hash = "87e503b7c33bb71dd1624d0acd2c9221de6617defc71fed902fd270aa1d99a14"
+hash = "09b23a881bdecac75d237719e1f85e8a8b6b06fbad220f8ca4e2abeef9ad0843"
 metafile = true
 
 [[files]]
