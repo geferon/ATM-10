@@ -1,13 +1,13 @@
 name = "ExtraStorage"
-filename = "ExtraStorage-1.21.1-5.0.7.jar"
+filename = "ExtraStorage-1.21.1-5.0.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6134ff5f4932e8dcc866700f9b5b774bdb75a0c4"
+hash = "33a00bfbc3fda32d60cfd2f78dbeb470876781bc"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6957023
+file-id = 7379767
 project-id = 410168

@@ -1,13 +1,13 @@
 name = "Extreme Reactors"
-filename = "ExtremeReactors2-1.21.1-2.4.26.jar"
+filename = "ExtremeReactors2-1.21.1-2.4.28.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fe0dbffd784bd9d1bf0d149fda7cea4b7a28c6ce"
+hash = "b017d5d0cf5d5ab5ad5826e3e89f2d861f31d15a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7093773
+file-id = 7344744
 project-id = 250277
