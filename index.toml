@@ -9135,6 +9135,11 @@ hash = "931add354a2c3ad7ad1d7766090b4b7223bd2ed239e72a3eca25e835bd9bc24b"
 metafile = true
 
 [[files]]
+file = "mods/all-the-mons-coremod.pw.toml"
+hash = "167a96e37ab40344fae92e818fb19f05f79e1733253b92cefeeda68ea5e86819"
+metafile = true
+
+[[files]]
 file = "mods/all-the-tweaks.pw.toml"
 hash = "c98caec4c783097289d95cfdc6c28d0b931bb889e6addcd22b4f0e0e2d3b668a"
 metafile = true
@@ -9410,6 +9415,26 @@ hash = "87e4731379cf985fee9b00ff35519611f6c4b581dfcc9c2752b1af739bc55acc"
 metafile = true
 
 [[files]]
+file = "mods/cobbleloots.pw.toml"
+hash = "b5d415441d99bc49c185969b039402f5fd6e75cc2d44a9eaf82f6f2c23a38e2c"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-knowlogy.pw.toml"
+hash = "29797e0e80690ad6c60862080b4f5d29991090ebccd096e2ed750aedde828f08"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon.pw.toml"
+hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
+metafile = true
+
+[[files]]
+file = "mods/cobbleworkers.pw.toml"
+hash = "7ab422ae7a3b9b95f52942d732ffa41bc67e73a055434f5069997d457efc91fa"
+metafile = true
+
+[[files]]
 file = "mods/cobweb.pw.toml"
 hash = "4ddc03b7366874e156382720b2e8e2d5cb53de2fbf741d16fa257e2a2d22fd90"
 metafile = true
@@ -9490,6 +9515,11 @@ hash = "a489c33879941ccb524c52fb81927adf3d3c8b156064c7a5be5bf8dc8caf63c9"
 metafile = true
 
 [[files]]
+file = "mods/crafting-on-a-stick.pw.toml"
+hash = "e95f6e9384ea06e17022b7f03c9595d68e264f1af13134d27addab0bf10cf704"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "4e2218676bd36fad639aaa9287850fe06a316f81c9f94d947085bf2cfbb07d31"
 metafile = true
@@ -9507,6 +9537,11 @@ metafile = true
 [[files]]
 file = "mods/create-aquatic-ambitions.pw.toml"
 hash = "a1d9da3dadbbee2fa653a38ce52f9f0d6e0939d06e675a8013335f3b746a9e8d"
+metafile = true
+
+[[files]]
+file = "mods/create-cobblemon-balls-overhaul.pw.toml"
+hash = "61c0ec54e1b1a41b2cdc5077b6992d1ed3383cd7b938c14a3fdc1a66b6ee8f56"
 metafile = true
 
 [[files]]
@@ -9582,6 +9617,11 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "0b4c6085926c07cc68824634cca88ad80162b73a577c19f5953e794c808814a3"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "539513ed35cebfaa099397dde2d1936d38489c8685e96a902211f60cecee82c4"
 metafile = true
 
 [[files]]
@@ -10175,13 +10215,18 @@ hash = "7fa6b0822247ed9825fd8a2269290fc6299f7c70f1c0e961f1198429a8826fac"
 metafile = true
 
 [[files]]
+file = "mods/knowlogy.pw.toml"
+hash = "5519ac418243f4157d73056955a9d7cac7c22ad80c0881d7ce5d147a5565af26"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "926b2ede150c88dc66b22da5fc733026d97ab657a834fa63e76e07bb719ada26"
 metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+hash = "3c13beafeb69d23d2a43805cfa3d79b7e458cfb8f9ce603075b84d95da630d4b"
 metafile = true
 
 [[files]]
@@ -10630,6 +10675,11 @@ hash = "a376e064522b72551bac506df1a5af35f0b030f4dfca15d117e3ae14b1f4a1b8"
 metafile = true
 
 [[files]]
+file = "mods/pkgbadges.pw.toml"
+hash = "6f52a96d0baed0b8f1e4dc9fe9703b0dccec938e7220caaceaac01b53478d81d"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "a54eca51746ebde976912f1f8b193e7dbedf594ecce4f11ca5d25c3052fe7631"
 metafile = true
@@ -10700,6 +10750,11 @@ hash = "bb647f8f243573e2ba640c396f3023e40b9774990920c2e3adfeb7211b78e8da"
 metafile = true
 
 [[files]]
+file = "mods/radical-cobblemon-trainers-api.pw.toml"
+hash = "e52b56eedb9f9b1dd77a1460da03de9af7218eb43604521aa2076c530d21cc85"
+metafile = true
+
+[[files]]
 file = "mods/railcraft-reborn.pw.toml"
 hash = "491d952c50d74c2fd9185cc9bbd95f398e87a4d768f9e07c98e52ff990f31b31"
 metafile = true
@@ -10712,6 +10767,11 @@ metafile = true
 [[files]]
 file = "mods/ranged-pumps.pw.toml"
 hash = "49bff0e40998fe9928aa8fb97da100b35fdbe6398c8c02d06837ca285b1ca2b0"
+metafile = true
+
+[[files]]
+file = "mods/rctmod.pw.toml"
+hash = "1a1b8ec9639a0094a31e6617fc9e065d21b6a803aec4d724505094ef7de6a288"
 metafile = true
 
 [[files]]
@@ -11077,6 +11137,11 @@ metafile = true
 [[files]]
 file = "mods/toast-control.pw.toml"
 hash = "5d16965c7de1e323fe79727f5b76fb1fc256913c676461e4745487e72f42af30"
+metafile = true
+
+[[files]]
+file = "mods/torchmaster-cobblemon-compat.pw.toml"
+hash = "a6f684e071a2e53086bc9281338a5509efc452946252ffe775eb29a513c8b036"
 metafile = true
 
 [[files]]

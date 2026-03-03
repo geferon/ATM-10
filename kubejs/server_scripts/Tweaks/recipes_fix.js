@@ -150,6 +150,10 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.renameKey("main_input", "input", false)
     })
 
+  event.getEntry("bellsandwhistles:metro/metro_window").forEach(entry => {
+    entry.replaceValueAtKey("ingredients", "tag", "c:glass", "c:glass_blocks")
+  })
+
   event.getEntry(/^create:.*\/compat\/(biomeswevegone|silentgems)\//)
     .forEach(entry => {
       entry.addConditionsFromKey("ingredients")

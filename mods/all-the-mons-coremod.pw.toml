@@ -1,0 +1,13 @@
+name = "All The Mons - Coremod"
+filename = "allthemons-0.0.28.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6b712c9f5faf4a89cd2cba3f32d0175978c7d67d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7562600
+project-id = 1361840

@@ -22,7 +22,7 @@ ServerEvents.recipes(allthemods => {
   C: Ingredient.of(['megacells:portable_item_cell_256m', 'modern_industrialization:blastproof_casing']),
   D: 'pneumaticcraft:aerial_interface',
   F: 'ironfurnaces:million_furnace', 
-  //G: 'irons_spellbooks:lightning_upgrade_orb'
+  G: 'mega_showdown:zygarde_cube'
   }).id('allthemods:allthetweaks/improbable_probability_device')
 
   // Dimensional Seed Recipe
@@ -52,7 +52,7 @@ ServerEvents.recipes(allthemods => {
   }).id('allthemods:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
-  allthemods.shaped('allthetweaks:philosophers_fuel', [' BC', 'D  ', '   '], {
+  allthemods.shaped('allthetweaks:philosophers_fuel', [' BC', 'D  ', '  I'], {
   //A: 'generatorgalore:ender_generator',
 	B: 'ironfurnaces:rainbow_coal'  ,
 	C: 'bigreactors:insanite_block' ,
@@ -61,7 +61,7 @@ ServerEvents.recipes(allthemods => {
   //F: 'forbidden_arcanus:smelter_prism',
 	//G: 'mysticalagriculture:awakened_supremium_ingot_block',
 	//H: 'generatorgalore:magmatic_generator_64x',
-  //I: 'evilcraft:dark_tank[cyclopscore:fluid_content={amount:16000,id:"justdirethings:refined_t4_fluid_source"}]'
+  I: 'oritech:solid_biofuel'
   }).id('allthemods:allthetweaks/philosophers_fuel')
 
  // Nexium Emitter

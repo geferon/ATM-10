@@ -1285,7 +1285,7 @@
 					id: "09688F9C10379A20"
 					item: {
 						count: 1
-						id: "productivetrees:upgrade_pollen_sieve"
+						id: "productivelib:upgrade_pollen_sieve"
 					}
 					type: "item"
 				}
@@ -2439,7 +2439,7 @@
 		{
 			dependencies: ["0052E5592A6BBEC1"]
 			icon: {
-				id: "mcwfurnitures:oak_chair"
+				id: "handcrafted:oak_chair"
 			}
 			id: "7C2ED69E07988DF4"
 			rewards: [{

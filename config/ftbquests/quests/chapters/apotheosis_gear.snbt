@@ -158,6 +158,7 @@
 		}
 		{
 			click: "#2E5E129F25707C5D"
+			dependency: "2E5E129F25707C5D"
 			height: 1.0d
 			hover: ["Sigil of Supremacy"]
 			image: "apotheosis:items/sigils/supremacy"
