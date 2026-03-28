@@ -1,13 +1,13 @@
 name = "AE2 Import Export Card"
-filename = "ae2importexportcard-1.21.1-1.4.2.jar"
+filename = "ae2importexportcard-1.21.1-1.4.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0674d462e4c7c1c7cada891dd27ace292c24137c"
+hash = "a64daebce42a609e2a4786393fc4398448a0aa35"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7562106
+file-id = 7579936
 project-id = 982512

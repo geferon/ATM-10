@@ -267,6 +267,16 @@
 			x: 22.5d
 			y: 5.9d
 		}
+		{
+			click: "https://youtu.be/d4XVnLaHgrc?si=u_DIyC_FU7ZrNsgA"
+			height: 1.0d
+			hover: ["BucketSt's Industrial Foregoing Video"]
+			image: "actuallyadditions:item/youtube"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.0d
+		}
 	]
 	order_index: 2
 	progression_mode: "flexible"
@@ -587,6 +597,7 @@
 				{
 					id: "6F7BCA742E93DB2A"
 					item: { count: 1, id: "industrialforegoing:meat_bucket" }
+					optional_task: true
 					type: "item"
 				}
 			]

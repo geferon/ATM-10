@@ -19,6 +19,11 @@ ServerEvents.tags('block', allthemods => {
     '#c:storage_blocks/fire_essence',
     '#c:storage_blocks/water_essence'
   ])
+
+  // Saltpeter Block
+  allthemods.add('c:storage_blocks/niter', 'kubejs:saltpeter_block')
+  allthemods.add('c:storage_blocks/saltpeter', 'kubejs:saltpeter_block')
+  allthemods.add('c:storage_blocks', '#c:storage_blocks/niter')
 })
 
 ServerEvents.tags('fluid', allthemods => {
@@ -75,8 +80,13 @@ ServerEvents.tags('item', allthemods => {
   // Overdrive
   allthemods.add("industrialization_overdrive:multi_processing_array_blacklist", [
     "modern_industrialization:auto_forge",
-    "modern_industrialization:star_altar"
+    "modern_industrialization:star_altar",
+    "modern_industrialization:runic_crucible",
+    "modern_industrialization:runic_enchanter"
   ])
+
+  // Trial Vault Repeatability for Decrepit Keys
+  allthemods.add("repeatable_trial_vaults:can_reset_trial_vaults", "irons_spellbooks:decrepit_key")
 })
 
 ServerEvents.tags('entity_type', allthemods => {
@@ -151,11 +161,6 @@ ServerEvents.tags('item', allthemods => {
   allthemods.remove("minecraft:head_armor",["pkgbadges:alians_scraf_helmet"])
   allthemods.add("minecraft:head_armor",["pkgbadges:alians_scraf"])
 })
-
-ServerEvents.tags('worldgen/biome', allthemods => {
-  // JustDireThings
-  allthemods.add('justdirethings:unstable_portal_fluid_viable', ["nullscape:crystal_peaks", "nullscape:shadowlands", "nullscape:void_barrens"]);
-});
 
 // cataclysm:ghost_sickness
 

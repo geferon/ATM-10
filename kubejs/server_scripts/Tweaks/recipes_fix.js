@@ -164,5 +164,56 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.replaceValueAtKey("ingredients", "fluid_tag", "c:chocolates", "c:chocolate")
     })
 
+  event.getEntry("botanypots:allthemodium/crop/ancient_soulberries")
+    .forEach(entry => {
+      entry.addConditionsFromKey("input")
+    })
+
+  
+  event.getEntry("bellsandwhistles:metro/metro_window").forEach(entry => {
+    entry.replaceValueAtKey("ingredients", "tag", "c:glass", "c:glass_blocks/colorless")
+  })
+
+  event.getEntry("regions_unexplored:prismaglass").forEach(entry => {
+    entry.replaceValueAtKey("key", "tag", "c:glass", "c:glass_blocks/colorless")
+  })
+
+  event.getEntry(/^regions_unexplored:.*_snowbelle$/)
+    .forEach(entry => {
+      let ings = entry.json().get("ingredients")
+      if (ings != null) {
+        for (let ing of ings) {
+          let tag = ing.get("tag")
+          if (tag != null) {
+            if (tag.getAsString().endsWith("_dyes")) {
+              let color = tag.getAsString().replace("c:","").replace("_dyes","")
+              ing["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
+            }
+          }
+        }
+      }
+    })
+
+  event.getEntry(/^regions_unexplored:.*_painted_planks$/)
+    .forEach(entry => {
+      let keys = entry.json().get("key")
+      if (keys != null) {
+        for (let key of keys.asMap().values()) {
+          let tag = key.get("tag")
+          if (tag != null) {
+            if (tag.getAsString().endsWith("_dyes")) {
+              let color = tag.getAsString().replace("c:","").replace("_dyes","")
+              key["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
+            }
+          }
+        }
+      }
+    })
+
+  event.getEntry(["pneumaticcraft:block_heat_properties/createlowheated/basic_burner_empowered","pneumaticcraft:block_heat_properties/createlowheated/basic_burner_lit"])
+    .forEach(entry => {
+      entry.json().add("neoforge:conditions", [{ "type": "neoforge:mod_loaded", "modid": "createlowheated"}])
+    })
+
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })

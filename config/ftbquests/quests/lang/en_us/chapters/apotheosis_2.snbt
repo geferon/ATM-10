@@ -52,9 +52,12 @@
 	quest.6F71FD826C29C31A.title: "Youthful"
 	quest.72AE56D34834D28E.quest_desc: ["Another one from PneumaticCraft? Oh this one is the actual Spawner I see. Like the Draconic Stabilized Spawner you'll need a Vanilla Spawner first. Once you have one, place a Spawner Extrator above the Spawner and give it below -0.5 Bars to get it to work. Once it's done it'll give you a Spawner Core filled with whatever mob was in it and it will leave you with an Empty Spawner. Then use the Empty Spawner to craft a Pressurized Spawner and then put the Spawner Core into it. (To upgrade the Core use a Vacuum Trap to suck up the mobs that will go into the Spawner Core). Once you do that the Spawner will now need Pressure to work, ignores Light Level, and is Redstone Activated."]
 	quest.72AE56D34834D28E.quest_subtitle: "PneumaticCraft's Spawner"
+	quest.76A3A2A97AB66C43.quest_desc: ["Want to create a Spawn Egg from a Vengeance Spirit you have trapped in a &9Box of Eternal Closure&r?\\n\\nThe &9Spirit Reanimator&r does exactly that. Give it a lot of &cBlood&r and an Egg, and of course a &9Box of Eternal Closure&r with the Spirit you want to create the Spawn Egg from, and it will attempt to create the Spawn Egg!\\n\\nNote: Some mobs cannot be used to create Spawn Eggs."]
 	quest.77A8E8122870BBCE.quest_desc: ["This is technically not a Spawn Egg, but I'm including it here anyway, due to its ability to bind mobs to Spawners. Check out the &5&lApothic Enchanting&r chapter to learn more about how to get this Lead."]
 	quest.77A8E8122870BBCE.quest_subtitle: "That's no Spawn Egg!"
 	quest.78E94C386B1E7359.quest_desc: ["Usually you can't get Spawn Eggs, but that's the same with Spawners and here we are! There's a few ways of obtaining Spawn Eggs but once you do, right click it on a Spawner to change the mobs it spawns."]
+	quest.78E94C386B1E7359.quest_subtitle: ""
+	quest.78E94C386B1E7359.title: ""
 	quest.7A9AE63998BB41FF.quest_desc: ["To determine when the Spawner will spawn it picks a random number between maximum and minimum spawn delay. The Minimum can be as low as 20 to as high as 32,767. Each piece of sugar modifies the min delay up or down by 10."]
 	quest.7A9AE63998BB41FF.title: "Minimum Spawn Delay"
 	quest.7F6B66566C211735.quest_desc: ["Dripstone used on the spawner will reduce the max health of the mob spawned. This can decrease their health to as low as 20%"]

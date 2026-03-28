@@ -4,14 +4,6 @@
 ItemEvents.modifyTooltips(allthemods => {
 
     //AllTheModium
-    allthemods.add('allthemodium:teleport_pad',[
-        Text.of('Place the pad down in the specified Dimension'),
-        Text.of('Sneak Right Click with both hands empty to teleport'),
-        Text.of('§aOverworld TO Mining Dimension'),
-        Text.of('§cThe Nether TO The Other'),
-        Text.of('§bThe End TO The Beyond')
-    ])
-
     allthemods.add(['allthemodium:allthemodium_ore', 'allthemodium:allthemodium_slate_ore'],[
         Text.of('§7Needs at least Netherite to be mined'),
         Text.of('§6Found in the Deep Dark Biome and will always spawn air exposed'),
@@ -84,6 +76,35 @@ ItemEvents.modifyTooltips(allthemods => {
             Text.of('Use crafting table to convert to the new version.')
         ])
     }
+    
+	// Apotheosis Gateway Warning
+	allthemods.add([
+	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/frontier"]',
+	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/ascent"]',
+	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/summit"]',
+	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/pinnacle"]'],
+	[
+		Text.of("§cWARNING: Will implode at wave 3 outside of the following dimensions:"),
+		Text.of("§cOverworld, The Nether, The End, The Twilight Forest")
+	])
+	// Botany Pot Sculk
+	allthemods.add([
+	"minecraft:sculk",
+	"minecraft:sculk_sensor",
+	"minecraft:sculk_catalyst",
+	"minecraft:sculk_vein",
+	"minecraft:sculk_shrieker",
+	"deeperdarker:gloomy_sculk",
+	"deeperdarker:gloomy_grass",
+	"deeperdarker:glowing_flowers",
+	"deeperdarker:sculk_vines",
+	"deeperdarker:glowing_roots",
+	"deeperdarker:bloom_berries",
+	"deeperdarker:glowing_grass",
+	"deeperdarker:sculk_tendrils"],
+	[
+		Text.of("§9In a Botany Pot: Requires a hoe enchanted with Silk Touch to be harvested")
+	])
 })
 
 

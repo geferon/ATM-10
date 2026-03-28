@@ -392,6 +392,7 @@
 		{
 			id: "6E7C4228CD2B6BB9"
 			invisible: true
+			optional: true
 			rewards: [{
 				id: "0FD69563E29D5235"
 				type: "xp"

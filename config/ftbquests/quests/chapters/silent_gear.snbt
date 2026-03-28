@@ -2382,11 +2382,8 @@
 				count: 3
 				id: "7E752D98E60CEB9E"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mysticalagriculture:dye_essence"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mysticalagriculture:dye_essence"
 				}
 				type: "item"
 			}]
@@ -2409,49 +2406,6 @@
 				}
 				{
 					id: "3B23E744D3B72AE8"
-					item: { components: { "ftbfiltersystem:filter": "or(item_tag(productivemetalworks:fire_bricks)item_tag(productivemetalworks:foundry_windows))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["061A51A0EC13CA0F"]
-			hide_until_deps_complete: true
-			id: "2D0DD0732C2E500A"
-			optional: true
-			rewards: [{
-				count: 3
-				id: "7FE5B75F201D8CB5"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mysticalagriculture:dye_essence"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "312E042E24D6AA42"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_controllers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "158BE2D93AE66A42"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_drains)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "1BD4FF8ECA9B0BA2"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_tanks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "4DA9BF1EFE04254B"
 					item: { components: { "ftbfiltersystem:filter": "or(item_tag(productivemetalworks:fire_bricks)item_tag(productivemetalworks:foundry_windows))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
