@@ -225,8 +225,11 @@
 				count: 3
 				id: "253D722EA684011F"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mysticalagradditions:imperium_apple"
+					}
 					count: 1
-					id: "mysticalagradditions:imperium_apple"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

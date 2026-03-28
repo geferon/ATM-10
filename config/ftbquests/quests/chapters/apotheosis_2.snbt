@@ -431,8 +431,11 @@
 			rewards: [{
 				id: "20864F3CFAEE9AC2"
 				item: {
+					components: {
+						"ftbquests:missing_item": "reliquary:mob_charm_belt"
+					}
 					count: 1
-					id: "reliquary:mob_charm_belt"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

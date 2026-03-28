@@ -7,7 +7,7 @@
 		id: "refinedstorage:creative_controller"
 	}
 	id: "15AAF17B6665223D"
-	order_index: 2
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1665,7 +1665,7 @@
 				}
 				{
 					id: "0265D844832FCB74"
-					item: { count: 1, id: "refinedtypes:64b_source_storage_part" }
+					item: { components: { "ftbquests:missing_item": "refinedtypes:64b_source_storage_part" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{

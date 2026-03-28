@@ -78,12 +78,9 @@
 	quests: [
 		{
 			dependencies: [
-				"71B72958B9F80355"
 				"38BFF6F845EA479E"
 				"149C260C10B34BB0"
 				"203C91B992BA8CF9"
-				"427BBEB1F24E9DEE"
-				"14C27D44D3C8EDF5"
 				"235273F7C9A9B0D0"
 				"66BAC2B478F9B119"
 				"7A066DD274F970C2"
@@ -135,7 +132,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "5B01815F8338D67D"
-				item: { count: 1, id: "modern_industrialization:star_altar" }
+				item: { components: { "ftbquests:missing_item": "modern_industrialization:star_altar" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -469,7 +466,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5660E81BBEED6DC3"]
 			hide_dependent_lines: true
 			id: "66BAC2B478F9B119"
 			rewards: [
@@ -498,7 +494,6 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["173541B0765DA13E"]
 			hide_dependent_lines: true
 			id: "7A066DD274F970C2"
 			rewards: [
@@ -527,7 +522,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0EF9C391EE42824A"]
 			hide_dependent_lines: true
 			id: "149C260C10B34BB0"
 			rewards: [
@@ -556,7 +550,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1C566975C4EC5D93"]
 			hide_dependent_lines: true
 			id: "38BFF6F845EA479E"
 			rewards: [
@@ -585,7 +578,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6076D1DB438EB997"]
 			hide_dependent_lines: true
 			id: "235273F7C9A9B0D0"
 			rewards: [
@@ -625,7 +617,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["360B150190A5C894"]
 			icon: {
 				id: "apothic_enchanting:infused_breath"
 			}

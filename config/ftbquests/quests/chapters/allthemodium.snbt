@@ -793,10 +793,7 @@
 			y: 3.4000000000000004d
 		}
 		{
-			dependencies: [
-				"762581CAE5F5DDC1"
-				"5BA986D7928BF09F"
-			]
+			dependencies: ["5BA986D7928BF09F"]
 			id: "1A05C605A52A4218"
 			rewards: [
 				{
@@ -1018,7 +1015,6 @@
 				"1A05C605A52A4218"
 				"66039B738CF0718A"
 				"2CF6EA138B53CE1B"
-				"766EEB89C6DF3575"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1058,7 +1054,6 @@
 				"1A05C605A52A4218"
 				"66039B738CF0718A"
 				"2CF6EA138B53CE1B"
-				"766EEB89C6DF3575"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1091,7 +1086,6 @@
 				"1A05C605A52A4218"
 				"66039B738CF0718A"
 				"2CF6EA138B53CE1B"
-				"766EEB89C6DF3575"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1131,7 +1125,6 @@
 				"1A05C605A52A4218"
 				"66039B738CF0718A"
 				"2CF6EA138B53CE1B"
-				"766EEB89C6DF3575"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true

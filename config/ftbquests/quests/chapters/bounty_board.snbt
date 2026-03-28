@@ -1291,13 +1291,11 @@
 			dependencies: ["42822B1E8A53D051"]
 			hide_until_deps_complete: true
 			id: "6827836C8E675A94"
-			rewards: [
-				{
-					id: "4E90D5E8646C1C81"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "4E90D5E8646C1C81"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					entity: "minecraft:stray"

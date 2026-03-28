@@ -1126,7 +1126,10 @@
 			}]
 			tasks: [{
 				icon: {
-					id: "camol:camo_item"
+					components: {
+						"ftbquests:missing_item": "camol:camo_item"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "5B0B010CE3AB414B"
 				type: "custom"
