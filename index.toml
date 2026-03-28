@@ -170,7 +170,7 @@ hash = "1f677e3c900b3794e854b8fd2427c95cd93229297b0f28dade83c9fc2878bb48"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
-hash = "b897d0b2d25a74d7a42bcf0a5f06f546818c84ff501843bd5c7676f7f476ebbc"
+hash = "a191f0cbd688c08c6263a1939fdc9afb236c8153beb7f8f38d2c2bfa4b105676"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
@@ -9751,6 +9751,11 @@ hash = "c04801e4e1234d357e16146452a0a98214e33c7521cd526ad940a797b67e2656"
 metafile = true
 
 [[files]]
+file = "mods/accessories.pw.toml"
+hash = "a15f3ab51e3a138c7ea0ff93513b09d5cda22418ca83a14eb09ab38ca0945c3d"
+metafile = true
+
+[[files]]
 file = "mods/additional-lights.pw.toml"
 hash = "b6a5cb125b2c63902a59184cd3869941c2fb813c8a9925499107feeae4096865"
 metafile = true
@@ -10127,7 +10132,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
-hash = "9e43ce400edd4f0bda7eb21e84bd81304a9a3025894de44ca6a7eddf40645190"
+hash = "8ac07d809cd9a50cf21e9ecc7ff396f763ea27f9ab049bd6314e41e5966756d5"
 metafile = true
 
 [[files]]
@@ -10142,7 +10147,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
+hash = "2b80a9e238321f0f72f98f844c7bda34d1abeff02e258768e22fb1572aa2c8a7"
 metafile = true
 
 [[files]]
@@ -10203,6 +10208,11 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "81105a1a363873f3675a861d228abcf0f2a8356f1a17850c06f6d6c47e454634"
+metafile = true
+
+[[files]]
+file = "mods/connector.pw.toml"
+hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
 metafile = true
 
 [[files]]
@@ -10591,6 +10601,11 @@ hash = "c7cfee01e4250b2745f4218f0a734d8a22786c97665c5010c0154ce3cbb6466d"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
+metafile = true
+
+[[files]]
 file = "mods/formations-nether.pw.toml"
 hash = "55ce4e219f204a9eb8a1a915f13c3916ea675a4c64579c885f2fe9d8f5911001"
 metafile = true
@@ -10963,6 +10978,11 @@ metafile = true
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "81156f3262005981d91d91e01edd0daee756f85d1e0725904a942b19a4b6efaf"
+metafile = true
+
+[[files]]
+file = "mods/lavender.pw.toml"
+hash = "7dc27df21d8bd6b4e5387592063817c7de24a7e3ce8c90bb6bf3a9e22199d5e5"
 metafile = true
 
 [[files]]
@@ -11357,7 +11377,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "f3bb4b5accd7fd53f5b5d2087829e068e135949b9421ce6a3225a6207dcc569e"
+hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
 
 [[files]]
@@ -11697,7 +11717,7 @@ metafile = true
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
-hash = "8d00e5d6c44ec2ebb13b2659225091a81c62e15b7093acbb1b37957be0465fed"
+hash = "ecb7cd6a752a262b0cb49addc03754933e64c8e12c47ab2ca72ac530a4563b07"
 metafile = true
 
 [[files]]

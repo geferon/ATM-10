@@ -5,9 +5,9 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "f30723c57a72ff9c9f4b54fe1652430273355607"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/yFqR0DNc/versions/uaKfPMYS/SimpleTMs-neoforge-2.3.3.jar"
 
 [update]
-[update.curseforge]
-file-id = 7319641
-project-id = 959184
+[update.modrinth]
+mod-id = "yFqR0DNc"
+version = "uaKfPMYS"
