@@ -1,0 +1,13 @@
+name = "Cobblemon Battle Tower"
+filename = "cobblemon_battle_tower-neoforge-1.9.17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "30434017ac00b82432d7d561b5a2776518e6904b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7743436
+project-id = 1441260

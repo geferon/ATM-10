@@ -28,8 +28,8 @@ function initAnnouncements(){
 ServerEvents.loaded(event => {
   if (!Platform.isLoaded("bcc")) return
   announcements.clear()
-  /** @type {import("dev.wuffs.bcc.data.BetterStatusServerHolder").$BetterStatusServerHolder$$Original} */
-  let $BccInstance = Java.loadClass("dev.wuffs.bcc.data.BetterStatusServerHolder").INSTANCE
+  /** @type {import("dev.wuffs.bcc.BetterCompatibilityChecker").$BetterCompatibilityChecker$$Original} */
+  let $BccInstance = Java.loadClass("dev.wuffs.bcc.BetterCompatibilityChecker").INSTANCE
   currentVersion = new $DefaultArtifactVersion($BccInstance.status.version())
   initAnnouncements()
 })

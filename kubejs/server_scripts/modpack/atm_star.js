@@ -42,23 +42,26 @@ ServerEvents.recipes(allthemods => {
         K: {
           item: "allthetweaks:philosophers_fuel",
         },
-        L: {
-          item: "mysticalagradditions:creative_essence",
-        },
+        // L: {
+        //   item: "mysticalagradditions:creative_essence",
+        // },
         M: {
           item: "cobblemon:master_ball",
+        },
+        U: {
+          item: "sgearmetalworks:uru_metal_block",
         },
       },
       pattern: [
         "    A    ",
         "   AJA   ",
-        "AAAJFJAAA",
+        "AAUJFJUAA",
         "AJJCDEJJA",
-        " AMBIHMA ",
-        "  AKGLA  ",
-        " AJJAJJA ",
-        "AJJA AJJA",
-        "AAA   AAA",
+        " UMBIHMU ",
+        "  UKGU   ",
+        " UJJUJJU ",
+        "AJJU UJJA",
+        "AAU   UAA",
       ],
       result: {
         count: 1,

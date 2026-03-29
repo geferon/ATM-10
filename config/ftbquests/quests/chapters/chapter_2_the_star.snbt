@@ -511,6 +511,7 @@
 		{
 			dependencies: [
 				"55BF254B1831359B"
+				"7D1A27CBF1508712"
 				"5B2FD54E425D5C9D"
 				"4BD203AD481DDE8F"
 			]
@@ -803,7 +804,7 @@
 			size: 1.25d
 			tasks: [
 				{
-					count: 28L
+					count: 15L
 					id: "1C6FD3400BF1D256"
 					item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
 					type: "item"
@@ -811,7 +812,13 @@
 				{
 					count: 15L
 					id: "0DAD392A4942D6A5"
-					item: { count: 1, id: "allthecompressed:nether_star_block_3x" }
+					item: { count: 1, id: "allthecompressed:nether_star_block_2x" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "32477B38D883D94A"
+					item: { count: 1, id: "sgearmetalworks:uru_metal_block" }
 					type: "item"
 				}
 			]
@@ -2507,6 +2514,34 @@
 			}]
 			x: 8.0d
 			y: 12.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "7D1A27CBF1508712"
+			rewards: [
+				{
+					count: 5
+					id: "4F2605F8EB52886D"
+					item: {
+						count: 1
+						id: "mega_showdown:zygarde_cell"
+					}
+					type: "item"
+				}
+				{
+					id: "759830346524140B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "482F3627D0B36B10"
+				item: { count: 1, id: "mega_showdown:zygarde_cube" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["309B0B2898893B4E"]

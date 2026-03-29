@@ -19,7 +19,7 @@
 			image: "atm:textures/contentcreators/contentcreators_chosenarchitect_outlined.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.5d
+			x: -6.5d
 			y: 10.5d
 		}
 		{
@@ -30,7 +30,7 @@
 			image: "atm:textures/contentcreators/contentcreators_danrique_outlined.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -10.5d
+			x: -9.5d
 			y: 10.5d
 		}
 		{
@@ -41,7 +41,7 @@
 			image: "atm:textures/contentcreators/contentcreators_direwolf20_outlined.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.0d
+			x: -8.0d
 			y: 10.5d
 		}
 		{
@@ -73,7 +73,7 @@
 			image: "atm:textures/contentcreators/contentcreators_nofaxu_outlined.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
+			x: -5.0d
 			y: 10.5d
 		}
 		{
@@ -95,8 +95,8 @@
 			image: "atm:textures/contentcreators/contentcreators_virtuositas_outlined.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: 9.0d
+			x: -11.0d
+			y: 10.5d
 		}
 		{
 			click: "https://www.twitch.tv/princessstellar"
@@ -109,8 +109,19 @@
 			x: -11.0d
 			y: 9.0d
 		}
+		{
+			click: "https://www.youtube.com/@BucketSt"
+			dependency: "508F619C2764FB5B"
+			height: 1.0d
+			hover: ["BucketSt"]
+			image: "atm:textures/contentcreators/contentcreators_bucketst_outlined.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 9.0d
+		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [{
 		id: "036B96847AA79D28"
 		linked_quest: "269D24B28FA92DF8"
@@ -164,7 +175,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["0709CE22181A74BB"]
+			dependencies: ["508F619C2764FB5B"]
 			hide_dependent_lines: true
 			icon: {
 				components: {
@@ -182,7 +193,7 @@
 				id: "472A4F6925D02972"
 				type: "advancement"
 			}]
-			x: -5.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -204,8 +215,8 @@
 				id: "538F2ECA1A066DBC"
 				type: "advancement"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -14.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["31749B21AD674C5F"]
@@ -220,13 +231,20 @@
 			id: "261E8EE0C7E7E2F0"
 			shape: "none"
 			size: 2.0d
-			tasks: [{
-				advancement: "rctmod:trainers/defeat_contentcreators_danrique"
-				criterion: ""
-				id: "3FA5123B68F4939D"
-				type: "advancement"
-			}]
-			x: -13.0d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_contentcreators_danrique"
+					criterion: ""
+					id: "3FA5123B68F4939D"
+					type: "advancement"
+				}
+				{
+					id: "03493876EF6CB850"
+					structure: "allthemons:futuristic_steelworks"
+					type: "structure"
+				}
+			]
+			x: -11.0d
 			y: 4.0d
 		}
 		{
@@ -242,13 +260,20 @@
 			id: "507635FE52E22D7D"
 			shape: "none"
 			size: 2.0d
-			tasks: [{
-				advancement: "rctmod:trainers/defeat_contentcreators_direwolf20"
-				criterion: ""
-				id: "7BD028EEF0CF0A1D"
-				type: "advancement"
-			}]
-			x: -10.0d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_contentcreators_direwolf20"
+					criterion: ""
+					id: "7BD028EEF0CF0A1D"
+					type: "advancement"
+				}
+				{
+					id: "751B523AF8C3790F"
+					structure: "allthemons:dw_house"
+					type: "structure"
+				}
+			]
+			x: -8.0d
 			y: 4.0d
 		}
 		{
@@ -264,13 +289,20 @@
 			id: "7AB52F600829F468"
 			shape: "none"
 			size: 2.0d
-			tasks: [{
-				advancement: "rctmod:trainers/defeat_contentcreators_chosenarchitect"
-				criterion: ""
-				id: "70A938FE279D0AED"
-				type: "advancement"
-			}]
-			x: -7.0d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_contentcreators_chosenarchitect"
+					criterion: ""
+					id: "70A938FE279D0AED"
+					type: "advancement"
+				}
+				{
+					id: "1C3A975231D95F6F"
+					structure: "allthemons:chosen_tower"
+					type: "structure"
+				}
+			]
+			x: -5.0d
 			y: 4.0d
 		}
 		{
@@ -285,13 +317,20 @@
 			id: "13EB9A996928ED60"
 			shape: "none"
 			size: 2.0d
-			tasks: [{
-				advancement: "rctmod:trainers/defeat_contentcreators_nofaxu"
-				criterion: ""
-				id: "482E95ABD31A74E1"
-				type: "advancement"
-			}]
-			x: -4.0d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_contentcreators_nofaxu"
+					criterion: ""
+					id: "482E95ABD31A74E1"
+					type: "advancement"
+				}
+				{
+					id: "4FFF3A1A51D303FC"
+					structure: "allthemons:futuristic_steelworks"
+					type: "structure"
+				}
+			]
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -315,6 +354,35 @@
 				type: "advancement"
 			}]
 			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0709CE22181A74BB"]
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "atm:textures/contentcreators/contentcreators_bucketst_outlined.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.25d
+			id: "508F619C2764FB5B"
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_contentcreators_bucketst"
+					criterion: ""
+					id: "2320AAB266B323C6"
+					type: "advancement"
+				}
+				{
+					id: "070D8EEBD78D4F8C"
+					structure: "allthemons:bucketst_gym"
+					type: "structure"
+				}
+			]
+			x: -5.0d
 			y: 1.0d
 		}
 	]

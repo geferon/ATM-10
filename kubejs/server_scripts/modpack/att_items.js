@@ -16,7 +16,7 @@ ServerEvents.recipes(allthemods => {
   }).id('allthemods:allthetweaks/dragon_soul')
 
  // Improbable Probability Device
- allthemods.shaped('allthetweaks:improbable_probability_device', ['ABA', 'C C', 'FDF'], {
+ allthemods.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGC', 'FDF'], {
   A: 'mekanism:pellet_antimatter',
   B: 'ae2:singularity',
   C: Ingredient.of(['megacells:portable_item_cell_256m', 'modern_industrialization:blastproof_casing']),

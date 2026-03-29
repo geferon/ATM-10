@@ -1,0 +1,13 @@
+name = "Radical Cobblemon Trainer Textures Plus"
+filename = "RCT Trainers+ [1.6] v2.1.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "a9fc89788c172f5963adbeabcfb688846e5e46e4"
+url = "https://cdn.modrinth.com/data/ARGDWSQq/versions/2PwkXMie/RCT%20Trainers%2B%20%5B1.6%5D%20v2.1.zip"
+
+[update]
+[update.modrinth]
+mod-id = "ARGDWSQq"
+version = "2PwkXMie"
