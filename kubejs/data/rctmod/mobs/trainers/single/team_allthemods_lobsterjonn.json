@@ -11,12 +11,15 @@
   "optional": false,
   "requiredDefeats": [
     [
+      "allthemods_trainer_lego"
+    ],
+    [
+      "allthemods_trainer_nektar"
     ]
   ],
   "series": [
    "atm_team"
   ],
-  "signatureItem": "allthemodium:unobtainium_block",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "team_allthemods_custom_gym"
 }

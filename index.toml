@@ -5761,6 +5761,26 @@ file = "kubejs/assets/atm/textures/questpics/pokemon/master_title2.png"
 hash = "30182450f1739628cdb9d2a1524f7e0e8ad5b65627f7007b2715e29d5f18a79c"
 
 [[files]]
+file = "kubejs/assets/atm/textures/questpics/pokemon/mega_dynamax.png"
+hash = "11ac8c8b8a39bd6377c272caf712a4eb8fbd65cf1e8fd383d1aaa852d754388e"
+
+[[files]]
+file = "kubejs/assets/atm/textures/questpics/pokemon/mega_mega.png"
+hash = "384f437f8cdc1537091a99463f792b84cf78c48db73bd5013c3af5d9bd4c4ce3"
+
+[[files]]
+file = "kubejs/assets/atm/textures/questpics/pokemon/mega_tera.png"
+hash = "c359c1871d87ec503b4c013bc73d998523c147c513c7f293293bc03ab9c8be63"
+
+[[files]]
+file = "kubejs/assets/atm/textures/questpics/pokemon/mega_title.png"
+hash = "6db3cc434c66d7e12fc33613871a8c9942a4d6b0a445c792b08aa51c911c08d1"
+
+[[files]]
+file = "kubejs/assets/atm/textures/questpics/pokemon/mega_z.png"
+hash = "bc0ebacd0159ac6567c7fc0ae5074c648a653c617a6cd311fb8fa625a1e02bf7"
+
+[[files]]
 file = "kubejs/assets/atm/textures/questpics/pokemon/poke_apricorn.png"
 hash = "2959950fb4ed5e4fa839a494756429248928fd80b59df8f13fa544eaef2993b0"
 
@@ -8465,40 +8485,440 @@ file = "kubejs/data/allthemodium/loot_table/chest/generic_loot.json"
 hash = "e9eedc12f81d19d870e9388f9706599fb9447ee57fac81db9d082b65b7d62ef0"
 
 [[files]]
+file = "kubejs/data/allthemons/lithostitched/worldgen_modifier/village/streets/desert/gym_straight_01.json"
+hash = "806b7b3f699ad84344e93e9d8b44b61556e2a782b821bc89a888acaeeeaf7f0e"
+
+[[files]]
+file = "kubejs/data/allthemons/lithostitched/worldgen_modifier/village/streets/plains/gym_corner_02.json"
+hash = "1f6193cca8b08e9d1f6e0bbd3a68d0b7dc88fe0e7e01775de24e47afca563119"
+
+[[files]]
+file = "kubejs/data/allthemons/lithostitched/worldgen_modifier/village/streets/savanna/gym_corner_02.json"
+hash = "671c72bdc01cfbdeb1835d3324eeeb04112f62133c72bcc3e1a9d1918473122d"
+
+[[files]]
+file = "kubejs/data/allthemons/lithostitched/worldgen_modifier/village/streets/snowy/gym_corner_02.json"
+hash = "10a4b7aa979e5b49d8228727560c1cebba9c8b7f20d46be822a4ddf35390136b"
+
+[[files]]
+file = "kubejs/data/allthemons/lithostitched/worldgen_modifier/village/streets/taiga/gym_corner_02.json"
+hash = "1f83528bf4adc430da400e30a39edcc57c4f99c7f8309d474a5e862d23d247e2"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/airship_choc_factory.nbt"
+hash = "7fcfee2ee6fbd24d890291a3f5353aa063f470526e949bbac2ee673a944ba007"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_000.nbt"
+hash = "af6285126f076fce7ab3c70af50f4efb252ddae1286b393404a587fdf060a96f"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_001.nbt"
+hash = "0f2d05b9cdcd44833da2c022ae2dc81d05e27261464d63853ca17f410584e6f7"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_002.nbt"
+hash = "6e33765f3365c6a94fc6529372e2e04a843663b135ded4d9aac75588c4ef3d16"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_003.nbt"
+hash = "54a9e2ae07bbbeb29c2cdcbac1f1a91ab6ca1b794071a1e99c03e91c888b6d87"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_100.nbt"
+hash = "1d0ba76d3db4fa53c4dc24083969e378e2943e5fc702427730de36888d7e1163"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_101.nbt"
+hash = "b8e454cc21b1ae79c5cfb10dc562ca405eae495d30cdc737c998786a2283f1d9"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_102.nbt"
+hash = "40ac32cc68fa15a1123f62b041f99787bbc1fad9dad1bc0824371031dbf87444"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_103.nbt"
+hash = "f1930d244840b5b884a3d392366bf2cd4c848143991ceb978d580eb2c86d657e"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_200.nbt"
+hash = "1a4cfa758a5807dea6aa5a8cc616d97c7b6059f0a592b1c2a70d76fd53d52ec6"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_201.nbt"
+hash = "0829a476fcc75178f728ebc527e1d1c5b4fcf813489be6b2d37ae92644a6fc9c"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_202.nbt"
+hash = "3c3e3e1f85f5409ec4d0dc442bf159ed23610d56ad9d938cb467044361252df1"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_203.nbt"
+hash = "329ac960f228de3dfe67c007cb04a85041e0a312d57f8aa281462d7c9dbee3f6"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_300.nbt"
+hash = "74e211d8de05923028636f31d937f2f632d5c18e058a965a8e4107f63b4b9bfe"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_301.nbt"
+hash = "62a7bbedf3253633e259ad44d96defd9d26612e5342227fae430f6e4be26d25d"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_302.nbt"
+hash = "740ce62702928baf2c078b95bede93a57d360e49d9bd812f7e81657f3093b1d1"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bee_gym_303.nbt"
+hash = "5f8c71175cffb32819425a0968906c5142b16223d6090774b986e33960d729aa"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bestbuy_gym_000.nbt"
+hash = "9b08e200a98eafdd7c9ad2710329a1b316e2a50dfd028859dfde89a9804f28b2"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/bestbuy_gym_100.nbt"
+hash = "bb77f3c29e8b3a4c6ff4742519cd6e83d0f3cf087544c5fb3d0b6c5c10ca232c"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/blockentity/jukebox_echoes_through_time.nbt"
+hash = "ceaa2ee58413eac6bbfd4c47b3691f9044ab2c0a1a878f487bd512c0121bba68"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/blockentity/jukebox_mythical.nbt"
+hash = "bf7c18f777ec8533ea90edc084fd3b782ec11c6cd925d6abdd42109897069e80"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/blockentity/jukebox_poke_center.nbt"
+hash = "57935d78465cc0b024b2d2d2dd0ef52af42fde99d7d27c5a0642cfc90ec855c0"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/blockentity/jukebox_poke_gym.nbt"
+hash = "f5f15937210ad243554f7301baa41d7e9bac96506ffd63e85d50864e520ad694"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/blockentity/jukebox_poke_league.nbt"
+hash = "82baee24fc2ccb49ba63edd643a89ed570df39f76d90d93003c5e9c44f0fe321"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/blockentity/jukebox_unwavering_heart.nbt"
+hash = "b7bd16e6dcab9f82f574132653911e74fccad0a3e10ab4d34f0dc082d5819da8"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/blockentity/jukebox_water_type.nbt"
+hash = "63a49bab605996514d3ebcf49a726a139508056e66a8890dceee7d1a9f6f774b"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/blockentity/waystone.nbt"
+hash = "34bdf87a55ed4fdfeb130418323eb3a08def4846dafe89f5e1fa0330441862ec"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_000.nbt"
+hash = "369d51ac8df8eaf4c6528715c28b1a587045893a95bec906140467808144c668"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_001.nbt"
+hash = "50d2c74740190b6b86c072e9d54b594a1624d1c4d4d62bb00f6dc7c8e44e7169"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_002.nbt"
+hash = "6decd91d8975c506e7e85beb82a4a1bbc2c590fe3843d67b9664de6a7eb0b798"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_100.nbt"
+hash = "9337939ede1b8302d66d2a2210c127f4d160078be5fcc74271c467b8d6eb6e0c"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_101.nbt"
+hash = "cac66f1821efff759ef98b8e4134d45b727d85997979d6c7977565dce726aa22"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_102.nbt"
+hash = "c07a18f1b7b1d5e3899f6a87f180c3dcf5ed9c705a9eaa48add9a3491e08fae9"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_200.nbt"
+hash = "954c52bb4e2865b899e8c9d229b9f335cf0363065cf92952da64c71bd07d474e"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_201.nbt"
+hash = "b3c0924c90245919c1ed3c1a582122049f1758a229e5480dddd5abbef0bd61ec"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_202.nbt"
+hash = "811405fa7b1418030c784c7bc6c8dc047b4816a79e8d01e49a9fe1763878a898"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_300.nbt"
+hash = "c9f8b370172bf61309de7c604a8df21bb85af441a2aafefc59e27a3ba4e2153b"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_301.nbt"
+hash = "d4d4527364d7144373628cfd8d90e00afba08e93719575f8cdf904a0f95e4517"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/bucketst_302.nbt"
+hash = "7ecb91d33be3f33d077852a2a5e8640570cdb6caa0b14d5d5518897949b4469d"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/chosen.nbt"
+hash = "e00da06a545e7ddee02d4bc8b5ccfc245f49ab8fa43febb529765715b368a0d8"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/chosen2.nbt"
+hash = "160b666191e8d320db1149d3d32bd781619fb2afdda51081da227b05f175ecb7"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/contentcreator/dw20.nbt"
+hash = "1bd98d4f5f7467590fda1453e971748bbb90404480047df927ec8a793ae23b12"
+
+[[files]]
 file = "kubejs/data/allthemons/structure/elite_gym.nbt"
 hash = "90ca6943572aa0ecd11eea0d66d78edeed840e3c8ae8fb68c85770cad06de90a"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_000.nbt"
+hash = "1cfc9d3c9381a0d6e6737bee789ab44b43c23ab7d843310e44fdada63e34c94e"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_001.nbt"
+hash = "359b57ddecd7aa453629fb13f73e9b71505326e79fba475403394e9583106396"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_002.nbt"
+hash = "13e457c9ed5032811c86beec9055c5cb93711af489a55f0b8364fbd976c19d6c"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_003.nbt"
+hash = "ae2448266703c84f305c0c11f39faaedd798b4b7a2b85343bef111d35e34cc45"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_100.nbt"
+hash = "2b2b01e9ad7d715e08d0ecd64e8e009ec199848c4b334205b0ef625c943d31de"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_101.nbt"
+hash = "bbf7d74279a68030e6e24bbec6ff445d3ecfe73034e74b1d96861456ed71564f"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_102.nbt"
+hash = "f83092bce57cf2a77a18b9b9284fccdf888f1f2db2e94c4017b380aa9af74c68"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_103.nbt"
+hash = "f58e54b23d7ce9a08403d8571d180d28770dbdc4803f8c8ae165e682538a36a9"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_200.nbt"
+hash = "bd28d952ed03c97562b1047958d5fbb9a1d7581e3198d2df077be291223a42ba"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_201.nbt"
+hash = "c4d31c71f193d6e2d99ae085d2a7721fabf57a10a8d632b5695c8cb1d00f63b0"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_202.nbt"
+hash = "905b94514f0017b16e8b16483c08c4b158e909686ff064e881bacc3a3e34e1cc"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_203.nbt"
+hash = "b55b67f1f5d2a7954a22be5a7d3035f3894265df9847a7e7ece4204d7ec4909c"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_300.nbt"
+hash = "7a3f4ccbb4f18755e844125f827e05f96ffc8c9864d7a58c46bd9dec0f47928f"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_301.nbt"
+hash = "0e11e70ba4efd9e0c600b6e3a3a44167c56cfd1755f4203c56274491f2602cc6"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_302.nbt"
+hash = "3492307210e685bd48f7993e1c46034d143cdda91e379f3407df6308550ad846"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/elite_gym_303.nbt"
+hash = "a3c08faf9ffbbd19d52674e00be8df10f38a7417fd75354dd627e676cd8e26a9"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/entity/joy.nbt"
+hash = "fbc3281f92bdf70426f888d2e6b196b92abaad0aee3c05dfd62b30c97f9e9553"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/entity/kurt.nbt"
+hash = "92c6135221dcaa848d0632e9364263007022c65ed14b4f3e9d42b8f3664a7a05"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/entity/nurse.nbt"
+hash = "4b3b04a04bbd24e78772470841e1b9b9fea9d056f2b93bcddd9affda507b3296"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/entity/trader.nbt"
+hash = "24535812c4ef977a1a41317eb224554655b505e2a40a0da4ba4ec8719141d0e5"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/entity/villager.nbt"
+hash = "d44ac2534dd4b3547b64633deabff53d3d97914d5f2d9dc5515c18a128904df9"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/futuristic_steelworks_000.nbt"
+hash = "b1a1f5a953b9e8974a04be324df3bfd4ced69ed40e9308ac48f8eda3b8be3d8d"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/futuristic_steelworks_001.nbt"
+hash = "dc7591374300f18d9977da13ad197d5352196b42b17cbc5bd66e4ffa53ed5843"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/futuristic_steelworks_100.nbt"
+hash = "6320abc81069ae1b0bd4e953e9d9cbd192d196f4c0cadee3f7b47540f5b8fc93"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/futuristic_steelworks_101.nbt"
+hash = "11672f95984796bbabc0202e416ec4735cb49d2a37c77f5798c5892fa0463325"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/kanto_league_gym_000.nbt"
+hash = "ce1b613e12a1ffee2ffb256c9ce5e734a4010f3f5b69d8192772c77255c98edb"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/kanto_league_gym_001.nbt"
+hash = "11278c1be95acf70fc3be42b93e20e60ff39cdf601a4bfac865b490d671a6aa4"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/kanto_league_gym_100.nbt"
+hash = "5f7f0b7ea4af7d8b37ee59bbe5a0019ccf6975706be98d365fc61aece5f56e6c"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/kanto_league_gym_101.nbt"
+hash = "1e9d98f155bb236d404180a3b441127a1e9205809624018519bf772afb38323f"
 
 [[files]]
 file = "kubejs/data/allthemons/structure/poke_center.nbt"
 hash = "2c0f1827f2e010f48e0f4b2b6f9d35ac1a07d148506eb0af3dd81a869413dd0d"
 
 [[files]]
+file = "kubejs/data/allthemons/structure/poke_center_000.nbt"
+hash = "7c6081b74039ea309a1ff784f5576e899e362dcee9d434f6dd078afee6ac379b"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/poke_center_001.nbt"
+hash = "a995a0fac1938953ebed93cffcba0b3e4049834a1ddc57026eec546aa1850def"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/poke_center_100.nbt"
+hash = "684135e9f1adc2c12686995947f70973d2aea2c73acdb38592ff93c8f27b025b"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/poke_center_101.nbt"
+hash = "bfb190f000ca203b98b312856d266b6896e8e2fd81027832ca68df364aa0edb6"
+
+[[files]]
 file = "kubejs/data/allthemons/structure/steves_staycation.nbt"
-hash = "a832357c0dacdce87e9c62e9c6392c55a331e8ee66b2402b65ad03d134717fe3"
+hash = "f29999964d2a9f75c5d75cbd87c0bd1192b4429aae10ae891edd7a4a931fc32b"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/village/desert/streets/gym_straight_01.nbt"
+hash = "7369d257e142bc3ba8258a62f639aec71badcf4f3a52b2034d8f3cefde1e3ec5"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/village/plains/streets/gym_corner_02.nbt"
+hash = "4991b1675d1131aeb6bdbf24087dd62b72756e37c82c782ef779643a9392539a"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/village/savanna/streets/gym_corner_02.nbt"
+hash = "e3120baeba1a152be97245e7f49d66db7e6592671c94322bef4b281e3b5906df"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/village/snowy/streets/gym_corner_02.nbt"
+hash = "799d1dfb3a992591000fadeaa9948613d602cec3a36970779572c78fb4601922"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/village/taiga/streets/gym_corner_02.nbt"
+hash = "393d97c916f634f46bc96d34b0f82bf6da60c6e18b74b01de65311b8a46effda"
+
+[[files]]
+file = "kubejs/data/allthemons/structure/village/villagers/unemployed.nbt"
+hash = "66b346caffa98caec6425b3f5529f3bc1802121f4c7d651320111fb186e5ffd1"
 
 [[files]]
 file = "kubejs/data/allthemons/tags/worldgen/biome/has_structure/pokecenter.json"
-hash = "6873f7d762e0d9ec5e7966fc1bd5fb59363d13f62534ef805fb99de69c811ba3"
+hash = "babd433b0404537d79ffae0f060aefe7f1a1d2c75512e68acb8e4a9c01d58cde"
 
 [[files]]
 file = "kubejs/data/allthemons/worldgen/processor_list/replace_pink_terracotta_with_lava.json"
 hash = "0cb548e9b41a817a0da9016d21ba469e2016335c2bbf3d6c03b7cb5f2acfa1c7"
 
 [[files]]
+file = "kubejs/data/allthemons/worldgen/structure/airship_choc_factory.json"
+hash = "9895d62bc1a7eeca73f4b339b2b085b82a0413e98120a8d63bc3dc8a80708477"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure/bee_gym.json"
+hash = "291993ef53ccc519a92a622caccd0be6bb7f5c3c660aab87ebeb52cc25c56ccb"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure/bestbuy_gym.json"
+hash = "3227f9783f19c28d6bae651c3841d687399d53b8d3f5495973f4588ce7df835e"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure/bucketst_gym.json"
+hash = "0b4851a3c30bfebacd7570d79aab733250e6a47df896f282585414fbfb08c42d"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure/chosen_tower.json"
+hash = "5af6ca571af0d5f671866557d71b0f737693c0bdf418a5913886255a8adcbc6a"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure/dw_house.json"
+hash = "3dc10a94c60fdf3f974904423a06c47d5396ddc65cbbc76d41593258d288c83d"
+
+[[files]]
 file = "kubejs/data/allthemons/worldgen/structure/elite_gym.json"
-hash = "a4746259387158e7611c6ac296b50ae8eeb6ec40f4306a5025f5392d87ff51e6"
+hash = "7e925ade755b0e5add404f447b0d2c62893bd496e15065b7a4656af463ff5d6f"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure/futuristic_steelworks.json"
+hash = "c504c456e44f897a2986192fce83cf0c1c309512c19fc865dc64b151ed706ac0"
 
 [[files]]
 file = "kubejs/data/allthemons/worldgen/structure/poke_center.json"
-hash = "4f77028c4bced0f6c6909fa3226266d7262cb8278d4c0284d8842e7ffe53aa6f"
+hash = "a380df5a65b0f24186baa86f2deca78dcc4f09ea851c986dd9199da3c8b51471"
 
 [[files]]
 file = "kubejs/data/allthemons/worldgen/structure/steves_staycation.json"
 hash = "08415bff6e0e315c73cdb9d571cec7c147745b1391ba34bdc53cf972f846ad83"
 
 [[files]]
+file = "kubejs/data/allthemons/worldgen/structure_set/airship_choc_factory.json"
+hash = "bfea9031ad7cd7fce01582a8762063aa11222ce16ff575da018b651281aadf25"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure_set/bee_gym.json"
+hash = "ca0ceec153508567ec4ad575665a08d13b1430fd3046f3813c17464d44fc9952"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure_set/bestbuy_gym.json"
+hash = "217a6d9b2d00b8dced88934f4213b393d18627d30a4662c8eb11838e74ece3cb"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure_set/bucketst_gym.json"
+hash = "1735215bb9f96d818a06aec4cce4e5ac1b0ab379ae254e329921ef3b4bb1a190"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure_set/chosen_tower.json"
+hash = "32121143a46a3e97ea6fa0b7926447609fd78c173f5c362bab9f89f81f6e3011"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure_set/dw_house.json"
+hash = "7decdd2c9fa9f44ab8c64e3435b55cbb4429f562e031bc15c3d674c31c950fe2"
+
+[[files]]
 file = "kubejs/data/allthemons/worldgen/structure_set/elite_gym.json"
 hash = "41098286c79adc4c464fdf9cfa3d94e52d15bab0d44a2763dda5b2fd531f19e2"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/structure_set/futuristic_steelworks.json"
+hash = "b5c939a541fb5e02d8badbf71b3edd684c98964730673917d6eceef397ba85ca"
 
 [[files]]
 file = "kubejs/data/allthemons/worldgen/structure_set/poke_center.json"
@@ -8509,16 +8929,316 @@ file = "kubejs/data/allthemons/worldgen/structure_set/steves_staycation.json"
 hash = "e1a63a75c3a084fc79fcb7534325521d6005025fb1b7fd7403c2e11627a6629e"
 
 [[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/airship_choc_factory.json"
+hash = "62453b48cbf7c62764b42db6bc93e98f5c33fb58f96046e6eb1cdf80a08f8ed0"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_000.json"
+hash = "a8bdb82292ef3bb4dc9f9db75508d7b5c0f00d4f107123b7f7ca44f59b2e3eec"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_001.json"
+hash = "9bd31d34d47e3e6c12ec2a25e0831b5ae55739e47f1d75dd27df7b1511c58a55"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_002.json"
+hash = "a83eb083df9853972c5c3d73dc2808564750f08ec9d2b3ef0a1b2ad4f767ab2b"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_003.json"
+hash = "1586377f20c42a37265df6d6566e0542c7e050c1d881981def82bd5dba1f2cf9"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_100.json"
+hash = "84380f9ccb87a00b3a2604816ef0db6cb7abdfec0a10bad1902d41a7742d2d57"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_101.json"
+hash = "862db8417e201397524022ce5e0ced3efb00f36758b8c51f21fdba48d2f167fe"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_102.json"
+hash = "4bcc21a6350c09fc20e8b5d5a6b21254e4fd90e2bc4e9b326a19d4570b920843"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_103.json"
+hash = "fc71c07c8506feb7c7678cacf607e3852655271820de7ea06b6e87005f12a187"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_200.json"
+hash = "380fd83a501f5f086491c15ed844c263a2f7f59db2e69555cab7e64f15b00654"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_201.json"
+hash = "4d493defe723635db63d1d8c9e6838f7f89f57a1a7094eef341a313c8011f5e4"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_202.json"
+hash = "0c759752e8c3d5cf8c21e52ca2b48c9cce7bec8aa1ca5454aa2e85b2ef763287"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_203.json"
+hash = "67a14ecd6fb55e28e212eb196b00588ed5c2a32945ff586e2f8c31526a9c750d"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_300.json"
+hash = "d2e4855f27475df86fa6e0fe32cbb1919286a1a6de89885331fccb23592378a3"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_301.json"
+hash = "ca06d6314fbb2a3cd19577fc1b640c820d36fe466fd826ec08bb8d41f9b6dd29"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_302.json"
+hash = "16de51a094aff0b08cdd4ed03abd3f08d4039a2bc0d90b44d706647db0d5211c"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bee_gym_303.json"
+hash = "c18d542c0e2c0d88bbe56fb5a5c3a393fe10589a7f21691609047616683e8e2e"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bestbuy_gym_000.json"
+hash = "25b23a4c11c5252e2a8a5a73522b53b41673d90ac74bf535499b23c21dd77210"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/bestbuy_gym_100.json"
+hash = "c2864232384c7e441ac1222192c7704c4da834d603102e9ab5de7191fbc48c7c"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/blockentity/waystone.json"
+hash = "48b441a591105169c2a9547a0eaa38c848a3b71c82355ab91e875165787f368f"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_000.json"
+hash = "62bb29ea380650a8a28a778334725e63dc9f9c51659f052e8ff2b8645ea72ef5"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_001.json"
+hash = "c30c47c9a15e56ecda43d9f3767267835ae317df9c85d559184ba76fc393a65e"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_002.json"
+hash = "6a0e4f2e0d0655c66597e08809b79bc1a46e50970fb169205ae4d6011e40b3d5"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_100.json"
+hash = "1c33103e1c1dfb8a5ffc033ba5dfbff1de95df4a986138ab0ad05c3138d2a222"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_101.json"
+hash = "ab2732b05b4ee74cd75335be2559e4e6b1a907eb66720e03f4dd09f3dac58754"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_102.json"
+hash = "40ae67b8722da47ce16ece72f9e98a854157bd38abefb2125fb3bc13c00e1ca3"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_200.json"
+hash = "0ccecae9bda26fefeb0d4fe52b835e200fa25f1ed3fa07fc4d78ef1d1723a433"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_201.json"
+hash = "939e777c3660c43628c06b95741436a15ce9f187f7044d598c8363780808128a"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_202.json"
+hash = "b793b40ba9b99e30a09d5376ab19869356725026d91e59b9b0f2afc06398ac95"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_300.json"
+hash = "9764e83af389266e3c82ee665b778e0377696092487d33f4858d6dab42a8a560"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_301.json"
+hash = "97d952f54715b152acabbc31ebab5220348581300e268cac0197c3452dfe71a1"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/bucketst_302.json"
+hash = "49c4b724fecd99523dabb3845820d28e50ff0bca1a0081474cd29ec24022b586"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/chosen2.json"
+hash = "40d076d953a81fe29d4f837a6320031cebe62a326af52ce3f8d2f5b1df7ccf70"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/contentcreator/chosen_tower.json"
+hash = "67a86aa904112593d8ac3683f1724743e03df5cb4af51c6bfca7ab309133e6df"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/dw_house.json"
+hash = "cb4a9a3833b7677a70232db8bbf6293442250fc91aa3e5964808657eeb283668"
+
+[[files]]
 file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym.json"
 hash = "e839b705ce634d4f1aaa432e1f87a8410377010fcc8f1a78b1d6b32bc6746341"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_000.json"
+hash = "769b63f8ff71278ee51942cfc7a613c900316127d68b11a53e1b32d16cdf1200"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_001.json"
+hash = "f2226fce4d64a404668d4ca40892fbc18f1aafe1cf42de4542e1a0f3fac4f4b2"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_002.json"
+hash = "bfbef6ef2fcd3ac6c490cdda8f65fa7f1ba80881be3ea3c09bc66cef46d80724"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_003.json"
+hash = "c9ff92f631a02a8fecf6a44c21d69744d1ca62bc64c891ad25a4557a539cd538"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_100.json"
+hash = "dc2ec97c6db785409b33f7696139a282f9427fbcf9f78101f45e46e9d927abf1"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_101.json"
+hash = "be57964116b9b4bdaee487c4c27de4e5f214f577c4438e9e53f48fbe6df2f478"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_102.json"
+hash = "10d9fbd84fc1eb98b045194846b9f9cae7368c4fb2554f1b1ab2be7394aaddcf"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_103.json"
+hash = "12647328c7faa16f36b430dd2175c541bab432a83e47068c3ba42db8037219a7"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_200.json"
+hash = "f31080b39a95b2f64d584b249ffdabce5d21974fce066522585d00ad80bcbeea"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_201.json"
+hash = "d56ab47e6f2b2355bde14ad776a8453b30ad7683479645da9df160ce4f267ce4"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_202.json"
+hash = "04f0071d6a5f44cd1b0368b45a1ca44aa5db37d97521b8491b15886f5d1c2c0d"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_203.json"
+hash = "8b703ba74dde5f7a1104b600a1ef369cef5cb61f1ef0d77c22e1a7c5d8109742"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_300.json"
+hash = "55d713e5b25d5f5b9005056a70982e53db5d063712b7a798a083d4c08296df8b"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_301.json"
+hash = "28ef2354be117ce70acb43b537bafb3861ae8c923efbcde4fe835e1d4b590648"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_302.json"
+hash = "1918590be431ebe99b06e5af5b3f5e6f7f8b8c2889642711ef730bae73284a25"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/elite_gym_303.json"
+hash = "3086ddea9c02a273dac3f52de759e415ad2c95e357dbecb9789dd3b91e69f59d"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/entity/joy.json"
+hash = "91c3cc7fe0190f959e10b2be76cb55d2fd9f016bcd536f725e37ff6f9a3e27e8"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/entity/kurt.json"
+hash = "f3b201d6fdb507da0c1ca198364bee262a08f755012097fae69d1bda90cbda64"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/entity/nurse.json"
+hash = "a60be06ebbadd7a4e8acb3660174c90420b114870453848ee9df19d48c9a9a57"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/entity/trader.json"
+hash = "99d294e0c0c31e62987f744ebb17e1abc9c598e0f5f6dd6b346699e86a2db2a5"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/entity/villager.json"
+hash = "a9c715dc3567dceff7ee2a742fa7e5e4502caf6f874b1f124c7abcd2a0f9bb1c"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/futuristic_steelworks_000.json"
+hash = "6e2ef6f6882b1b03be867040b0b258e0b6a32b2b2b0006b576531702949520f7"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/futuristic_steelworks_001.json"
+hash = "37604952cd8f5d8edba9eb688aad78a6d7e2420ecb03c2914163236ab8e1bd1d"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/futuristic_steelworks_100.json"
+hash = "e437d8da84020827fcc11265dc83d154604d5aa2376583d3e157387c0c44c137"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/futuristic_steelworks_101.json"
+hash = "3111c7d03cd5c41cfddb509173a0f718b1b67c3aa02afbf6be58d700305f22be"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/jukebox_with_disc.json"
+hash = "74db4da1087b954c0bac3d9df299cf011984636cb75c768bc2d7fd6c458ed1fb"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/kanto_league_gym_000.json"
+hash = "c5060d75950992199c813b4db6c8fa1f917a8ae938de5f7389d477fa2b39b4c7"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/kanto_league_gym_001.json"
+hash = "c43294b1d9ebfc3a8d53147f262e67ce8fa9023031402fd60325a04212b7e187"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/kanto_league_gym_100.json"
+hash = "d58126f2f2c18adbaad8728de9749c8d03fc9229baf768b16b4bdf4cd9b605ee"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/kanto_league_gym_101.json"
+hash = "972becdace09f487ce01b6777e78e06f703f6885614cf5f756267fff02b950ab"
 
 [[files]]
 file = "kubejs/data/allthemons/worldgen/template_pool/poke_center.json"
 hash = "fcb3aadc25c6a934e2ed1755cadf4003ab48b1f167ab9eb0731fba61d120dd48"
 
 [[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/poke_center_000.json"
+hash = "d3a7987c4e34986312b8b157757bfec870872c5a6b87bd8404b33b7e5ef6114a"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/poke_center_001.json"
+hash = "8284c7e7fa7bb132606219bfb6687c126b653962f144780b4a5d589e98fc79e2"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/poke_center_100.json"
+hash = "40a7fff5c0214ec662f68321eb082a5d55a13677600b10c0c1a5962746683637"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/poke_center_101.json"
+hash = "38fcfa60c5e37b78bad8a31b135343eaacdfc0b6a5143f57bd26feb89a141f8e"
+
+[[files]]
 file = "kubejs/data/allthemons/worldgen/template_pool/steves_staycation.json"
 hash = "55e7fa130a820621d1abda52fb30b31e2faa3ef302f9f6c5694a146d96516ac8"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/village/desert/gyms.json"
+hash = "5997f1a7f4850b809fb7b3ebeec76fcc4cc2c04a7adf394cd2a9fbdd5507274c"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/village/plains/gyms.json"
+hash = "60fa5a13daec7d74a554bcbf494df39b928b4f6bf9bf8fa9879bf1fc4cb097dc"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/village/savanna/gyms.json"
+hash = "f379a0267fd6d56ef07f8773a62daf2fce6b0879a611f76769ed016ed02fd9e0"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/village/snowy/gyms.json"
+hash = "c8a067666faaae81200f2936b50575e6f1f53fac2bd71284141c36bb7ad996f7"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/village/taiga/gyms.json"
+hash = "b11d5367ee64953107de0419b72c57e92524263ec9a9719c342a3c59cfc35c5d"
+
+[[files]]
+file = "kubejs/data/allthemons/worldgen/template_pool/village/villagers.json"
+hash = "b1bbc9d20f809f48782bfea746bbfb690c189d977b976fd58fea162acdb7b7aa"
 
 [[files]]
 file = "kubejs/data/alltheores/worldgen/configured_feature/ore_cinnabar.json"
@@ -8645,6 +9365,34 @@ file = "kubejs/data/botanytrees/recipe/allthemodium/soul.json"
 hash = "ffc35d674078920756e8af5098bfaa95421e556c5e70553b8b612f6559a9ac32"
 
 [[files]]
+file = "kubejs/data/cobblemon/loot_table/sets/any_common_pokeball.json"
+hash = "70c62ac20966021de570ade8fa9928cba701200550e30843ad75fc53be846656"
+
+[[files]]
+file = "kubejs/data/cobblemon/seasonings/allthemodium_apple.json"
+hash = "c1daf81863e41a3411305998aca71e99c5e56761e510629190b50fb322c5dc15"
+
+[[files]]
+file = "kubejs/data/cobblemon/seasonings/allthemodium_carrot.json"
+hash = "fc78be4ccb851e1b93fb759321d80b81ccfd8eb0a8977029e044fe9d07210c9c"
+
+[[files]]
+file = "kubejs/data/cobblemon/spawn_bait_effects/fruits/allthemodium_apple.json"
+hash = "ec837b590d72a7481a9db204b2a906319ee2130367c77263a61064d3e233079b"
+
+[[files]]
+file = "kubejs/data/cobblemon/spawn_bait_effects/fruits/allthemodium_carrot.json"
+hash = "ed1b7353a94f9caaa72c502e18bfd923aa25b6206e5f9e820329c292c3bf511b"
+
+[[files]]
+file = "kubejs/data/cobblemon/spawn_bait_effects/fruits/enchanted_golden_apple.json"
+hash = "02d7eef8c858ad8d350d7abfb4acf8e6045c5040e794cde1406847d327602eab"
+
+[[files]]
+file = "kubejs/data/cobblemonextrastructures/worldgen/structure/bell_tower.json"
+hash = "ddc65c0cd63c72b25dcbb425e0a9eee59e632aab6a3142231e149f537240cf7b"
+
+[[files]]
 file = "kubejs/data/cobblemonextrastructures/worldgen/structure/pokemon_center.json"
 hash = "5b9bbc5d0df9aff9c2da922c1fe7ce1fd7a81e1d77818dd3978d00aef39b61bc"
 
@@ -8767,6 +9515,10 @@ hash = "23a8fd5a5864cfa324a1cfd87ecd2a82fb4eca88a461d17901f5db6688982c6b"
 [[files]]
 file = "kubejs/data/compactmachines/recipe/new_machine_tiny.json"
 hash = "3f7f2fd20edd506a584eee90f8f274c396b00c0d0ef2eaade3fffa703158ef4e"
+
+[[files]]
+file = "kubejs/data/create/market_presets/fertilizer.json"
+hash = "0023a5ace3c7aea6cd3dbbec5d6ec85cbe7797354a86fd36fef5b82d28242118"
 
 [[files]]
 file = "kubejs/data/create_hypertube/recipe/sequenced_assembly/tube_scanner.json"
@@ -8935,6 +9687,10 @@ hash = "c3b85d6f3a291e1310626bfeb0ad69a294f826f44635fc7d87ce5d89fbe87b11"
 [[files]]
 file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/wishing_well_biomes.json"
 hash = "c3b85d6f3a291e1310626bfeb0ad69a294f826f44635fc7d87ce5d89fbe87b11"
+
+[[files]]
+file = "kubejs/data/farmersdelight/market_presets/seeds.json"
+hash = "0023a5ace3c7aea6cd3dbbec5d6ec85cbe7797354a86fd36fef5b82d28242118"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/allthemodium/piglich.json"
@@ -9141,8 +9897,20 @@ file = "kubejs/data/minecraft/kubejs/recipe_schema/shaped.json"
 hash = "94fccc17893e93a844a52fa27d6c962d5d22dd07265620db032e9af1fda1b6f4"
 
 [[files]]
+file = "kubejs/data/minecraft/market_presets/bone_meal.json"
+hash = "99d4383d0117cf952bc345f5ebf0b3c3c847664a2d1bb8b894cb3de7f6619d7e"
+
+[[files]]
+file = "kubejs/data/minecraft/market_presets/saplings.json"
+hash = "99d4383d0117cf952bc345f5ebf0b3c3c847664a2d1bb8b894cb3de7f6619d7e"
+
+[[files]]
+file = "kubejs/data/minecraft/market_presets/seeds.json"
+hash = "99d4383d0117cf952bc345f5ebf0b3c3c847664a2d1bb8b894cb3de7f6619d7e"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/block/enderman_holdable.json"
-hash = "391673ae6c6590b56af71b14c92c1857498385ed776822ec3831441ca257ab55"
+hash = "4e418ab6fec32b231f3a9f8b19b4f84b66ec22ae0478d3c203c7951df5134894"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/mineable/pickaxe.json"
@@ -9461,6 +10229,10 @@ file = "kubejs/data/railcraft/neoforge/biome_modifier/add_zinc_ore.json"
 hash = "27f83930b3b91d981f7a90e097d91ca92216abc84c51e6c3374b14f6da942f03"
 
 [[files]]
+file = "kubejs/data/rctmod/advancement/trainers/defeat_contentcreators_bucketst.json"
+hash = "3e029a0744c7ef8412ad6650d5a8b76647853c546a940183dd89bdcff90dafee"
+
+[[files]]
 file = "kubejs/data/rctmod/advancement/trainers/defeat_contentcreators_chosenarchitect.json"
 hash = "02326f76a6694cd39555547f079ead227a956b60c926249ce52c19dc677ebdf9"
 
@@ -9486,7 +10258,7 @@ hash = "43600ed7fffcf4a78834a95f728fd04cc33630e66b6b42b0f5d7bc7a8c8a6cec"
 
 [[files]]
 file = "kubejs/data/rctmod/advancement/trainers/defeat_contentcreators_pilpoh.json"
-hash = "82f7d5ba7a6d365aadd39ed3f7add6c20ae6c6ba9bda1b8f492b160c97d4ecc3"
+hash = "568f5ee2f25a4f4ef8a1cc1beaa53c4a47de0a1c02a244386f46eeabe45b0c33"
 
 [[files]]
 file = "kubejs/data/rctmod/advancement/trainers/defeat_contentcreators_princessstellar.json"
@@ -9613,6 +10385,14 @@ file = "kubejs/data/rctmod/loot_table/trainers/single/team_allthemods_whatthedru
 hash = "0971f609e2ce64e966ff1e7f4553b99e74b8ca5c51666eed8cac3c805aa4ea58"
 
 [[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/allthemods_trainer_lego.json"
+hash = "9aa10fac2b9a5cb6a13f82e061518a972f992998440ba7999c5403d9ab18646e"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/allthemods_trainer_nektar.json"
+hash = "9aa10fac2b9a5cb6a13f82e061518a972f992998440ba7999c5403d9ab18646e"
+
+[[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/champion_cynthia_05a2.json"
 hash = "347e5ac96f9203e787c631e1d055627b2b1dd1c8c64cf87fcff018c0f596de75"
 
@@ -9621,16 +10401,32 @@ file = "kubejs/data/rctmod/mobs/trainers/single/champion_cynthia_05a7.json"
 hash = "7ef3388aa3054662cf7c416bf6557ba06e308228baca8ba9d250bc1eb0d6a3aa"
 
 [[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/champion_terry_01b6.json"
+hash = "67e4b61fadb454f587ac9b382788b13ad8d8432e0e907578451bdff709c95c49"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/champion_terry_01b7.json"
+hash = "67e4b61fadb454f587ac9b382788b13ad8d8432e0e907578451bdff709c95c49"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/champion_terry_01b8.json"
+hash = "67e4b61fadb454f587ac9b382788b13ad8d8432e0e907578451bdff709c95c49"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/contentcreators_bucketst.json"
+hash = "951e1eee5e140217fb4232f4ebfd98fb31799631e23bb869da6aab0927197c45"
+
+[[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/contentcreators_chosenarchitect.json"
-hash = "8f69f6aa83f84f9a76b8c07a5fe9ed9d13364a0d1173cb08a2aabc824004df2a"
+hash = "27c2878ccc7b132aacfc775be8f8463147ebced97e5e194961c55b3fb2b80ba8"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/contentcreators_danrique.json"
-hash = "4a21a8b3b5e040d49d0aa06ba01bedeb1a27e87ac01be6ed19c8334a0145102d"
+hash = "4ce57f947ba468cb73dc27fdf31207e86bca60a32cc21af043a1f8167cbd9308"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/contentcreators_direwolf20.json"
-hash = "059b7b277fc4b01ee9ce0eec515d6b92d0ad2927990ba4d46ad5978f5a6bc230"
+hash = "d701176c30991ac87e7f3735ec95bd752ccb3587b0d41a47e1e3bb2003bee4f3"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/contentcreators_joeychin01.json"
@@ -9642,11 +10438,11 @@ hash = "ef6ba6335ee53e97ca712fc511e3c5f4ba5dc03b9774fc29ebe39325068aaeaf"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/contentcreators_nofaxu.json"
-hash = "eafe224c6b81ebc3dce31c8181f6b78f685f2bd209317af4129c01b789cf0470"
+hash = "f5520f61714d1ee10e4dee9eb0730ea622053ad2c063146da994899a6f987335"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/contentcreators_pilpoh.json"
-hash = "11cf33d790ccbbd823136e2e32cd6cb05569be1ab5ebb7cc61b23fc0a85936e3"
+hash = "b261ea93a1cdb15795ffae97e620314c693fc383481038f4d1e1408fa6f098a4"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/contentcreators_princessstellar.json"
@@ -9665,12 +10461,28 @@ file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_aaron_05a3.json"
 hash = "51815b13f38d2f36e8d062055510f0eb0c99564e713bce7dd5f80ace5e5d8726"
 
 [[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_agatha_0053.json"
+hash = "c753aeb61c370343318307595242448c41d23179bdcee0db8690e77c63b76d5f"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_agatha_0054.json"
+hash = "c753aeb61c370343318307595242448c41d23179bdcee0db8690e77c63b76d5f"
+
+[[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_bertha_059f.json"
 hash = "8fd1fe02f3793efb821e1adbc92e6bf58cb7c681ee64ffbea11507f3f1e9553b"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_bertha_05a4.json"
 hash = "132a9dd202298728df735c4eede9d344ce581af22cb50c00c15e8dc0fc7fcc75"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_bruno_0050.json"
+hash = "a6d433a147dc4ce5b4ac4c2e0117dfed43a05b6f0c18a8c986941fa6f8c5a119"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_bruno_0051.json"
+hash = "a6d433a147dc4ce5b4ac4c2e0117dfed43a05b6f0c18a8c986941fa6f8c5a119"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_flint_05a0.json"
@@ -9681,12 +10493,32 @@ file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_flint_05a5.json"
 hash = "7f9115c656afeaa1e39db80990fabb09ce5f224778906d0597bd429a8d1999f0"
 
 [[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_lance_0056.json"
+hash = "a9993f4673a786c9de1cd7dbca628923bf8edc387d6b40fa6f30ba59739ca3d6"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_lance_0057.json"
+hash = "a9993f4673a786c9de1cd7dbca628923bf8edc387d6b40fa6f30ba59739ca3d6"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_lorelei_004d.json"
+hash = "a91b4c6ba1809766f183f38744b88635ec77de4517b335865eaeddd240b2a0f8"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_lorelei_004e.json"
+hash = "a91b4c6ba1809766f183f38744b88635ec77de4517b335865eaeddd240b2a0f8"
+
+[[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_lucian_05a1.json"
 hash = "d347bc4e8b195e0e5ebc78d0d541a697e65779f2b5edaf82d92ae03537b7b030"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/elite_four_lucian_05a6.json"
 hash = "c468215b8f56eb2aba366441c56cbae7d0a74c71938718f0a740fd9252930616"
+
+[[files]]
+file = "kubejs/data/rctmod/mobs/trainers/single/leader_clair_0026.json"
+hash = "02a00a3864538f83bb43e7dfbe851fdb419801fa481b50e6b8a599c3a900c92b"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/team_allthemods_bathsalts.json"
@@ -9706,7 +10538,7 @@ hash = "7402a978cf262e1ce539317d7400909283b30f77f4708d1e886f350698d585f5"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/team_allthemods_dragondogemaster.json"
-hash = "b311a65ab15b87fb5699cc6c2652918d795b2dcc99065e069feef87fa8b83825"
+hash = "badbd6a1b4150fd435543152fcb19e87d5cef9abcf052147a03a0c2ce175999f"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/team_allthemods_helix_ranmaru.json"
@@ -9714,7 +10546,7 @@ hash = "7402a978cf262e1ce539317d7400909283b30f77f4708d1e886f350698d585f5"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/team_allthemods_lobsterjonn.json"
-hash = "0ad6ff9b5102b5f4a481cd60f7fc7039eb147cfbe4b2c47d478674a803d73987"
+hash = "842b97a99b7e35e34d9195d3c1fcf5725c9b77a329bdd4640cf0f11161a10842"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/team_allthemods_mitchell52.json"
@@ -9750,7 +10582,7 @@ hash = "48bf5556f6d7c4ab44642177cc87ab67f2fc67008ef22d0ce377eae954d8317e"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/team_allthemods_toblerone0508.json"
-hash = "0ad6ff9b5102b5f4a481cd60f7fc7039eb147cfbe4b2c47d478674a803d73987"
+hash = "8cc03af75d5e5ff313c2a306b91ef37a2ff79050e4d8754786546e5478e003c7"
 
 [[files]]
 file = "kubejs/data/rctmod/mobs/trainers/single/team_allthemods_ultramegaa.json"
@@ -9785,8 +10617,24 @@ file = "kubejs/data/rctmod/trainer_types/team_allthemods_elite_gym.json"
 hash = "e00f389eafefe5c1a263a6a2b5034594a0f117b9f053a19f724faf4c2328d1d3"
 
 [[files]]
+file = "kubejs/data/rctmod/trainer_types/team_allthemods_trainer.json"
+hash = "8208ecd030db1260839a605ada1bb327ac88c11b9a1f6f5783a768d9c20f156b"
+
+[[files]]
 file = "kubejs/data/rctmod/trainer_types/team_allthemods_wandering.json"
 hash = "ca0ccb3955a1fb69e794f3043270d30e558c5dffd5c58a014770fbf7e1bf51f3"
+
+[[files]]
+file = "kubejs/data/rctmod/trainers/allthemods_trainer_lego.json"
+hash = "33ad1f1b40b642c6a298979692019b39daea2fdd3c1c1a3748b32878a0aa2f81"
+
+[[files]]
+file = "kubejs/data/rctmod/trainers/allthemods_trainer_nektar.json"
+hash = "15f7e25a8731d973de90078aab485075a3eba99f3cb7f64b445cea68391e158a"
+
+[[files]]
+file = "kubejs/data/rctmod/trainers/contentcreators_bucketst.json"
+hash = "ec9873e42e82ee4030117ea3da5409ec7d7eaca4d6a475f578b4060ea0230b7b"
 
 [[files]]
 file = "kubejs/data/rctmod/trainers/contentcreators_chosenarchitect.json"
@@ -9826,7 +10674,7 @@ hash = "f68b4ce146c8221ab3dcfab5c20afd27976c11af460acd4f9d78eb3c4e71b020"
 
 [[files]]
 file = "kubejs/data/rctmod/trainers/team_allthemods_bathsalts.json"
-hash = "b4411b5b302ab55ee553eab5fe498861e5607af34c0f9cc0668d671f7036cf9d"
+hash = "a443d1bd1a0ce60c85e0a11464db031c25954b147b76eda514687e735d4e239b"
 
 [[files]]
 file = "kubejs/data/rctmod/trainers/team_allthemods_bored420.json"
@@ -9850,7 +10698,7 @@ hash = "82ddb3d757addddcdef3ed88e3a0722d877f09e7a154ef36457ce89d27f48f7c"
 
 [[files]]
 file = "kubejs/data/rctmod/trainers/team_allthemods_lobsterjonn.json"
-hash = "ddd4418062b90c1b1e97742b361bb7138bb0f847f3ff71e37d2ea7612853060a"
+hash = "6fe837c7002608e765c47e5a6746a7730ec9e2724233264323c5336e23bca0a7"
 
 [[files]]
 file = "kubejs/data/rctmod/trainers/team_allthemods_mitchell52.json"
@@ -9899,6 +10747,110 @@ hash = "c7d8d4509538a0995248c29ceffa44c1af0d0597668b252f2510e8d96f66d9b7"
 [[files]]
 file = "kubejs/data/rctmod/trainers/team_allthemods_whatthedrunk.json"
 hash = "e5fb965feebed71fb28706f5c790ef79f6a2f4917012274689ef84e212ea5000"
+
+[[files]]
+file = "kubejs/data/rgs/structure/blackthorn_gym.nbt"
+hash = "672c916b1b2aeeda76619e88a80e2aa49e38cb450bd7963643b4e3f813b4003b"
+
+[[files]]
+file = "kubejs/data/rgs/structure/celadon_gym.nbt"
+hash = "1b83d20662e5f3235a04462f78b163a4f5effac6e4772148890e076f269ff9d6"
+
+[[files]]
+file = "kubejs/data/rgs/structure/cerulean_gym.nbt"
+hash = "f6e9160a7db792dfd8e65b79cf65ca9a99632b53c37dfb063e40e31d6f7c08e8"
+
+[[files]]
+file = "kubejs/data/rgs/structure/cinnabar_gym.nbt"
+hash = "51ef1cae5b4ef7317e372c1f4d485b3bf0046eb1c537057ff95e447389801f77"
+
+[[files]]
+file = "kubejs/data/rgs/structure/fuchsia_gym.nbt"
+hash = "e9fad662ff403057773291188daea3f9be1fa504d1ac318c4323aef98d31707a"
+
+[[files]]
+file = "kubejs/data/rgs/structure/pewter_gym.nbt"
+hash = "b0e362318aa662182b72298ccf4ac014431c0cb10cb4f1a7e0e9185520f24895"
+
+[[files]]
+file = "kubejs/data/rgs/structure/saffron_gym.nbt"
+hash = "1589f18c04f25d8946861ca7d693d94cf27c6cd8e62356dfb24341b451c318e5"
+
+[[files]]
+file = "kubejs/data/rgs/structure/vermilion_gym.nbt"
+hash = "a61c5fa3c20fbf3cc0ddb8f2ae7b263ed62efd9be43a84c5b0576b3ae069e721"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure/blackthorn_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure/celadon_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure/cerulean_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure/cinnabar_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure/fuchsia_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure/kanto_league.json"
+hash = "1a050b608b1a55166f25708362288a3a3ab41bb6f2a5131d6bca26fe3a0f373b"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure/pewter_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure/saffron_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure/vermilion_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure_set/blackthorn_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure_set/celadon_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure_set/cerulean_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure_set/cinnabar_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure_set/fuchsia_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure_set/kanto_league.json"
+hash = "7014530cb47e5b21c388fd072c880c53034c838e8f85d99d743d64bc690bc748"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure_set/pewter_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure_set/saffron_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
+
+[[files]]
+file = "kubejs/data/rgs/worldgen/structure_set/vermilion_gym.json"
+hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
 
 [[files]]
 file = "kubejs/data/sgearmetalworks/recipe/casting/uru/arrow_heads.json"
@@ -10065,6 +11017,10 @@ file = "kubejs/data/silentgear/silentgear_traits/cure_nausea.json"
 hash = "96aadcdc30d24dc5b4893f51836a7f095e1b4551332e792e5fe6682adeec04f1"
 
 [[files]]
+file = "kubejs/data/supplementaries/market_presets/seeds.json"
+hash = "0023a5ace3c7aea6cd3dbbec5d6ec85cbe7797354a86fd36fef5b82d28242118"
+
+[[files]]
 file = "kubejs/data/sushigocrafting/recipe/fermenting_barrel/soy.json"
 hash = "ad480149b80825cf1982d3633383c4136e372f3e395539863fc56a2b51c84525"
 
@@ -10130,7 +11086,7 @@ hash = "e0821df7905625e11e513b409716ecb7692919f9d59c1225c36d17c9cbfce5a9"
 
 [[files]]
 file = "kubejs/server_scripts/Tweaks/tags.js"
-hash = "025fc7f88f4f863423dbe80ec887048788f6a0c5338e3ca884da39a2fe51cf23"
+hash = "f53e260bcc3a76a489b4ab72c55cbfe152c6678295f253bd0ad5c57f71732554"
 
 [[files]]
 file = "kubejs/server_scripts/Tweaks/unregister_pokecenters.js"
@@ -10665,7 +11621,7 @@ metafile = true
 
 [[files]]
 file = "mods/all-the-mons-coremod.pw.toml"
-hash = "e337a4ea93d5df89a92a72699bd65dd9f8e3db9ab44798ece42abe4930aa8aea"
+hash = "ccf1b40f528846d2b3d12ba9810ff6c48f09d633c94da1fe08ef2372c61bd0c5"
 metafile = true
 
 [[files]]
@@ -10950,17 +11906,17 @@ metafile = true
 
 [[files]]
 file = "mods/cobbleloots.pw.toml"
-hash = "0b9f88b7870772e6a893aaa26db45e65c9ef18eef52992745575fd81d2bba3f1"
+hash = "1f2c52099f8b96922f5cbd1edc9b0f5a8d12bbc3486cb6ebcc64768ed0c42d2b"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-battle-extras.pw.toml"
-hash = "4fb28975f075a9a86ff875ec8b9b66e24c929357ee4ade53a619ff138641adae"
+hash = "e1101f59e0d65b53b129c30c36756556f899d7cc8a76a254479cb3f7fb1f0e4b"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-battle-tower.pw.toml"
-hash = "eb1911171cfade5867786cb256d0d49c4170972d951c99b983246cda9d91f93e"
+hash = "f6d8a127c210a598db5c55453c3c333e93f75f2269111d0fc9d5f48bac6cccf1"
 metafile = true
 
 [[files]]
@@ -10980,12 +11936,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "60a0ed9101660ccb6ee8aa2846f515b034fe359a7f6829938d714aecbd52e745"
+hash = "cd630d9b7871c8b70bb376aa621eeea056b1cb74b7c9fc547e42e0f1d195073f"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
-hash = "8ac07d809cd9a50cf21e9ecc7ff396f763ea27f9ab049bd6314e41e5966756d5"
+hash = "0b8e18037a6b3e9dca72b37f61ac3a277927ffeb5105a32740faf2b04c67846d"
 metafile = true
 
 [[files]]
@@ -11000,7 +11956,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemonraiddens.pw.toml"
-hash = "6ffc80c7f2d6feec98807f8f36e0ee9d9bb15e192870b85cbfb550b7b963dbad"
+hash = "940d08f4a9f7b12579f80bc2dcb3fa403f0ef2f1a8bcbe5c3b55fbc276c49858"
 metafile = true
 
 [[files]]
@@ -11350,7 +12306,7 @@ metafile = true
 
 [[files]]
 file = "mods/explorers-compass.pw.toml"
-hash = "a440909bafacf007a277154fb22c42f2d8cdfc1ab204000f93276aaee959b588"
+hash = "0f94eeecbbcd83dcfbeccebb9bbfcd284f6bb8e5dfc3bd4c860ffeaaa8a346ee"
 metafile = true
 
 [[files]]
@@ -12144,18 +13100,23 @@ hash = "0956615c98f104a87f1b986e22b7a6d11c8f1afcf5c2fc4fb52872892739f188"
 metafile = true
 
 [[files]]
+file = "mods/morecobblemontweaks.pw.toml"
+hash = "cc5bc2b9aa1098f1486f615da9064eeaa1961fb4c886c292aafb86555fb892eb"
+metafile = true
+
+[[files]]
 file = "mods/mss-moogs-soaring-structures.pw.toml"
 hash = "754ec9e9d76c7d53977a1a85e74394f59855e315d8b9f96f050aa926280bb44f"
 metafile = true
 
 [[files]]
 file = "mods/natures-compass.pw.toml"
-hash = "d3f07caa7315ade0f248493a84d7e41499798972c83521763aab88471925827b"
+hash = "3b12f3da76a83a57455117542a21d18117192c325be1c315dae04deafdc9b85a"
 metafile = true
 
 [[files]]
 file = "mods/navas-za-megas.pw.toml"
-hash = "2e642d6330ed8947518d8cc136adc248d5a6fc937e508984d37172927410edce"
+hash = "a3a7532f9ba61a40d55e4e15006c72e331213cc42fad76637352c80eacc20944"
 metafile = true
 
 [[files]]
@@ -12360,7 +13321,7 @@ metafile = true
 
 [[files]]
 file = "mods/radical-cobblemon-trainers-api.pw.toml"
-hash = "f3d2597eaa787ea6f0e4641bacb6339ae9a4bf3e7eb071536722e9ef2bafd076"
+hash = "ef9aa14b0291256268b36645bfb7776eff9e7d6d7c0b50cb435533d1c3050349"
 metafile = true
 
 [[files]]
@@ -12385,7 +13346,7 @@ metafile = true
 
 [[files]]
 file = "mods/rctmod.pw.toml"
-hash = "1a1b8ec9639a0094a31e6617fc9e065d21b6a803aec4d724505094ef7de6a288"
+hash = "0accac574266732a8b290463440b7cc2fa37aed005081a4eee09043b717c0c77"
 metafile = true
 
 [[files]]
@@ -12635,7 +13596,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d899a6b3b15e0269ec14e671faecdd7e09ef083890728cf1b562272e53d14e70"
+hash = "c40085678d4e25465a4c0f48bc06a908c816acd260f1cb1d1bd90dd1007e32ec"
 metafile = true
 
 [[files]]
@@ -12715,7 +13676,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "def00ac62134dd91ad50f3336816941400d1afab58d82dea36abf266e87b50bd"
+hash = "6563a5df8120c7b0d7140a8e9baef797e2695e188eaff14c54001a9da682dfce"
 metafile = true
 
 [[files]]
@@ -12975,7 +13936,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/journeymap-cobblemon-icons.pw.toml"
-hash = "e7a965afcddb6fb864a6a016ed9cb9eb102dcf62a2432e445beb59ab6dc38630"
+hash = "7f02037d281a9e62bf3a577f977a930169146512458cc187787d402fa1fd981d"
 metafile = true
 
 [[files]]

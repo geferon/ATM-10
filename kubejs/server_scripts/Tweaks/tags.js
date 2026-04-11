@@ -133,6 +133,7 @@ ServerEvents.tags('entity_type', allthemods => {
   allthemods.add('oritech:spawner_blacklist', '#allthemods:jank_blacklist')
 
   allthemods.add("ftbchunks:entity_interact_whitelist",["rctmod:trainer","rctmod:trainer_association"])
+  allthemods.add("c:capturing_not_supported", ['@cobblemon', '@rctmod'])
 })
 
 ServerEvents.tags('worldgen/structure', allthemods => {
@@ -160,6 +161,16 @@ ServerEvents.tags('block_entity_type', allthemods => {
 ServerEvents.tags('item', allthemods => {
   allthemods.remove("minecraft:head_armor",["pkgbadges:alians_scraf_helmet"])
   allthemods.add("minecraft:head_armor",["pkgbadges:alians_scraf"])
+  allthemods.add('cobblemon:recipe_filters/bait_seasoning', ["allthemodium:allthemodium_apple", "allthemodium:allthemodium_carrot"]);
+})
+
+ServerEvents.generateData('last', allthemons => {
+  allthemons.json("industrialforegoing:tags/entity_type/mob_imprisonment_tool_blacklist.json", {
+    "values": ["#c:capturing_not_supported"],
+    "remove": [
+      "cobblemon:pokemon"
+    ]
+  })
 })
 
 // cataclysm:ghost_sickness

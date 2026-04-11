@@ -14,6 +14,10 @@
     {
       "item": "cobblemon:hyper_potion",
       "quantity": 2
+    },
+    {
+      "item": "cobblemon:revival_herb",
+      "quantity": 2
     }
   ],
   "team": [
@@ -25,7 +29,7 @@
       "ability": "honeygather",
       "moveset": [
         "sweetscent",
-        "gust",
+        "terablast",
         "strugglebug",
         "bugbite"
       ],
@@ -45,14 +49,20 @@
         "aromatherapy"
       ],
       "ivs": {
-        "hp": 5,
-        "atk": 5,
-        "def": 5,
-        "spa": 5,
-        "spd": 5,
-        "spe": 5
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
       },
-      "evs": {}
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "def": 252,
+        "spd": 252,
+        "spe": 252
+      }
     },
     {
       "species": "ribombee",
