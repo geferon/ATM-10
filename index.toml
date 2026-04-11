@@ -10249,6 +10249,10 @@ file = "kubejs/server_scripts/mods/Cobblemon/Recipes.js"
 hash = "f32caf4f936bd3cdb299b8ac998d63e23237232aace8d2954b8891f61c0b3b60"
 
 [[files]]
+file = "kubejs/server_scripts/mods/DoggyTalentsNext/Recipes.js"
+hash = "b748997f1c46df3326129dc9055acf78fde5ea8ed2bf715fcdfdf84a03d5fa65"
+
+[[files]]
 file = "kubejs/server_scripts/mods/Dyenamics/recipes.js"
 hash = "2b7373539c3b088a293db8a86715b247eb6a4aa859adfe223071ba6d7f1e2703"
 
