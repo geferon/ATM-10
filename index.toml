@@ -10146,7 +10146,7 @@ hash = "d09515273a0fda03c6e5bdfbe0da503d111a945b223cf0285c55cc0653eff353"
 
 [[files]]
 file = "kubejs/server_scripts/announcements/announcements.js"
-hash = "76c0998ae1847286d37bff8f07dba4759db47e2f9e4836abdbbaa415f3459bac"
+hash = "ce1e55f58bb0033b543b005d4a07f15f26c4838b02b2c19ec44e0ceee59894a7"
 
 [[files]]
 file = "kubejs/server_scripts/banlist_script.js"
@@ -11747,11 +11747,6 @@ metafile = true
 [[files]]
 file = "mods/just-enough-archaeology.pw.toml"
 hash = "9b8fefa5ff234c5fce2b3a3ef0ba230997e09718874f9ce4a6ce471115f2ca95"
-metafile = true
-
-[[files]]
-file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
-hash = "d3c34f57b2e741a0c0777ef66d4208839d11cf2e863a4c6d16fca18efed249ea"
 metafile = true
 
 [[files]]
