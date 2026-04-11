@@ -1,13 +1,13 @@
 name = "Ender IO"
-filename = "enderio-8.2.3-beta.jar"
+filename = "enderio-8.2.5-beta.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1bbca21faa06f921309dbc57ee5dc5cc23369773"
+hash = "e0a19f468fd150a7d01481ea999d921ee6ef050e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7795630
+file-id = 7847616
 project-id = 64578

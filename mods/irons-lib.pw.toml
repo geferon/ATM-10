@@ -1,0 +1,13 @@
+name = "Iron's Lib"
+filename = "irons_patreon_lib-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b66a7a841a3d9d697df1d897b9da6c6a94e24dc6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7830106
+project-id = 1492763
