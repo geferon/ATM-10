@@ -2046,7 +2046,7 @@
 			shape: "gear"
 			tasks: [{
 				id: "5BCE4EFD40BF767D"
-				item: { components: { "ftbfiltersystem:filter": "or(item(supplementaries:wrench)item(enderio:yeta_wrench)item(immersiveengineering:hammer)item(justdirethings:ferricore_wrench)item(pneumaticcraft:pneumatic_wrench))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(enderio:yeta_wrench)item(immersiveengineering:hammer)item(justdirethings:ferricore_wrench)item(pneumaticcraft:pneumatic_wrench))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.5d

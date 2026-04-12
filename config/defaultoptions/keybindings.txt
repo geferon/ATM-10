@@ -49,7 +49,6 @@ key_iris.keybind.shaderPackSelection:key.keyboard.o:
 key_iris.keybind.wireframe:key.keyboard.unknown:
 key_key.universalgrid.open_wireless_universal_grid:key.keyboard.unknown:
 key_key.universalgrid.switch_wireless_universal_grid_type:key.keyboard.unknown:
-key_supplementaries.keybind.quiver:key.keyboard.v:
 key_key.refinedstorage.focus_search_bar:key.keyboard.tab:
 key_key.refinedstorage.clear_crafting_grid_matrix_to_network:key.keyboard.x:CONTROL
 key_key.refinedstorage.clear_crafting_grid_matrix_to_inventory:key.keyboard.unknown:

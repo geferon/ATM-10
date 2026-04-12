@@ -38,7 +38,8 @@ ServerEvents.tags('item', allthemods => {
   tags = ['c:crops/eggplant', 'rftoolsutility:living/living', 'c:vegetables/eggplant', 'c:vegetables', 'extended_industrialization:farmer_plantable', 'c:crops', 'rftoolsutility:living/highyield']
   tags.forEach(tag => { allthemods.add(tag, 'herbsandharvest:eggplant') })
 
-  tags = ['rftoolsutility:living/living', 'c:vegetables', 'c:rootvegetables/garlic', 'extended_industrialization:farmer_plantable', 'rftoolsutility:living/highyield', 'c:crops/garlic', 'c:crops', 'supplementaries:cookies', 'c:rootvegetables', 'c:vegetables/garlic']
+  // 'supplementaries:cookies'
+  tags = ['rftoolsutility:living/living', 'c:vegetables', 'c:rootvegetables/garlic', 'extended_industrialization:farmer_plantable', 'rftoolsutility:living/highyield', 'c:crops/garlic', 'c:crops', 'c:rootvegetables', 'c:vegetables/garlic']
   tags.forEach(tag => { allthemods.add(tag, 'herbsandharvest:garlic_bulb') })
 
   tags = ['rftoolsutility:living/living', 'c:crops', 'rftoolsutility:living/highyield', 'c:crops/ginger', 'extended_industrialization:farmer_plantable']
@@ -47,8 +48,9 @@ ServerEvents.tags('item', allthemods => {
   tags = ['rftoolsutility:living/living', 'c:fruits', 'c:fruits/grapes', 'c:vinegar_ingredients/grape', 'c:vinegar_ingredients', 'extended_industrialization:farmer_plantable', 'c:crops/grape', 'rftoolsutility:living/highyield', 'c:fruits/grape', 'c:vinegar_ingredients/grapes', 'c:crops']
   tags.forEach(tag => { allthemods.add(tag, 'herbsandharvest:grapes') })
 
+  // 'supplementaries:cookies'
   // Can argue that green beans != beans, but good enough
-  tags = ['rftoolsutility:living/living', 'c:grain/bean', 'extended_industrialization:farmer_plantable', 'c:grain', 'rftoolsutility:living/highyield', 'c:flour_plants/bean', 'supplementaries:cookies', 'c:crops/bean', 'c:crops', 'c:flour_plants']
+  tags = ['rftoolsutility:living/living', 'c:grain/bean', 'extended_industrialization:farmer_plantable', 'c:grain', 'rftoolsutility:living/highyield', 'c:flour_plants/bean', 'c:crops/bean', 'c:crops', 'c:flour_plants']
   tags.forEach(tag => { allthemods.add(tag, 'herbsandharvest:green_bean') })
 
   tags = ['rftoolsutility:living/highyield', 'c:peppers', 'c:peppers/bellpepper', 'extended_industrialization:farmer_plantable', 'c:crops/bellpepper', 'c:vegetables', 'rftoolsutility:living/living', 'c:vegetables/bellpepper', 'c:crops']

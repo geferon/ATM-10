@@ -1722,15 +1722,6 @@
 					}
 					type: "item"
 				}
-				{
-					count: 4
-					id: "2B72AF25BC0235BE"
-					item: {
-						count: 1
-						id: "supplementaries:bamboo_spikes"
-					}
-					type: "item"
-				}
 			]
 			size: 1.25d
 			tasks: [{
