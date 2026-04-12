@@ -77,14 +77,6 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('minecraft:bookshelf_books', 'ae2:guide')
   allthemods.add('minecraft:bookshelf_books', 'powah:book')
 
-  // Overdrive
-  allthemods.add("industrialization_overdrive:multi_processing_array_blacklist", [
-    "modern_industrialization:auto_forge",
-    "modern_industrialization:star_altar",
-    "modern_industrialization:runic_crucible",
-    "modern_industrialization:runic_enchanter"
-  ])
-
   // Trial Vault Repeatability for Decrepit Keys
   allthemods.add("repeatable_trial_vaults:can_reset_trial_vaults", "irons_spellbooks:decrepit_key")
 })
@@ -125,7 +117,7 @@ ServerEvents.tags('entity_type', allthemods => {
   allthemods.add('enderio:soul_vial_blacklist', '#allthemods:jank_blacklist')
   allthemods.add('industrialforegoing:mob_duplicator_blacklist', '#allthemods:jank_blacklist')
   allthemods.add('industrialforegoing:mob_crusher_blacklist', '#allthemods:jank_blacklist')
-  allthemods.add('justdirethings:paradox_deny', '#allthemods:jank_blacklist');
+  // allthemods.add('justdirethings:paradox_deny', '#allthemods:jank_blacklist');
   allthemods.add('tombstone:unhandled_tamable', '#allthemods:jank_blacklist')
   allthemods.add('mob_grinding_utils:no_swab', '#allthemods:jank_blacklist')
   allthemods.add('mob_grinding_utils:no_spawn', '#allthemods:jank_blacklist')

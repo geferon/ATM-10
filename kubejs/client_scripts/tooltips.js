@@ -59,18 +59,6 @@ ItemEvents.modifyTooltips(allthemods => {
     ])
 
     if (Platform.isLoaded('modular_machinery_reborn')) {
-        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_crucible"]', [
-            Text.of('§cWARNING, this machine has be depreciated.'),
-            Text.of('Use crafting table to convert to the new version.')
-        ])
-        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_star_altar"]', [
-            Text.of('§cWARNING, this machine has be depreciated.'),
-            Text.of('Use crafting table to convert to the new version.')
-        ])
-        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_enchanter"]', [
-            Text.of('§cWARNING, this machine has be depreciated.'),
-            Text.of('Use crafting table to convert to the new version.')
-        ])
         allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:auto_hepheastus_forge"]', [
             Text.of('§cWARNING, this machine has be depreciated.'),
             Text.of('Use crafting table to convert to the new version.')

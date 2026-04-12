@@ -402,7 +402,7 @@ hash = "2b543cbdbbedad9cb3cebb2fc52ebe40c9d3dcf4e0c91e6f3ac1b1270159375c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/achapter_2r_6the_atm_star.snbt"
-hash = "1ea82944e78faaa756bf404c5ffa7be0cad147ba7244db097f65eadae85b2c72"
+hash = "d664fe398ec6107d11cbbafa5d40ba03d5b2e47d0cb5aa3fde9e09e74a05a255"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/allthemodium.snbt"
@@ -7925,60 +7925,8 @@ file = "kubejs/assets/modern_industrialization/blockstates/auto_forge.json"
 hash = "721cb9ea5f96b2aa7c1a552406f9d0cdbe382bcb7461ac92753dd730f2c5454a"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/ev_runic_transformer.json"
-hash = "39291e3a2906097f9d22d36af3976a57e84cc33ea57ded2b3b08157c61db6799"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_crucible.json"
-hash = "f6f039f86bf52106d9affe8b6e535075c89564e2c56863bc642e2c9ac7fb3986"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_enchanter.json"
-hash = "fe9b5d6ad5dbab336dda8a535cdc05133e92b601394f604a97b50d6ded2cab14"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_energy_input_hatch.json"
-hash = "6f3138494dd54d75b7554166acd442aee31aea20b3699d10fc59f42ee4015ca0"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_energy_output_hatch.json"
-hash = "e7c7b0b5b55013f83690365f90053e784d5625a77ccec9a36484012535711857"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_ev_transformer.json"
-hash = "5e66dc07e632ccf24b4c4ebdb1f994d95b7615dec427c629c957fcc97a3a6b5f"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_fluid_input_hatch.json"
-hash = "fb80610377c48d9b568f7a9b1c9227c838f80719e1fa887fcdfc19e131e0b4bc"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_fluid_output_hatch.json"
-hash = "f109a220b58cf20a00bc44dbd3c35e769820adb00eb299958efbf7aa95ddbaca"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_item_input_hatch.json"
-hash = "e052f40224c0710119507338cbbe3a9df1cc8842cf06291390d8c72abb52570a"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_item_output_hatch.json"
-hash = "458e5159313f06e5dfa5550701fe0784f8e4d7d42df7db8ed2484c97e3d5377f"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_storage_unit.json"
-hash = "dbaa625fc79665210ffe06dfc233735b228372792d483fe8c3117e76ec3c4998"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/blockstates/runic_superconductor_transformer.json"
 hash = "a23bbdda2aeadf6756e752270d2c14ddc2c925f96de1c66f04bfa750892cd8db"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/star_altar.json"
-hash = "661d637cb954a2ce8db1a8875605ab872c9d2115b393fe709169610dca1ac200"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/superconductor_runic_transformer.json"
-hash = "bb6bb38f6c114f6f6a53987030dd552f93676c86fe1418ef273694ffe26b98fe"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/lang/en_us.json"
@@ -8001,50 +7949,6 @@ file = "kubejs/assets/modern_industrialization/models/block/auto_forge.json"
 hash = "26f3e88c994e588960de19222445f08afd89f3f5ce9f518220777b0fbb03daa9"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/models/block/ev_runic_transformer.json"
-hash = "8ddb29b21c0c5f4784bf9a086ff468a401ce6d7dbdb786b6854ac2ad6dd86a21"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_crucible.json"
-hash = "26f3e88c994e588960de19222445f08afd89f3f5ce9f518220777b0fbb03daa9"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_enchanter.json"
-hash = "26f3e88c994e588960de19222445f08afd89f3f5ce9f518220777b0fbb03daa9"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_energy_input_hatch.json"
-hash = "501da74e248bc0a672b40543146068270e75d7079a85d6454447b6ab3acbc951"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_energy_output_hatch.json"
-hash = "501da74e248bc0a672b40543146068270e75d7079a85d6454447b6ab3acbc951"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_ev_transformer.json"
-hash = "63a5d3ab8a8f089c4b5f4260068bcb19cbbb9ce66c08196a9cf4b99343ff9e52"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_fluid_input_hatch.json"
-hash = "6f8babaca01559b3a8330ec8311c890702c40c5041a11f86f283cea6f0f118ff"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_fluid_output_hatch.json"
-hash = "6f8babaca01559b3a8330ec8311c890702c40c5041a11f86f283cea6f0f118ff"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_item_input_hatch.json"
-hash = "eacbdd7f15cfa5a29059cce39a2956e529283258c962295eac724b2b2b3a8c3c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_item_output_hatch.json"
-hash = "eacbdd7f15cfa5a29059cce39a2956e529283258c962295eac724b2b2b3a8c3c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_storage_unit.json"
-hash = "d26710d49f88250ae40f1e926f138395b4760275d69f4750caab5bd1c883e6ad"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/models/block/runic_superconductor_transformer.json"
 hash = "3bad445d7f8a1b23c44a00b1eeeb2456c922b12155fd64128770ad9481e7adbb"
 
@@ -8053,72 +7957,16 @@ file = "kubejs/assets/modern_industrialization/models/block/star_altar.json"
 hash = "26f3e88c994e588960de19222445f08afd89f3f5ce9f518220777b0fbb03daa9"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/models/block/superconductor_runic_transformer.json"
-hash = "cf5533f9a28c613872acbc177ac0955681b8ac3bcd61dcd4abec97972117d25e"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/models/item/auto_forge.json"
 hash = "4bdd4c77cb23e5a6d01cba65d9ea8a3965e778aed8f817a23211e60aa9e0d316"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/ev_runic_transformer.json"
-hash = "9693f97533d41d0c51f44251c4e45bcb42c17aef5b96b133c2ec06a0f3c5681d"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_crucible.json"
-hash = "7b68132b0596e4ef192b8adeeb6ab0302f4eb67ac8d06a169c6f648f76cc901d"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_enchanter.json"
-hash = "6bb9ee49a1bb6ad3d6a726aa70cec97c84ec761d93394f3c3e692cc38a7529cf"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_energy_input_hatch.json"
-hash = "3ba9689777b9bdfc429885ffb75f25aec18217e759ea113a52c2512baca6c27c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_energy_output_hatch.json"
-hash = "e399d8b2e418a6d7f1b503e678a1263b76b25b0748d12aff17e6371c034e5b1e"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_ev_transformer.json"
-hash = "278ef4376d5fdf1d8f6918101d76dadfaeef6c433f4b3408e12ec13edcd3896a"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_fluid_input_hatch.json"
-hash = "23c5a094cadc95fed663009a6ddcc8533a685196a58bd02f54b3010705969197"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_fluid_output_hatch.json"
-hash = "72be2805d940acc1c4cddc345058303182ea1d79c601684edf02cffee066f926"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_item_input_hatch.json"
-hash = "50a6866fd755ad7593bdb8a7bc3ec963a8ab0e9b58f233067ad4ee945c111cbf"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_item_output_hatch.json"
-hash = "92e639d75282f46671480320fe4810fab268cbd5cb55f81687ee86b41c1fd35c"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_storage_unit.json"
-hash = "866a8d7bb79d77c9bb46217807e616937c4b68fb612fbe7bddf9fc4249123622"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/item/runic_superconductor_transformer.json"
 hash = "c9284815886a19e4457dbfaef5537481667c223ad7e707cd263348fc913cdc66"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/models/item/star_altar.json"
-hash = "732b8095c33942f2f6670621481b4569404e52f858180b286feeb1016aeb3a84"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/superconductor_runic_transformer.json"
-hash = "ba08a4a5c657fe908627924aa1bb1ee95d267ed47a9bbb9ab807c13d5261a48f"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/models/machine_casing/darkstone_casing.json"
-hash = "3df31cf562cbb37ac7cc9e90c16cf0d0c9d3aaab66565d6044f42f1b9ced49ae"
+hash = "98b2374c54b1d3a8ae33c6450b74070bcac6f7a16ed532bd8baa0bcdcd499449"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/machines/runic_multis/overlay_front.png"
@@ -8466,7 +8314,7 @@ hash = "b6f4e0ee7449443b1f1240c5a4602c575a36f005ac0e768b78d79235f73dfd3a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "165af95c2b700b827bee0c3bdc10db9e0961c06082ea50c9954fd90ac3dbef26"
+hash = "e38e660edaa84c4e2fdc9f024ce0f1053a59378588732d080c4a32c487f53444"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -9697,72 +9545,8 @@ file = "kubejs/data/hostilenetworks/data_models/allthemodium/piglich.json"
 hash = "1d02e93a051697d371d46c0abf909ea23ea39bcf1c22cc2343d5e57defc824cc"
 
 [[files]]
-file = "kubejs/data/hostilenetworks/data_models/aurora_deer.json"
-hash = "4c4c899dca7c5e7f87c64b4810bda0420531b89565144819ace6ca4340479c2e"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/crystallized_moth.json"
-hash = "78887e3e17f9d8bcbbd6665904469765b22d4f259cdd89443f882d6823e1dc96"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/ent.json"
-hash = "16896d62049a1265ea7a47d8c2641e1bbac5cc88a992d4168a992b4c3cca5700"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/freeze.json"
-hash = "7660697a17848e8223f445a74ea0990ef86df6d750eb60db03d2da51cbf3cd18"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/gleech.json"
-hash = "cae9d12f466e66907109fa9df71607b8d6bd2d3452a14930d2102dc82b7d60a2"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/grimstone_golem.json"
-hash = "66753469898cc5514bd874bf76d2e0f0a56860c037c634a4547ee180e16f9373"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/lonestar_skeleton.json"
-hash = "8b241470c2a43059bc3551ec98ded1072cb305d7192185ac3d00d6ac2769408b"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/luminaris.json"
-hash = "5b609f4d4557ac53ea4f42d2ac53693b4b85e7a60ec78b6d1c0f8a83c41efb4c"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/luminofish.json"
-hash = "2e78f1893b96ad58f672b27855f7642209d41a95df7e022ccab7cca4ae7bae6e"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/lunar_monstrosity.json"
-hash = "e99d1193cd2aecaa6611a03ccc2b2953c44b2bb2dba61b3f64ebd391abcbf212"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/nightfall_spider.json"
-hash = "708bfb98355dc5a3334e0cb2377215d14cd5f99d326f6a1ddb3f8c5616511589"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/ratlin.json"
-hash = "9cc7bbdb77ac1476b30b2b1760145b89467a5fccbf0584280fabd7e2a28d3607"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/starlight_golem.json"
-hash = "50285eebe39fc621262c2738542db83ccc9da9375a9fad56b156607a738a982d"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/tangled.json"
-hash = "1ff751011cd0aa186e026e4429f67f6b6b0657a18d7bd80092a2f73c595581e1"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/thirst_walker.json"
-hash = "dd9fd64bc7d02beaf5edebb916b0ee090bc3e5cf40ab0902c62f0c0346444de6"
-
-[[files]]
 file = "kubejs/data/hostilenetworks/data_models/warden.json"
 hash = "f428c3d48d72f0a319258c4ae6dc556375c44870fbf04cf4cf6d6e9f9379d080"
-
-[[files]]
-file = "kubejs/data/hostilenetworks/data_models/yeti.json"
-hash = "612f98015472041b5013ae43b3ceede1b78f9d113bfc7d5660224bb3a6a4daa1"
 
 [[files]]
 file = "kubejs/data/immersiveengineering/recipe/arc_recycling_list.json"
@@ -9914,11 +9698,11 @@ hash = "4e418ab6fec32b231f3a9f8b19b4f84b66ec22ae0478d3c203c7951df5134894"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/mineable/pickaxe.json"
-hash = "cf9c7ba0d7d7d856987184632c9523318443436d1a7f0a3ed6318aeab6472029"
+hash = "14eedc7e5a0b57cd187c7ac257fc90d48f8e95a3d82770fb693c98b40fb560f6"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/needs_stone_tool.json"
-hash = "e97a6a2bed09c4258ccc3ee6bc95de7c9d08b393f78f26255f46240c16abe569"
+hash = "23cb5c9f2119da0d3975625a27a08a5e0f37497fb7f595dda0c99ffff0a47513"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/template_pool/village/desert/houses.json"
@@ -9947,10 +9731,6 @@ hash = "31dcac9eed6237d8b544adb80dbe84cabd59698ca9a198bfcfabd575f4b3e39c"
 [[files]]
 file = "kubejs/data/modern_industrialization/loot_table/blocks/auto_forge.json"
 hash = "8b6da5e234ae8d04ae3582c7c638a77c108a1ca2ab73df24dd05fa5c8d755f8b"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/loot_table/blocks/star_altar.json"
-hash = "9a9e42eb4bd7726dc86eb062ca006b6d919e10b95b0d66d15e0f943552ef4f6d"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_bauxite.json"
@@ -10155,34 +9935,6 @@ hash = "33360c3abd487f1c943d65c47112c9b7499318b4fd19d1ae42285fbcb8363db3"
 [[files]]
 file = "kubejs/data/powah/data_maps/fluid/magmator_fuel.json"
 hash = "dcc67c61af838a100e36c2cba47d7f11b4e2bbd99a38f332bb817579f0a8e4cc"
-
-[[files]]
-file = "kubejs/data/pylons/recipe/harvesting/cobblemon/black_apricorn.json"
-hash = "cd2cf4130a47eb31e48752acd7a8c6486c0afc12d02f76d8b53175e1a0c73c3e"
-
-[[files]]
-file = "kubejs/data/pylons/recipe/harvesting/cobblemon/blue_apricorn.json"
-hash = "73b1bf18304d906f5f6c43507bc4edaf90ab5f04f1b1460c2aa6925a3b1e4b82"
-
-[[files]]
-file = "kubejs/data/pylons/recipe/harvesting/cobblemon/green_apricorn.json"
-hash = "9b94962e85d4149e47fcb437b1a36b84962b78c4fd3ad919e51af531666368da"
-
-[[files]]
-file = "kubejs/data/pylons/recipe/harvesting/cobblemon/pink_apricorn.json"
-hash = "7fccb5cc693ad314c0da04e2835e710dbd47cae219d8096ccfdfe31eee646051"
-
-[[files]]
-file = "kubejs/data/pylons/recipe/harvesting/cobblemon/red_apricorn.json"
-hash = "0d183738f715d452cba9f368e1aa0a568de0eb2c6a9f0e37e18fb304e174e53e"
-
-[[files]]
-file = "kubejs/data/pylons/recipe/harvesting/cobblemon/white_apricorn.json"
-hash = "f28725934dc5d42ac7140621af491465e9df2a72c39ac464967d23b03212221b"
-
-[[files]]
-file = "kubejs/data/pylons/recipe/harvesting/cobblemon/yellow_apricorn.json"
-hash = "60ab527fdd06f01b540e02fa0423a534e7bf8591987b7adcc101e5235e106e3c"
 
 [[files]]
 file = "kubejs/data/railcraft/neoforge/biome_modifier/add_lead_ore.json"
@@ -11086,7 +10838,7 @@ hash = "e0821df7905625e11e513b409716ecb7692919f9d59c1225c36d17c9cbfce5a9"
 
 [[files]]
 file = "kubejs/server_scripts/Tweaks/tags.js"
-hash = "f53e260bcc3a76a489b4ab72c55cbfe152c6678295f253bd0ad5c57f71732554"
+hash = "b1613a7800687cbeffc0d4ddb584701ec54aab03d4370eb44d85c5b51dbd90ea"
 
 [[files]]
 file = "kubejs/server_scripts/Tweaks/unregister_pokecenters.js"

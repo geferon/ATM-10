@@ -84,7 +84,6 @@
 				"235273F7C9A9B0D0"
 				"66BAC2B478F9B119"
 				"7A066DD274F970C2"
-				"1FC1588A131B6A4A"
 			]
 			hide_dependent_lines: true
 			id: "5436157FDFC9633E"
@@ -121,22 +120,6 @@
 			}]
 			x: 5.5d
 			y: 2.0d
-		}
-		{
-			id: "1FC1588A131B6A4A"
-			rewards: [{
-				id: "5D29E66729AD6F6D"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5B01815F8338D67D"
-				item: { components: { "ftbquests:missing_item": "modern_industrialization:star_altar" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 0.5d
 		}
 		{
 			dependencies: ["5436157FDFC9633E"]
