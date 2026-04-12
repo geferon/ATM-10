@@ -334,7 +334,7 @@ hash = "4820331f5a2b6d05a3ccc8e37b290604219b54904439ff1d9be5645a1181baf9"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "fdc8e15af1e59dcc19da6fb647cabac3be131fd757ca43a6b6c8270c6a6c28e0"
+hash = "75ff57356320d78fbba5b660056da6e27e14e0e43f6b31b8de3ff27b4dff7101"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
@@ -355,10 +355,6 @@ hash = "37e09cc4bce348c61efb02542dcc6e95a91607698b64627391c407933c57ee7b"
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
 hash = "878c9368bec63cd86822b28ceca345704ebaa411f7b72dd0bb4e682235b790e1"
-
-[[files]]
-file = "config/fancymenu/normalized_scroll_screens.json"
-hash = "6774f1bc1e4e90c706b3f5b550d4650b093c3adcd78d5c8212a6da705b17ad60"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -11733,11 +11729,6 @@ hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
 metafile = true
 
 [[files]]
-file = "mods/construction-sticks.pw.toml"
-hash = "893aad9df7e8e031d36ac74f9129f3cb3ad27f74db3bd4a71d32a6058f933ff6"
-metafile = true
-
-[[files]]
 file = "mods/controlling.pw.toml"
 hash = "616036c38fafbcaf00c0720d947ec39f571d885a014f0c81b5eeeb4193784e0e"
 metafile = true
@@ -12110,11 +12101,6 @@ metafile = true
 [[files]]
 file = "mods/flux-networks.pw.toml"
 hash = "c7cfee01e4250b2745f4218f0a734d8a22786c97665c5010c0154ce3cbb6466d"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
 metafile = true
 
 [[files]]
@@ -13370,11 +13356,6 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "83dae761dae86cc140fe971ce6a8cac9bfe0f9eb39417a71666441a2bcc634a8"
-metafile = true
-
-[[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "6563a5df8120c7b0d7140a8e9baef797e2695e188eaff14c54001a9da682dfce"
 metafile = true
 
 [[files]]

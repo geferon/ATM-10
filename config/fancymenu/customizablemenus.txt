@@ -87,6 +87,3 @@ net.minecraft.client.gui.screens.options.OnlineOptionsScreen {
 com.matyrobbrt.keybindbundles.render.EditBoxScreen {
 }
 
-org.embeddedt.embeddium.impl.gui.EmbeddiumVideoOptionsScreen {
-}
-
