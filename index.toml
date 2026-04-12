@@ -7921,14 +7921,6 @@ file = "kubejs/assets/mob_grinding_utils/lang/ru_ru.json"
 hash = "51f4c41ed484074926eef7d7d452b5e2161472f6561039b8b88bd0ff62dbbb1b"
 
 [[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/auto_forge.json"
-hash = "721cb9ea5f96b2aa7c1a552406f9d0cdbe382bcb7461ac92753dd730f2c5454a"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/blockstates/runic_superconductor_transformer.json"
-hash = "a23bbdda2aeadf6756e752270d2c14ddc2c925f96de1c66f04bfa750892cd8db"
-
-[[files]]
 file = "kubejs/assets/modern_industrialization/lang/en_us.json"
 hash = "61cbb9302c7bf8e949d79203fa77ec2079e493261037d8e43d5d2a265ce6b252"
 
@@ -7943,30 +7935,6 @@ hash = "4afb69cfbb13b02ef3110872c3653e11c4eb564395a71c293ea3e997a5fbdb16"
 [[files]]
 file = "kubejs/assets/modern_industrialization/lang/zh_cn.json"
 hash = "6c55be722af7d73d2caedfccd96af08d4077521ef71647038204c50ba566a59a"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/auto_forge.json"
-hash = "26f3e88c994e588960de19222445f08afd89f3f5ce9f518220777b0fbb03daa9"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/runic_superconductor_transformer.json"
-hash = "3bad445d7f8a1b23c44a00b1eeeb2456c922b12155fd64128770ad9481e7adbb"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/block/star_altar.json"
-hash = "26f3e88c994e588960de19222445f08afd89f3f5ce9f518220777b0fbb03daa9"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/auto_forge.json"
-hash = "4bdd4c77cb23e5a6d01cba65d9ea8a3965e778aed8f817a23211e60aa9e0d316"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/item/runic_superconductor_transformer.json"
-hash = "c9284815886a19e4457dbfaef5537481667c223ad7e707cd263348fc913cdc66"
-
-[[files]]
-file = "kubejs/assets/modern_industrialization/models/machine_casing/darkstone_casing.json"
-hash = "98b2374c54b1d3a8ae33c6450b74070bcac6f7a16ed532bd8baa0bcdcd499449"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/block/machines/runic_multis/overlay_front.png"
@@ -9698,11 +9666,11 @@ hash = "4e418ab6fec32b231f3a9f8b19b4f84b66ec22ae0478d3c203c7951df5134894"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/mineable/pickaxe.json"
-hash = "14eedc7e5a0b57cd187c7ac257fc90d48f8e95a3d82770fb693c98b40fb560f6"
+hash = "811303b4cb88fb069b06499ff27aa95522c6fb3a2b06b8df2137433d08c60eb4"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/needs_stone_tool.json"
-hash = "23cb5c9f2119da0d3975625a27a08a5e0f37497fb7f595dda0c99ffff0a47513"
+hash = "cd9f75abeb136e6738cbeda1c6bbd894e9c9a6bf232759fb746e73bfad340a6c"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/template_pool/village/desert/houses.json"
@@ -9727,10 +9695,6 @@ hash = "58cc10be2c106031259614ac9cb1927d57abb5249c8717bbab48761d64925f6b"
 [[files]]
 file = "kubejs/data/modern_industrialization/data_maps/item/machine_upgrades.json"
 hash = "31dcac9eed6237d8b544adb80dbe84cabd59698ca9a198bfcfabd575f4b3e39c"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/loot_table/blocks/auto_forge.json"
-hash = "8b6da5e234ae8d04ae3582c7c638a77c108a1ca2ab73df24dd05fa5c8d755f8b"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_bauxite.json"
@@ -11213,10 +11177,6 @@ file = "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/auto_hephae
 hash = "fe9a9bde408b4257ebce4d0718ca2fdf1bacf05b6074fb7f073fce010ba53b3b"
 
 [[files]]
-file = "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_washer.js"
-hash = "a18d3208cadc4f31970175dc3f0852cd1322dd48e0d4e15ac8c25a8dade1e921"
-
-[[files]]
 file = "kubejs/server_scripts/mods/modular_machinery/recipes/atm/auto_hephaestus_forge.js"
 hash = "7219db4a77f98849d3556cfafa04cedb2703c73650a89dc45df025182a149103"
 
@@ -11231,10 +11191,6 @@ hash = "e84b4af3c74d4128c03233dbe7d8863c5ba1633fae2d13797f7d7c8321fb7c12"
 [[files]]
 file = "kubejs/server_scripts/mods/modular_machinery/recipes/mekanism/chemical_washer.js"
 hash = "3ee264f62b8ef51fa10bb0b293f0810ffd8486bd6d1889a980ba6e8a3958ee83"
-
-[[files]]
-file = "kubejs/server_scripts/mods/modular_machinery/recipes/mekanism/controllers.js"
-hash = "a4c81a9615aab9623c8efae7903783f8657b5daf62ad85a612389a619d1db58b"
 
 [[files]]
 file = "kubejs/server_scripts/mods/rftools/Recipes.js"
