@@ -1218,7 +1218,7 @@ hash = "15b57675605f1b48c24e2877ccf8d6690330ee0c0d3c5df7d6dfb1f50f9e9902"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "0e6f7b599d79a8c528184afb06e03469084a1a31ca030284141f869b705f6a9f"
+hash = "889cf62f06436ba7bb56f4076fb2068d6db8084a93ffe1820ea5c4b3a5eb9b68"
 
 [[files]]
 file = "config/modular_machinery_reborn-common.toml"
@@ -13672,11 +13672,6 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "83dae761dae86cc140fe971ce6a8cac9bfe0f9eb39417a71666441a2bcc634a8"
-metafile = true
-
-[[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "6563a5df8120c7b0d7140a8e9baef797e2695e188eaff14c54001a9da682dfce"
 metafile = true
 
 [[files]]
