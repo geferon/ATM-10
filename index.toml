@@ -12040,11 +12040,6 @@ hash = "ccaf234ff016baae7f4f7336b4a4972f1d509e3b3578c60726982cc3f78ade63"
 metafile = true
 
 [[files]]
-file = "mods/corail-tombstone.pw.toml"
-hash = "5f832ffe6fd1bde93c87a154053e2bbb7333c9fe4e796cdf00d430e93f217e76"
-metafile = true
-
-[[files]]
 file = "mods/corgilib.pw.toml"
 hash = "5c0fb5558f40b2eadcda6d7035961f48fa4c7ff24b0b440e59ba505edff97930"
 metafile = true
@@ -13857,6 +13852,11 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "78388528880a436cc88e712bf13f0fe3b22d491fdcac6fab95ecf2c04bedd7a0"
+metafile = true
+
+[[files]]
+file = "mods/yigd.pw.toml"
+hash = "ef80891ed72e87e1fd2fda3bcee9e8a50e5c4cf836283ae8ef4c81e7fd213fd0"
 metafile = true
 
 [[files]]
