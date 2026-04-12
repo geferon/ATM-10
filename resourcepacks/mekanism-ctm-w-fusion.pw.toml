@@ -1,13 +1,13 @@
 name = "Mekanism CTM w/ Fusion"
-filename = "Mekanism CTM-Fusion 1.0.zip"
+filename = "[NeoForge] Mekanism CTM-Fusion 1.1.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "47c62ac44143fe8a78adb236ae9ab0f75a747413"
+hash = "6cef640841842c5b274f72727a2f1c0a4420e528"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6181371
+file-id = 7906177
 project-id = 959102

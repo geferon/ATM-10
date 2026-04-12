@@ -29,8 +29,8 @@ ServerEvents.loaded(event => {
   if (!Platform.isLoaded("bcc")) return
   announcements.clear()
   /** @type {import("dev.wuffs.bcc.BetterCompatibilityChecker").$BetterCompatibilityChecker$$Original} */
-  let $BccInstance = Java.loadClass("dev.wuffs.bcc.BetterCompatibilityChecker").INSTANCE
-  currentVersion = new $DefaultArtifactVersion($BccInstance.status.version())
+  let $BccInstance = Java.loadClass("dev.wuffs.bcc.BetterCompatibilityChecker")
+  currentVersion = new $DefaultArtifactVersion($BccInstance.betterStatus.version())
   initAnnouncements()
 })
 

@@ -1,13 +1,13 @@
 name = "Silent Gear Metalworks"
-filename = "sgearmetalworks-1.21.1-1.4.6.jar"
+filename = "sgearmetalworks-1.21.1-1.5.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1951c74de72370cc3fc69f9bbb5248562a855d7b"
+hash = "9685bfa855032fe52b06f992a1070fae94487e76"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7270331
+file-id = 7897500
 project-id = 1199188

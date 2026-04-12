@@ -1,13 +1,13 @@
 name = "Client Crafting"
-filename = "clientcrafting-1.21-1.8.jar"
+filename = "clientcrafting-1.21-1.9.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "c42404d01ff96783f9ec9414fe12b30696978f99"
+hash = "afeae950415c0acfaa02ea2985d6d6ce52a8214f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5549205
+file-id = 7625510
 project-id = 888790

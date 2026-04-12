@@ -1,13 +1,13 @@
 name = "Cobbleworkers"
-filename = "cobbleworkers-neoforge-1.8.0+1.7.0.jar"
+filename = "cobbleworkers-neoforge-2.0.2+1.7.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "11dbc7cd4d01f807d2e0a338dc75dc99def78527"
+hash = "36862b2c5bdb30b854f99a1b5b72e8fdf075c51a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7586428
+file-id = 7899976
 project-id = 1296055
