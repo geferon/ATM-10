@@ -11931,7 +11931,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-knowlogy.pw.toml"
-hash = "be01368eba932fa526346f6fbbf2c319c5534befe10ee78191a9c22b0e96896c"
+hash = "29797e0e80690ad6c60862080b4f5d29991090ebccd096e2ed750aedde828f08"
 metafile = true
 
 [[files]]
@@ -11961,7 +11961,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbleworkers.pw.toml"
-hash = "038c83c3483115c196407a22fe3842660f36356162358ae6e066ef86571f4f45"
+hash = "ef0effed9e21a2b31bf727a8b06fb8a4861140dd1aca05525b1fd310b0b5b685"
 metafile = true
 
 [[files]]
@@ -12720,11 +12720,6 @@ hash = "7a14d8f53b9792d527f27efd8db48928c618274c1ae8cbcc71c83920a6faef56"
 metafile = true
 
 [[files]]
-file = "mods/jupiter.pw.toml"
-hash = "a3d803079f7cba47f9d6bf728198f2c335a13938ef50bbdaa3f7ae2457bef58d"
-metafile = true
-
-[[files]]
 file = "mods/just-enough-archaeology.pw.toml"
 hash = "9b8fefa5ff234c5fce2b3a3ef0ba230997e09718874f9ce4a6ce471115f2ca95"
 metafile = true
@@ -13341,7 +13336,7 @@ metafile = true
 
 [[files]]
 file = "mods/rctmod.pw.toml"
-hash = "74320fda5105978bf63e8ebf2f5ac9088aa0d4b512fdf6c3b5fda139a070b1c4"
+hash = "0accac574266732a8b290463440b7cc2fa37aed005081a4eee09043b717c0c77"
 metafile = true
 
 [[files]]
@@ -13667,6 +13662,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "83dae761dae86cc140fe971ce6a8cac9bfe0f9eb39417a71666441a2bcc634a8"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "6563a5df8120c7b0d7140a8e9baef797e2695e188eaff14c54001a9da682dfce"
 metafile = true
 
 [[files]]
