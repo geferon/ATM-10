@@ -16,7 +16,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({id: /mekmm:.*replicat.*/})
     allthemods.remove({id: /mekmm:.*recycl.*/})
     allthemods.remove({id: /mekmm:.*planting.*/})
-    allthemods.remove({id: 'mekmm:cnc_lathe'})
+    // allthemods.remove({id: 'mekmm:cnc_lathe'})
     allthemods.remove({id: /mekmm:.*lathing.*/})
     allthemods.remove({id: /mekmm:.*rolling_mill.*/})
     allthemods.remove({type: 'mekmm:recycling'})
@@ -27,110 +27,70 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({id: /mekmm:compat\/extendedae.*/})
     allthemods.remove({id: /mekmm:compat\/megacells.*/})
 
-    // add CNC stamper recipes for gears, plates and rods for ores listed in @alltheores
-    const gear_metals = [
-        "aluminum",
-        "lead",
-        "nickel",
-        "osmium",
-        "platinum",
-        "silver",
-        "tin",
-        "uranium",
-        "zinc",
-        "iridium",
-        "steel",
-        "invar",
-        "electrum",
-        "bronze",
-        "brass",
-        "enderium",
-        "lumium",
-        "signalum",
-        "constantan",
-        "copper",
-        "iron",
-        "gold",
-        "netherite"
+    // All AllTheOres materials with plates and rods
+    const alltheoresMaterials = [
+        'aluminum', 'brass', 'bronze', 'constantan', 'copper',
+        'electrum', 'enderium', 'gold', 'invar', 'iridium', 'iron',
+        'lead', 'lumium', 'netherite', 'nickel', 'osmium', 'platinum',
+        'signalum', 'silver', 'steel', 'tin', 'uranium', 'zinc'
     ]
-    gear_metals.forEach(metal => {
-        allthemods.custom({
-            type: "mekmm:stamper",
-            input: { tag: `c:ingots/${metal}`, count: 4 },
-            mold: { item: "immersiveengineering:mold_gear" },
-            output: { id: `alltheores:${metal}_gear`, count: 1 }
-        })
-    })
-    allthemods.custom({
-        type: "mekmm:stamper",
-        input: { tag: `c:gems/diamond`, count: 4 },
-        mold: { item: "immersiveengineering:mold_gear" },
-        output: { id: `alltheores:diamond_gear`, count: 1 }
-    })
+    alltheoresMaterials.forEach(material => {
+        let rod = `alltheores:${material}_rod`
+        let plate = `alltheores:${material}_plate`
+        let ingotTag = `c:ingots/${material}`
 
-    const plate_metals = [
-        "osmium",
-        "platinum",
-        "tin",
-        "zinc",
-        "iridium",
-        "invar",
-        "bronze",
-        "brass",
-        "enderium",
-        "lumium",
-        "signalum",
-        "netherite"
-    ]
-    plate_metals.forEach(metal => {
-        allthemods.custom({
-            type: "mekmm:stamper",
-            input: { tag: `c:ingots/${metal}`, count: 1 },
-            mold: { item: "immersiveengineering:mold_plate" },
-            output: { id: `alltheores:${metal}_plate`, count: 1 }
-        })
-    })
-    allthemods.custom({
-        type: "mekmm:stamper",
-        input: { tag: `c:gems/diamond`, count: 1 },
-        mold: { item: "immersiveengineering:mold_plate" },
-        output: { id: `alltheores:diamond_plate`, count: 1 }
-    })
+        if (Item.exists(rod)) {
+            allthemods.custom({
+                type: 'mekmm:lathe',
+                input: { count: 1, tag: ingotTag },
+                output: { count: 2, id: rod }
+            }).id(`allthemons:mekmm/lathe/${material}_rod`)
 
-    const rod_metals = [
-        "lead",
-        "nickel",
-        "osmium",
-        "platinum",
-        "silver",
-        "tin",
-        "uranium",
-        "zinc",
-        "iridium",
-        "invar",
-        "electrum",
-        "bronze",
-        "brass",
-        "enderium",
-        "lumium",
-        "signalum",
-        "constantan",
-        "copper",
-        "gold",
-    ]
-    rod_metals.forEach(metal => {
-        allthemods.custom({
-            type: "mekmm:stamper",
-            input: { tag: `c:ingots/${metal}`, count: 1 },
-            mold: { item: "immersiveengineering:mold_rod" },
-            output: { id: `alltheores:${metal}_rod`, count: 2 }
-        })
+            allthemods.custom({
+                type: 'mekmm:stamper',
+                input: { count: 1, tag: ingotTag },
+                mold: { count: 1, item: 'immersiveengineering:mold_rod' },
+                output: { count: 2, id: rod }
+            }).id(`allthemons:mekmm/stamper/${material}_rod`)
+        }
+
+        if (Item.exists(plate)) {
+            allthemods.custom({
+                type: 'mekmm:stamper',
+                input: { count: 1, tag: ingotTag },
+                mold: { count: 1, item: 'immersiveengineering:mold_plate' },
+                output: { count: 1, id: plate }
+            }).id(`allthemons:mekmm/stamper/${material}_plate`)
+        }
     })
+    //Diamond Rods and plate as Diamond's tag is c:gems/diamond not c:ingot/diamond
     allthemods.custom({
-        type: "mekmm:stamper",
-        input: { tag: `c:gems/diamond`, count: 1 },
-        mold: { item: "immersiveengineering:mold_rod" },
-        output: { id: `alltheores:diamond_rod`, count: 2 }
+                type: 'mekmm:lathe',
+                input: { count: 1, tag: `c:gems/diamond` },
+                output: { count: 2, id: `alltheores:diamond_rod` }
+    }).id(`allthemons:mekmm/lathe/diamond_rod`)
+    allthemods.custom({
+                type: 'mekmm:stamper',
+                input: { count: 1, tag: `c:gems/diamond` },
+                mold: { count: 1, item: 'immersiveengineering:mold_rod' },
+                output: { count: 2, id: `alltheores:diamond_rod`}
+        }).id(`allthemons:mekmm/stamper/diamond_rod`)
+    allthemods.custom({
+                type: 'mekmm:stamper',
+                input: { count: 1, tag: `c:gems/diamond` },
+                mold: { count: 1, item: 'immersiveengineering:mold_plate' },
+                output: { count: 1, id: `alltheores:diamond_plate` }
+        }).id(`allthemons:mekmm/stamper/diamond_plate`)
+
+    // CNC Stamper wire recipes
+    const stamperWires = ['electrum', 'iron', 'copper', 'gold']
+    stamperWires.forEach((material, candidates) => {
+        allthemods.custom({
+            type: 'mekmm:stamper',
+            input: { count: 1, tag: `c:ingots/${material}` },
+            mold: { count: 1, item: 'immersiveengineering:mold_wire' },
+            output: { count: 2, id: `createaddition:${material}_wire` }
+        }).id(`allthemons:mekmm/stamper/createaddition/${material}_wire`)
     })
 })
 

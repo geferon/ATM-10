@@ -129,58 +129,5 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('c:onions', 'farmersdelight:onion')
 })
 
-ServerEvents.recipes(allthemods => {
-  allthemods.remove([
-    {
-      id: 'merrymaking:poultry_dinner'
-    },
-    {
-      id: 'merrymaking:latke'
-    },
-    {
-      id: 'merrymaking:sweet_potato_pie'
-    },
-    {
-      id: 'merrymaking:icing'
-    },
-    {
-      id: 'merrymaking:ground_ginger'
-    },
-    {
-      id: 'merrymaking:cookie_dough'
-    },
-    {
-      id: 'merrymaking:gingerbread_dough'
-    },
-    {
-      id: 'merrymaking:harvest_tray'
-    }
-  ])
-
-  allthemods.shaped('merrymaking:stuffed_poultry_dinner', ['ABC', 'DEF'], {
-    A: 'merrymaking:quartz_platter',
-    B: '#c:vegetables/sweet_potato',
-    C: '#c:grain/corn',
-    D: 'minecraft:carrot',
-    E: 'minecraft:potato',
-    F: 'minecraft:beetroot'
-  }).id('allthemods:merrymaking/poultry_dinner')
-
-  allthemods.shapeless('merrymaking:latke', ['minecraft:potato', '#c:onions/onion', 'minecraft:egg', 'minecraft:wheat']).id('allthemods:merrymaking/latke')
-
-  allthemods.shapeless('merrymaking:sweet_potato_pie', ['#c:milk', 'minecraft:wheat', 'minecraft:sugar', 'minecraft:egg', '#c:vegetables/sweet_potato']).id('allthemods:merrymaking/sweet_potato_pie')
-
-  allthemods.shapeless('8xmerrymaking:icing', ['minecraft:sugar', '#c:milk', 'minecraft:bowl']).id('allthemods:merrymaking/icing')
-
-  allthemods.shapeless('8xmerrymaking:ground_ginger', ['#c:crops/ginger']).id('allthemods:merrymaking/ground_ginger')
-
-  allthemods.shapeless('merrymaking:cookie_dough', ['#c:milk', 'minecraft:wheat', 'minecraft:sugar', 'minecraft:egg']).id('allthemods:merrymaking/cookie_dough')
-
-  allthemods.shapeless('merrymaking:gingerbread_dough', ['merrymaking:ground_ginger', '#c:milk', 'minecraft:wheat', 'minecraft:sugar', 'minecraft:egg']).id('allthemods:merrymaking/gingerbread_dough')
-
-  allthemods.shapeless('merrymaking:harvest_tray', ['merrymaking:empty_tray', '#c:vegetables/sweet_potato', '#c:grain/corn', 'minecraft:carrot', 'minecraft:apple', 'minecraft:potato', 'minecraft:sweet_berries', 'minecraft:beetroot', 'minecraft:wheat']).id('allthemods:merrymaking/harvest_tray')
-
-})
-
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

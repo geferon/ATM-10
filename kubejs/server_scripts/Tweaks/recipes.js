@@ -65,23 +65,39 @@ ServerEvents.recipes(allthemods => {
         }
     }).id('powah:energizing/uraninite_from_ore')
 
+    // allthemods.shapeless(
+    //     Item.of('minecraft:potion[potion_contents={potion:"minecraft:water"}]', 1),
+    //     [
+    //         'minecraft:glass_bottle',
+    //         'mysticalagriculture:water_essence'
+    //     ]
+    // )
+
+    // allthemods.shapeless(
+    //     Item.of('minecraft:honey_block'),
+    //     [
+    //         '9x mysticalagriculture:honey_essence'
+    //     ]
+    // )
     allthemods.shaped("minecraft:crafting_table", ['XX','XX'], {X: "#minecraft:planks"}).id("minecraft:crafting_table")
 
     //soy sauce from unified tag
-    allthemods.custom({
-        type: "sushigocrafting:fermenting_barrel",
-        fluid: {
-            amount: 250,
-            id: "minecraft:water"
-        },
-        input: {
-            tag: "c:crops/soybean"
-        },
-        output: {
-            count: 1,
-            id: "sushigocrafting:soy_sauce"
-        }
-    })
+    // allthemods.custom({
+        // type: "sushigocrafting:fermenting_barrel",
+        // fluid: {
+            // amount: 250,
+            // id: "minecraft:water"
+        // },
+        // input: {
+            // tag: "c:crops/soybean"
+        // },
+        // output: {
+            // count: 1,
+            // id: "sushigocrafting:soy_sauce"
+        // }
+    // })
+
+    allthemods.replaceInput({output: 'crafting_on_a_stick:crafting_table'}, 'minecraft:crafting_table', '#c:player_workstations/crafting_tables')
 
     allthemods.shapeless(
         Item.of('minecraft:crafting_table'),
@@ -97,20 +113,6 @@ ServerEvents.recipes(allthemods => {
 			'minecraft:white_dye'
         ]
     ).id("allthemods:example_firework_star")
-	// Saltpeter Block Recipes
-	allthemods.shaped(
-        Item.of(`kubejs:saltpeter_block`),
-        ['CCC','CCC','CCC'],
-        {
-            C: `#c:dusts/saltpeter`
-        }
-    ).id("allthemods:saltpeter_block")
-	allthemods.shapeless(
-        Item.of('railcraft:saltpeter_dust', 9),
-        [
-            'kubejs:saltpeter_block'
-        ]
-	).id("allthemods:saltpeter_dust_from_block")
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

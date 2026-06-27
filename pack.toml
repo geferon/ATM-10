@@ -1,13 +1,13 @@
-name = "All the Mods 10"
-author = "ATMTeam"
-version = "5.4"
+name = "All the Mods 10 - Geferon Edition (Mons)"
+author = "ATMTeam + Geferon"
+version = "0.8"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "722f55b2fc86fba7206cfa900baa5be0c0dca6bb970436ae4358859739d4c8df"
+hash = "0aa48e6f0b231d598f8596957c2ae65dd8ef5f603feeb6589027913013cddeb5"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.224"
+neoforge = "21.1.233"

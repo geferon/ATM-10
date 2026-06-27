@@ -16,7 +16,6 @@
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"minecraft:water\"}}",
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"minecraft:lava\"}}",
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"minecraft:milk\"}}",
-    "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"productivebees:honey\"}}",
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"justdirethings:polymorphic_fluid_source\"}}",
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"justdirethings:portal_fluid_source\"}}",
     "item:xycraft_machines:foil{\"xycraft_core:fluid_container\":{amount:250,id:\"justdirethings:unstable_portal_fluid_source\"}}",

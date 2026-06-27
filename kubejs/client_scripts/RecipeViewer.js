@@ -1,12 +1,8 @@
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMod 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
-const runicYEET = [
-    // Commented out: Item does not exist
-    //'extended_industrialization:runic_tesla_receiver_hatch'
-]
-
 RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {
+    allthemods.remove('cobblemon_utility:shinycard')
     allthemods.remove('allthetweaks:greg_star')
     allthemods.remove('allthetweaks:greg_star_block')
 
@@ -14,15 +10,15 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {
         allthemods.remove(`allthecompressed:greg_star_block_${i}x`)
     }
 
-    allthemods.remove("extradisks:infinite_chemical_storage_block")
-    allthemods.remove("extradisks:infinite_chemical_storage_disk")
-    allthemods.remove("extradisks:infinite_chemical_storage_part")
-    allthemods.remove("extradisks:infinite_fluid_storage_block")
-    allthemods.remove("extradisks:infinite_fluid_storage_disk")
-    allthemods.remove("extradisks:infinite_fluid_storage_part")
-    allthemods.remove("extradisks:infinite_item_storage_block")
-    allthemods.remove("extradisks:infinite_item_storage_disk")
-    allthemods.remove("extradisks:infinite_item_storage_part")
+    // allthemods.remove("extradisks:infinite_chemical_storage_block")
+    // allthemods.remove("extradisks:infinite_chemical_storage_disk")
+    // allthemods.remove("extradisks:infinite_chemical_storage_part")
+    // allthemods.remove("extradisks:infinite_fluid_storage_block")
+    // allthemods.remove("extradisks:infinite_fluid_storage_disk")
+    // allthemods.remove("extradisks:infinite_fluid_storage_part")
+    // allthemods.remove("extradisks:infinite_item_storage_block")
+    // allthemods.remove("extradisks:infinite_item_storage_disk")
+    // allthemods.remove("extradisks:infinite_item_storage_part")
 
     let $DyeColor = Java.loadClass("net.minecraft.world.item.DyeColor")
     for (let color of $DyeColor.values()) {
@@ -37,8 +33,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {
     allthemods.remove(/mekmm:.*replicat.*/)
     allthemods.remove(/mekmm:.*recycl.*/)
     allthemods.remove(/mekmm:.*planting.*/)
-    allthemods.remove('mekmm:cnc_lathe')
-    allthemods.remove(/mekmm:.*lathing.*/)
+    // allthemods.remove('mekmm:cnc_lathe')
+    // allthemods.remove(/mekmm:.*lathing.*/)
     allthemods.remove(/mekmm:.*rolling_mill.*/)
 
     // allthemods.remove("supplementaries:faucet")
@@ -54,76 +50,48 @@ RecipeViewerEvents.removeRecipes(event => {
     event.remove(["xycraft_machines:extractor/enderio/grains_of_infinity"])
 })
 
-RecipeViewerEvents.removeEntries('item', allthemods => {
-    for (let yeet of runicYEET) {
-        allthemods.remove(yeet)
+NetworkEvents.dataReceived("battle_tower_shop_items", event => {
+  if (Platform.isLoaded("jei")) {
+    let jeiRuntime = global.jeiRuntime
+    let recipes = []
+    if (jeiRuntime != null) {
+      let $RecipeTypes = Java.loadClass("mezz.jei.api.constants.RecipeTypes")
+      let $IngredientInfoRecipe = Java.loadClass("mezz.jei.library.plugins.jei.info.IngredientInfoRecipe")
+      let $VanillaTypes = Java.loadClass("mezz.jei.api.constants.VanillaTypes")
+      let recipeManager = jeiRuntime.getRecipeManager()
+
+      for (let item of event.data.get("shop_items")) {
+        let cost = item.get("cost").getAsInt()
+        let count = item.get("count").getAsInt()
+        let itemId = item.get("item").getAsString()
+        if (Item.exists(itemId)) {
+          let stack = Item.of(itemId)
+          let recipe = $IngredientInfoRecipe.create(jeiRuntime.getIngredientManager(), [stack], $VanillaTypes.ITEM_STACK, [Text.translate('kubejs.atm.rv.battle_tower_sale', count, cost)])
+          recipes.push(recipe)			
+        } else {
+          console.log("[Battle Tower Shop] Item for id " + itemId + " does not exist!")
+        }
+      }
+      recipeManager.addRecipes($RecipeTypes.INFORMATION, recipes)
     }
+  }
+  //console.log(event.data)
+})
 
-    // From JEI blacklist.json
-    allthemods.remove(["immersiveengineering:pickaxe_steel",
-        "immersiveengineering:shovel_steel",
-        "immersiveengineering:axe_steel",
-        "immersiveengineering:hoe_steel",
-        "immersiveengineering:sword_steel",
-        "railcraft:steel_sword",
-        "railcraft:steel_hoe",
-        "railcraft:steel_axe",
-        "railcraft:steel_pickaxe",
-        "railcraft:steel_shovel",
-        "railcraft:steel_boots",
-        "railcraft:steel_chestplate",
-        "railcraft:steel_helmet",
-        "railcraft:steel_leggings",
-        "immersiveengineering:armor_steel_boots",
-        "immersiveengineering:armor_steel_leggings",
-        "immersiveengineering:armor_steel_chestplate",
-        "immersiveengineering:armor_steel_helmet",
-        "mekanism:creative_chemical_tank",
-        "mekanism:creative_fluid_tank",
-        "mekanism:creative_bin",
-        "bigreactors:reinforced_reactorcreativewatergenerator",
-        "bigreactors:basic_turbinecreativesteamgenerator",
-        "bigreactors:reinforced_turbinecreativesteamgenerator",
-        "enderio:creative_power",
-        "ae2:creative_storage_cell",
-        "modularrouters:creative_module",
-        "modern_industrialization:creative_tank",
-        "modern_industrialization:creative_storage_unit",
-        "pneumaticcraft:creative_upgrade",
-        "rftoolspower:dimensionalcell_creative",
-        "xycraft_machines:item_selector",
-        "xycraft_machines:fluid_selector",
-        "stevescarts:module_creative_engine",
-        "stevescarts:module_creative_hull",
-        "stevescarts:upgrade_creative_mode",
-        "ftbquests:stage_barrier",
-        "ftbquests:barrier",
-        "modern_industrialization:creative_barrel",
-        "immersiveengineering:capacitor_creative",
-        "mifa:efficiency_addon_5",
-        "mifa:efficiency_addon_6",
-        "mifa:efficiency_addon_7",
-        "mifa:efficiency_addon_8",
-        "mifa:processing_addon_5",
-        "mifa:processing_addon_6",
-        "mifa:processing_addon_7",
-        "mifa:processing_addon_8",
-        "mifa:speed_addon_5",
-        "mifa:speed_addon_6",
-        "mifa:speed_addon_7",
-        "mifa:speed_addon_8"]
-    )
-
+RecipeViewerEvents.addInformation('item', allthemods => {
+  allthemods.add('cobblemon:leftovers', [
+    Text.translate('kubejs.atm.rv.leftovers.1')
+  ])
 })
 
 RecipeViewerEvents.addInformation('fluid', allthemods => {
-    allthemods.add("advanced_ae:quantum_infusion_source", [
-        '§8In the Reaction Chamber: §e4000mb of Water§8 + §e1x Quantum Infused Dust§8 = §b1000mb of Quantum Infusion'
-    ])
+  allthemods.add("advanced_ae:quantum_infusion_source", [
+    Text.translate('kubejs.atm.rv.quantum_infusion_source.1')
+  ])
 })
 
-RecipeViewerEvents.removeCategories(allthemods => {
-    allthemods.remove(["minecraft:grindstone"])
+RecipeViewerEvents.registerSubtypes("item", event => {
+  event.useComponents("allthemons:pika_star",["allthemons:region"])
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

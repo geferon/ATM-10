@@ -1,13 +1,13 @@
 name = "Mama's Herbs and Harvest"
-filename = "herbsandharvest-1.21.1-11.jar"
+filename = "herbsandharvest-1.21.1-12.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c88c7ff79d445a700678543f927d0c66a5b50738"
+hash = "b16bcb958fcc74c0663f2debb5302a5484a18492"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7877304
+file-id = 7998571
 project-id = 1130473

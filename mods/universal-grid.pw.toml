@@ -1,13 +1,13 @@
 name = "Universal Grid"
-filename = "universalgrid-neoforge-1.21.1-0.3.0.jar"
+filename = "universalgrid-neoforge-1.21.1-0.3.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "04ea75a6e06b2e44406f12ec04f50121c4ca3f23"
+hash = "c903b17a0deec383f3c960d8045f392a97440d23"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7851814
+file-id = 7954836
 project-id = 536160

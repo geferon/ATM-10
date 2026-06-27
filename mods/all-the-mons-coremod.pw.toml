@@ -1,13 +1,13 @@
 name = "All The Mons - Coremod (this is not the modpack you are looking for)"
-filename = "allthemons-0.0.46.jar"
+filename = "allthemons-0.1.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8e6430f4fd45efe6dd39730db0d80a3bbfc9e2b7"
+hash = "45479012e436aba11b20ddee617d97e3e5e828da"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7872749
+file-id = 8247155
 project-id = 1361840

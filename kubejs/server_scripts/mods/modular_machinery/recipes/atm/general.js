@@ -24,8 +24,11 @@ ServerEvents.recipes(allthemods => {
 
             allthemods.shaped('modular_machinery_reborn:blueprint', 
                 [
-                    'plp',
-                    'pwp',
+                    // 'plp',
+                    // 'pwp',
+                    // 'ppp'
+                    'p p',
+                    'p p',
                     'ppp'
                 ],
                 {

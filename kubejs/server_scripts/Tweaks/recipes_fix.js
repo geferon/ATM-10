@@ -63,16 +63,17 @@ KubeJSTweaks.beforeRecipes(event => {
       ])
     })
 
+  // Scans items on result and add them back as conditions, izi fix
+  event.getEntry(/^farmingforblockheads:market\//)
+    .forEach(entry => {
+      entry.addConditionsFromKey("result")
+    })
+
   // Scans items/tags on ingredients and add them back as conditions
   event.getEntry("create:crafting/tree_fertilizer")
     .forEach(entry => {
       entry.addConditionsFromKey("ingredients")
     })
-
-  event.getEntry(["merrymaking:aged_pine_mantel","merrymaking:exposed_pine_mantel","merrymaking:pine_mantel","merrymaking:weathered_pine_mantel"])
-    .forEach(entry => {
-      entry.addConditionsFromKey("key")
-    })	
 
 
   // Fix a typo, they missed a `s`
@@ -84,6 +85,13 @@ KubeJSTweaks.beforeRecipes(event => {
   ]).forEach(entry => {
     entry.replaceValueAtKey("input", "item", "biomeswevegone:dacite_tile", "biomeswevegone:dacite_tiles")
 	entry.replaceValueAtKey("output", "id", "biomeswevegone:dacite_tile", "biomeswevegone:dacite_tiles")
+  })
+
+  // Another typo, a wild `'` at the name of the item
+  event.getEntry("mekmm:compat/ars_nouveau/planting/magebloom").forEach(entry => {
+    entry.fromPath("secondary_output.id").ifPresent(result => {
+		result.first.add("id", result.second.getAsString().replace("'",""))
+	})
   })
 
   // RIP Jonn, forgot `s`
@@ -139,22 +147,69 @@ KubeJSTweaks.beforeRecipes(event => {
     .forEach(entry => {
       entry.fromPath("template", "[]").ifPresent(result => entry.ignoreWarning())
     })
+  
+  // Adds mod condition check
+  // event.getEntry("productivebees:elementalcraft/pureinfusion/pure_crystal_bee")
+  //   .forEach(entry => entry.addModConditionFromType())
 
   // old recipe
   event.disable("factory_blocks:mason_table_old")
 
-  // event.disable("supplementaries:botany_flax")
+  event.disable("supplementaries:botany_flax")
 
   event.getEntry(["mekmm:compat/immersiveengineering/lathe/aluminum_stick", "mekmm:compat/immersiveengineering/lathe/steel_stick"])
     .forEach(entry => {
       entry.renameKey("main_input", "input", false)
     })
 
+  // event.disable(/^botanypots:cobblemon\/crop\/.*$/)
+  
+  // event.getEntry(/^botanypots:cobblemon\/crop\/.*$/).forEach(entry => {
+	//   let type = entry.json().get("type").getAsString()
+	//   if (type == "botanypots:crop") {
+	// 	entry.replaceValueAtKey("type", null, "botanypots:crop", "botanypots:block_derived_crop")
+	// 	entry.renameKey("seed", "input", false)
+	// 	entry.renameKey("growthTicks", "grow_time", false)
+	// 	let display = entry.json().get("display")
+	// 	let displayBlock = display.get("block")
+		
+	// 	if (display.has("rotation")) {
+	// 		let rotation = display.remove("rotation")
+	// 		display.add("block_state", JsonIO.toObject({block: displayBlock}))
+	// 		display.add("options", JsonIO.toObject({rotation: rotation}))
+	// 	}
+	// 	entry.json().add("block", displayBlock)
+	// 	entry.fixItemAtKey("drops")
+		
+	// 	let drops = entry.json().get("drops")
+		
+  //   let shouldAdd = false
+	// 	for (let drop of drops) {
+  //     let output = drop.remove("output")
+  //     if (output == null) continue
+  //     shouldAdd = true
+  //     output.add("id", output.remove("item"))
+  //     drop.add("result", output)
+  //   }
+	// 	if (shouldAdd) entry.json().add("drops", JsonIO.toArray([{type: "botanypots:items", items: drops}]))
+		
+	// 	let categories = entry.json().remove("categories")
+	// 	let soilIngredients = JsonIO.toArray([])
+	// 	if (categories == null) return
+	// 	for (let category of categories) {
+	// 		soilIngredients["add(com.google.gson.JsonElement)"](JsonIO.toObject({tag: "botanypots:soil/" + (category.getAsString() == "stone" ? "moss" : category.getAsString())}))
+	// 	}
+	// 	let soil = JsonIO.toObject({type: "bookshelf:either", ingredients: soilIngredients})
+	// 	entry.json().add("soil", soil)
+	//   }
+	//   //console.log(entry.json())
+  // })
+
   event.getEntry("bellsandwhistles:metro/metro_window").forEach(entry => {
-    entry.replaceValueAtKey("ingredients", "tag", "c:glass", "c:glass_blocks")
+	entry.replaceValueAtKey("ingredients", "tag", "c:glass", "c:glass_blocks")
   })
 
-  event.getEntry(/^create:.*\/compat\/(biomeswevegone|silentgems)\//)
+  event.getEntry(/^create:.*\/compat\/silentgems\//)
     .forEach(entry => {
       entry.addConditionsFromKey("ingredients")
     })
@@ -163,57 +218,34 @@ KubeJSTweaks.beforeRecipes(event => {
     .forEach(entry => {
       entry.replaceValueAtKey("ingredients", "fluid_tag", "c:chocolates", "c:chocolate")
     })
+	
+  event.getEntry("mekmm:compat/mysticalagradditions/planting/awakened_draconium")
+    .forEach(entry => {
+      entry.fixItemAtKey("main_output")
+      let ci = entry.json().get("chemical_input")
+      if (ci.has("gas")) {
+        ci.add("chemical", ci.remove("gas"))	  
+	  }	  
+    })
 
   event.getEntry("botanypots:allthemodium/crop/ancient_soulberries")
     .forEach(entry => {
       entry.addConditionsFromKey("input")
     })
 
-  
-  event.getEntry("bellsandwhistles:metro/metro_window").forEach(entry => {
-    entry.replaceValueAtKey("ingredients", "tag", "c:glass", "c:glass_blocks/colorless")
-  })
-
-  event.getEntry("regions_unexplored:prismaglass").forEach(entry => {
-    entry.replaceValueAtKey("key", "tag", "c:glass", "c:glass_blocks/colorless")
-  })
-
-  event.getEntry(/^regions_unexplored:.*_snowbelle$/)
+  event.getEntry("berrypouch:berry_pouch_30")
     .forEach(entry => {
-      let ings = entry.json().get("ingredients")
-      if (ings != null) {
-        for (let ing of ings) {
-          let tag = ing.get("tag")
-          if (tag != null) {
-            if (tag.getAsString().endsWith("_dyes")) {
-              let color = tag.getAsString().replace("c:","").replace("_dyes","")
-              ing["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
-            }
-          }
-        }
-      }
+      entry.addConditionsFromKey("result")
     })
-
-  event.getEntry(/^regions_unexplored:.*_painted_planks$/)
-    .forEach(entry => {
-      let keys = entry.json().get("key")
-      if (keys != null) {
-        for (let key of keys.asMap().values()) {
-          let tag = key.get("tag")
-          if (tag != null) {
-            if (tag.getAsString().endsWith("_dyes")) {
-              let color = tag.getAsString().replace("c:","").replace("_dyes","")
-              key["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
-            }
-          }
-        }
-      }
-    })
-
+	
   event.getEntry(["pneumaticcraft:block_heat_properties/createlowheated/basic_burner_empowered","pneumaticcraft:block_heat_properties/createlowheated/basic_burner_lit"])
     .forEach(entry => {
       entry.json().add("neoforge:conditions", [{ "type": "neoforge:mod_loaded", "modid": "createlowheated"}])
     })
 
+  if (!Platform.isLoaded("aeronautics")){
+    event.disable(["create_dragons_plus:crafting/fragile_fluid_tank","create_dragons_plus:crafting/levitite_fragile_fluid_tank"])
+  }
+  
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
