@@ -72,7 +72,7 @@ ServerEvents.tags('item', event => {
   event.add('c:dusts/salt', 'pamhc2foodcore:saltitem')
   event.add('c:dusts', 'pamhc2foodcore:saltitem')
   event.add('c:raw_materials', 'pamhc2foodcore:saltitem')
-  // event.add('supplementaries:hourglass_dusts', 'pamhc2foodcore:saltitem')
+  event.add('supplementaries:hourglass_dusts', 'pamhc2foodcore:saltitem')
 })
 
 

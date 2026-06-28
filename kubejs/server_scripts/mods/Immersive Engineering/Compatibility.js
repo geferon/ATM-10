@@ -134,11 +134,11 @@ ServerEvents.recipes(allthemods => {
   })
 
   //Supplementaries seeds
-  // const suppSeeds = [{seed: 'flax_seeds', render: 'flax', result: 'flax'}]
-  // suppSeeds.forEach(crop => {
-  //   let mod = 'supplementaries:'
-  //   cloche(crop, mod)
-  // })
+  const suppSeeds = [{seed: 'flax_seeds', render: 'flax', result: 'flax'}]
+  suppSeeds.forEach(crop => {
+    let mod = 'supplementaries:'
+    cloche(crop, mod)
+  })
   
   //Biomes we've gone seeds
   const biomesSeeds = [{seed: 'pale_pumpkin_seeds', render: 'pale_pumpkin_stem', result: 'pale_pumpkin', chance: 0.01, count: 1}]

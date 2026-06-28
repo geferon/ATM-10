@@ -37,7 +37,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {
     // allthemods.remove(/mekmm:.*lathing.*/)
     allthemods.remove(/mekmm:.*rolling_mill.*/)
 
-    // allthemods.remove("supplementaries:faucet")
+    allthemods.remove("supplementaries:faucet")
 })
 
 // RecipeViewerEvents.removeEntriesCompletely('mekanism:chemical', allthemods => {
