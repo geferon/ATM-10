@@ -235,24 +235,24 @@ ServerEvents.recipes(event => {
     //     })
     //     .id("allthemons:terapagos")
 
-    event.recipes.summoningrituals.altar(Ingredient.of("mysticalagriculture:mystical_fertilizer"))
-        .itemInputs([
-            // "reliquary:fortune_coin",
-            "minecraft:rabbit_foot"
-        ])
-        .itemOutputs(["allthemons:mythical_pecha_berry"])
-        .ticks(200)
-        .blockPattern(pattern => {
-            pattern
-                .block([0, 0, -2], "cobblemon:pecha_berry", {"age": 5})
-                .block([0, 0, 2], "cobblemon:pecha_berry", {"age": 5})
-                .block([2, 0, 0], "cobblemon:pecha_berry", {"age": 5})
-                .block([-2, 0, 0], "cobblemon:pecha_berry", {"age": 5})
-                .block([2, 0, -2], "cobblemon:pecha_berry", {"age": 5})
-                .block([-2, 0, -2], "cobblemon:pecha_berry", {"age": 5})
-                .block([2, 0, 2], "cobblemon:pecha_berry", {"age": 5})
-                .block([-2, 0, 2], "cobblemon:pecha_berry", {"age": 5})
-            return pattern
-        })
-        .id("allthemons:mythical_pecha_berry")
+    // event.recipes.summoningrituals.altar(Ingredient.of("mysticalagriculture:mystical_fertilizer"))
+    //     .itemInputs([
+    //         // "reliquary:fortune_coin",
+    //         "minecraft:rabbit_foot"
+    //     ])
+    //     .itemOutputs(["allthemons:mythical_pecha_berry"])
+    //     .ticks(200)
+    //     .blockPattern(pattern => {
+    //         pattern
+    //             .block([0, 0, -2], "cobblemon:pecha_berry", {"age": 5})
+    //             .block([0, 0, 2], "cobblemon:pecha_berry", {"age": 5})
+    //             .block([2, 0, 0], "cobblemon:pecha_berry", {"age": 5})
+    //             .block([-2, 0, 0], "cobblemon:pecha_berry", {"age": 5})
+    //             .block([2, 0, -2], "cobblemon:pecha_berry", {"age": 5})
+    //             .block([-2, 0, -2], "cobblemon:pecha_berry", {"age": 5})
+    //             .block([2, 0, 2], "cobblemon:pecha_berry", {"age": 5})
+    //             .block([-2, 0, 2], "cobblemon:pecha_berry", {"age": 5})
+    //         return pattern
+    //     })
+    //     .id("allthemons:mythical_pecha_berry")
 })
