@@ -12617,14 +12617,6 @@ file = "kubejs/server_scripts/mods/Pneumaticcraft/tags.js"
 hash = "a35c885f5290f56734a99ab1b14daa7a59e19d88d08820d0a4719f92b962f939"
 
 [[files]]
-file = "kubejs/server_scripts/mods/Potionsmaster/potionsmaster_recipes.js"
-hash = "22db738f6493d5e5372227781505a920c8fe1c115583caa96dead3069ca4e85e"
-
-[[files]]
-file = "kubejs/server_scripts/mods/Potionsmaster/tags.js"
-hash = "435c60a581f822c7b2f0d8aae02a8951a19e7d6d64a89d03b6a0d87eaeac7f2c"
-
-[[files]]
 file = "kubejs/server_scripts/mods/Powah/Energizing.js"
 hash = "54af0df1843a79b056414ebef7d7fc39ab09d09be775bf4bfb48e57793685ca5"
 
@@ -12787,10 +12779,6 @@ hash = "ea75f639c0e2e11349b506584406be6d04594f2db382a618f08ad417f4daa46b"
 [[files]]
 file = "kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js"
 hash = "4b4ef9ef5139758df2bbab110e089dd2ab35d0773947f74a8300a8f2f0fa8698"
-
-[[files]]
-file = "kubejs/startup_scripts/Potionsmaster/potionsmaster.js"
-hash = "2bfd20624862fd1f53bc78687596289a7dd293c31703e9a444ba1b2f765e91c5"
 
 [[files]]
 file = "kubejs/startup_scripts/Shrink/polylib_fix.js"
